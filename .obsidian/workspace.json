@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-21.md",
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-21.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-21.md",
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-21.md",
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-21.md"
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-21.md"
               }
             }
           },
@@ -173,6 +173,7 @@
   "active": "88903a0eb1f89ede",
   "lastOpenFiles": [
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-21.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-21.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-20.md",
     "1. 영구노트/3. RESUORCE/서재/모던 자바 인 액션 람다 스트림 함수형 리액티브 프로그래밍으로 새로워진 자바 마스터하기.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-19.md",
@@ -208,7 +209,6 @@
     "4. Yearly/2023.md",
     "2. Weekly/2023-W46.md",
     "1. Daily/2023-11-16.md",
-    "Obsidian/옵시디언 사용법.md",
-    "Obsidian/마크다운 사용법.md"
+    "Obsidian/옵시디언 사용법.md"
   ]
 }
