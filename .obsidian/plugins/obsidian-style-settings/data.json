@@ -35,5 +35,16 @@
   "anuppuccin-theme-settings@@anp-full-rainbow-text-color-toggle-dark": false,
   "anuppuccin-theme-settings@@anp-simple-rainbow-title-toggle": false,
   "anuppuccin-theme-settings@@anp-simple-rainbow-collapse-icon-toggle": false,
-  "anuppuccin-theme-settings@@anp-alt-tab-style": "anp-depth-tab-toggle"
+  "anuppuccin-theme-settings@@anp-alt-tab-style": "anp-depth-tab-toggle",
+  "anuppuccin-theme-settings@@anp-disable-newtab-align": true,
+  "anuppuccin-theme-settings@@anp-depth-tab-text-invert": false,
+  "anuppuccin-theme-settings@@anp-hide-borders": false,
+  "anuppuccin-theme-settings@@anp-border-radius": 16,
+  "anuppuccin-theme-settings@@anp-colorful-frame-opacity": 1,
+  "anuppuccin-theme-settings@@anp-autohide-titlebar": false,
+  "anuppuccin-theme-settings@@anp-toggle-metadata": false,
+  "anuppuccin-theme-settings@@anp-hide-status-bar": false,
+  "anuppuccin-theme-settings@@anp-tooltip-toggle": false,
+  "anuppuccin-theme-settings@@anp-toggle-preview": false,
+  "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-rosewater"
 }
