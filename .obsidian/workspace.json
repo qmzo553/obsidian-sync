@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "97505d03ae56dbd4",
+        "id": "25b459d4a55c63d0",
         "type": "tabs",
         "children": [
           {
-            "id": "9b8d28cc4c31cc2f",
+            "id": "1b0c113e39a0be46",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -58,6 +58,14 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "1d72d5e5141cddfa",
+            "type": "leaf",
+            "state": {
+              "type": "mk-file-view",
               "state": {}
             }
           }
@@ -163,8 +171,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9b8d28cc4c31cc2f",
+  "active": "43b5be36d8212ed5",
   "lastOpenFiles": [
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-20.md",
+    "Spaces/Home",
+    "Spaces",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-23.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-23.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-22.md",
@@ -184,7 +195,6 @@
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-19.md",
     "1. 영구노트/3. RESUORCE/서재/오브젝트 코드로 이해하는 객체지향 설계.md",
     "Attached file/조카사진1.jpg",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-20.md",
     "1. 영구노트/3. RESUORCE/JAVA/오브젝트",
     "1. 영구노트/3. RESUORCE/JAVA/무제 파일.md",
     "0. inbox/0. 할 일.md",
@@ -197,11 +207,8 @@
     "1. 영구노트/3. RESUORCE/서재",
     "1. 영구노트/3. RESUORCE/무제 파일.md",
     "Obsidian/PARA 사용법.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner",
     "2023-11-18.md",
     "2023-11-20.md",
-    "0. inbox/2023-11-19.md",
-    "1. 영구노트/3. RESUORCE/JAVA/모던자바인액션",
     "Attached file/Pasted image 20231116154315.png"
   ]
 }

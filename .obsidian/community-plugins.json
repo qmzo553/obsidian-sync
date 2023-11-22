@@ -10,5 +10,6 @@
   "dataview",
   "obsidian-sortable",
   "obsidian-git",
-  "dbfolder"
+  "dbfolder",
+  "make-md"
 ]
