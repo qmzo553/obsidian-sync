@@ -2,8 +2,9 @@
   "accentColor": "",
   "cssTheme": "AnuPpuccin",
   "baseFontSize": 11,
-  "theme": "obsidian",
+  "theme": "moonstone",
   "enabledCssSnippets": [
-    "extended-colorschemes"
+    "extended-colorschemes",
+    "custom-rainbow-colors"
   ]
 }
