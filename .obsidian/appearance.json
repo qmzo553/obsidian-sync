@@ -2,5 +2,8 @@
   "accentColor": "",
   "cssTheme": "AnuPpuccin",
   "baseFontSize": 11,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "extended-colorschemes"
+  ]
 }
