@@ -46,5 +46,6 @@
   "anp-custom-rainbow-colors@@rainbow-color-repeat": "rainbow-repeat-11",
   "anuppuccin-theme-settings@@anp-colorful-frame-icon-toggle-dark": false,
   "anuppuccin-theme-settings@@anp-rainbow-file-toggle": false,
-  "anuppuccin-theme-settings@@anp-alt-rainbow-style": "anp-simple-rainbow-color-toggle"
+  "anuppuccin-theme-settings@@anp-alt-rainbow-style": "anp-simple-rainbow-color-toggle",
+  "anuppuccin-theme-settings-extended@@anp-theme-ext-amoled": false
 }
