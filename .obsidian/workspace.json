@@ -11,8 +11,12 @@
             "id": "3c0e08bbf7e5aad9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-27.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-27.md"
+              }
             }
           },
           {
@@ -174,6 +182,8 @@
   },
   "active": "3c0e08bbf7e5aad9",
   "lastOpenFiles": [
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-27.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-27.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-26.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-25.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-26.md",
@@ -206,8 +216,6 @@
     "1. 영구노트/3. RESUORCE/JAVA/무제 파일.md",
     "0. inbox/0. 할 일.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-19.md",
-    "Template/Diary Template.md",
-    "Template/Zettelkasten.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary",
     "1. 영구노트/3. RESUORCE/서재/한 눈에 보기",
     "1. 영구노트/3. RESUORCE/서재",
