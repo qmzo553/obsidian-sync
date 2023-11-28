@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "47f5854b8617e4d2",
+        "id": "cdf908f3d234f29b",
         "type": "tabs",
         "children": [
           {
-            "id": "c9aa99b9f6f9f180",
+            "id": "b542785d092d1501",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/무제 파일.md",
+                "file": "1. 영구노트/3. RESUORCE/서재/소비의 사회.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/무제 파일.md",
+                "file": "1. 영구노트/3. RESUORCE/서재/소비의 사회.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/무제 파일.md",
+                "file": "1. 영구노트/3. RESUORCE/서재/소비의 사회.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/무제 파일.md"
+                "file": "1. 영구노트/3. RESUORCE/서재/소비의 사회.md"
               }
             }
           },
@@ -178,9 +178,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c9aa99b9f6f9f180",
+  "active": "b542785d092d1501",
   "lastOpenFiles": [
-    "1. 영구노트/3. RESUORCE/서재/무제 파일.md",
+    "1. 영구노트/3. RESUORCE/서재/소비의 사회.md",
+    "1. 영구노트/3. RESUORCE/서재/이웃집 백만장자 변하지 않는 부의 법칙 흔들리지 않는 부는 어떻게 축적되는가.md",
+    "1. 영구노트/3. RESUORCE/서재/다시 나는 희망의 증거가 되고 싶다 가발공장에서 하버드까지 삶을 정복한 서진규 박사의 성공스토리.md",
+    "1. 영구노트/3. RESUORCE/서재/마음 가는 대로 해라.md",
+    "1. 영구노트/3. RESUORCE/서재/.md",
     "1. 영구노트/3. RESUORCE/서재/세이노의 가르침 피보다 진하게 살아라.md",
     "1. 영구노트/3. RESUORCE/서재/존리의 금융문맹 탈출 대한민국 경제독립 프로젝트.md",
     "0. inbox/서재 한 눈에 보기.md",
@@ -203,12 +207,8 @@
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-24.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-23.md",
     "1. 영구노트/3. RESUORCE/서재/스프링 부트와 AWS로 혼자 구현하는 웹 서비스 인텔리제이 JPA JUnit 테스트 그레이들 소셜 로그인 AWS 인프라로 무중단 배포까지.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-20.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-22.md",
     "Spaces/Home",
     "Spaces",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-23.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-22.md",
     "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA",
     "1. 영구노트/3. RESUORCE/JAVA/이펙티브 자바",
     "1. 영구노트/3. RESUORCE/Spring Boot/스프링 부트와 AWS로 혼자 구현하는 웹 서비스",
