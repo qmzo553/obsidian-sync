@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8357ea528bad0f62",
+            "id": "1b944cb0d0dd4cec",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "0. inbox/JPA.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "0. inbox/JPA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "0. inbox/JPA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "0. inbox/JPA.md"
+              }
             }
           },
           {
@@ -170,15 +178,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8357ea528bad0f62",
+  "active": "1b944cb0d0dd4cec",
   "lastOpenFiles": [
-    "0. inbox/JPA.md",
+    "0. inbox/SQL.md",
+    "0. inbox/ORM Framework.md",
     "0. inbox/JPA.md",
     "0. inbox/Framework.md",
     "Template/Zettelkasten.md",
     "0. inbox/100일 변신 누구나 할 수 있다.md",
-    "0. inbox/ORM Framework.md",
-    "0. inbox/SQL.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-28.md",
     "1. 영구노트/3. RESUORCE/DATABASE",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-27.md",
