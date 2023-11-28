@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fc462a2bcfcfb31d",
+        "id": "8eb3113c331f588b",
         "type": "tabs",
         "children": [
           {
-            "id": "3925817bcb268582",
+            "id": "f43b1452c614c6f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/구글 엔지니어는 이렇게 일한다 구글러가 전하는 문화 프로세스 도구의 모든 것.md",
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-28.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/구글 엔지니어는 이렇게 일한다 구글러가 전하는 문화 프로세스 도구의 모든 것.md",
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/구글 엔지니어는 이렇게 일한다 구글러가 전하는 문화 프로세스 도구의 모든 것.md",
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-28.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/구글 엔지니어는 이렇게 일한다 구글러가 전하는 문화 프로세스 도구의 모든 것.md"
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-28.md"
               }
             }
           },
@@ -178,9 +178,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3925817bcb268582",
+  "active": "f43b1452c614c6f9",
   "lastOpenFiles": [
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-28.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-28.md",
     "0. inbox/서재 한 눈에 보기.md",
+    "1. 영구노트/3. RESUORCE/서재/니체와 장자는 이렇게 말했다.md",
+    "1. 영구노트/3. RESUORCE/서재/구글 엔지니어는 이렇게 일한다 구글러가 전하는 문화 프로세스 도구의 모든 것.md",
     "1. 영구노트/3. RESUORCE/서재/테스트 주도 개발.md",
     "1. 영구노트/3. RESUORCE/서재/임베디드 C를 위한 TDD.md",
     "1. 영구노트/3. RESUORCE/서재/테스트 주도 개발 시작하기 TestDriven Development.md",
@@ -192,7 +196,6 @@
     "1. 영구노트/3. RESUORCE/서재/생각의 법칙 10 + 1.md",
     "1. 영구노트/3. RESUORCE/서재/생각의 법칙 원하는 것을 이루는 핵심 전략.md",
     "1. 영구노트/3. RESUORCE/서재/Clean Code.md",
-    "1. 영구노트/3. RESUORCE/서재/구글 엔지니어는 이렇게 일한다 구글러가 전하는 문화 프로세스 도구의 모든 것.md",
     "1. 영구노트/3. RESUORCE/서재/에머슨의 자기 신뢰 자기를 온전히 믿고 살아가라.md",
     "1. 영구노트/3. RESUORCE/서재/모던 자바 인 액션 람다 스트림 함수형 리액티브 프로그래밍으로 새로워진 자바 마스터하기.md",
     "1. 영구노트/3. RESUORCE/서재/BE HAPPY 노르웨이 라면왕 미스터 리 이야기.md",
@@ -203,9 +206,6 @@
     "1. 영구노트/3. RESUORCE/서재/프로그래머의 뇌 훌륭한 프로그래머가 알아야 할 인지과학의 모든 것.md",
     "1. 영구노트/3. RESUORCE/서재/좋은 사람만 만나도 인생은 짧다 나와 마주 보기 나를 안아주기.md",
     "1. 영구노트/3. RESUORCE/서재/넌 대체 몇 년째 영어 공부를 하고 있는 거니.md",
-    "1. 영구노트/3. RESUORCE/서재/침묵의 봄.md",
-    "1. 영구노트/3. RESUORCE/서재/함께 자라기 애자일로 가는 길.md",
-    "1. 영구노트/3. RESUORCE/서재/한 권으로 읽는 컴퓨터 구조와 프로그래밍 더 나은 소프트웨어 개발을 위한 하드웨어 자료구조 필수 알고리즘 등 프로그래머의 비밀 노트.md",
     "1. 영구노트/3. RESUORCE/DATABASE",
     "Spaces/Home",
     "Spaces",
