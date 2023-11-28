@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. inbox/SQL.md",
+                "file": "0. inbox/ORM framwork.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. inbox/SQL.md",
+                "file": "0. inbox/ORM framwork.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. inbox/SQL.md",
+                "file": "0. inbox/ORM framwork.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. inbox/SQL.md"
+                "file": "0. inbox/ORM framwork.md"
               }
             }
           },
@@ -181,8 +181,9 @@
   },
   "active": "3c0e08bbf7e5aad9",
   "lastOpenFiles": [
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-28.md",
     "0. inbox/SQL.md",
+    "0. inbox/ORM framwork.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-28.md",
     "1. 영구노트/3. RESUORCE/DATABASE",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-27.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-26.md",
@@ -215,7 +216,6 @@
     "1. 영구노트/3. RESUORCE/서재/오브젝트 코드로 이해하는 객체지향 설계.md",
     "Attached file/조카사진1.jpg",
     "1. 영구노트/3. RESUORCE/JAVA/오브젝트",
-    "1. 영구노트/3. RESUORCE/JAVA/무제 파일.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary",
     "1. 영구노트/3. RESUORCE/서재/한 눈에 보기",
     "Attached file/Pasted image 20231116154315.png"
