@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "474a34a50974a89a",
+        "id": "0450e0332e754bf0",
         "type": "tabs",
         "children": [
           {
-            "id": "bd10b2a2a5af60bd",
+            "id": "7ca3bdabf713d565",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/Clean Code 클린 코드 애자일 소프트웨어 장인 정신.md",
+                "file": "1. 영구노트/3. RESUORCE/서재/구글 엔지니어는 이렇게 일한다 구글러가 전하는 문화 프로세스 도구의 모든 것.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/Clean Code 클린 코드 애자일 소프트웨어 장인 정신.md",
+                "file": "1. 영구노트/3. RESUORCE/서재/구글 엔지니어는 이렇게 일한다 구글러가 전하는 문화 프로세스 도구의 모든 것.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/Clean Code 클린 코드 애자일 소프트웨어 장인 정신.md",
+                "file": "1. 영구노트/3. RESUORCE/서재/구글 엔지니어는 이렇게 일한다 구글러가 전하는 문화 프로세스 도구의 모든 것.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/Clean Code 클린 코드 애자일 소프트웨어 장인 정신.md"
+                "file": "1. 영구노트/3. RESUORCE/서재/구글 엔지니어는 이렇게 일한다 구글러가 전하는 문화 프로세스 도구의 모든 것.md"
               }
             }
           },
@@ -178,8 +178,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bd10b2a2a5af60bd",
+  "active": "7ca3bdabf713d565",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/서재/구글 엔지니어는 이렇게 일한다 구글러가 전하는 문화 프로세스 도구의 모든 것.md",
+    "1. 영구노트/3. RESUORCE/서재/에머슨의 자기 신뢰 자기를 온전히 믿고 살아가라.md",
+    "1. 영구노트/3. RESUORCE/서재/모던 자바 인 액션 람다 스트림 함수형 리액티브 프로그래밍으로 새로워진 자바 마스터하기.md",
+    "1. 영구노트/3. RESUORCE/서재/BE HAPPY 노르웨이 라면왕 미스터 리 이야기.md",
     "1. 영구노트/3. RESUORCE/서재/Clean Code 클린 코드 애자일 소프트웨어 장인 정신.md",
     "1. 영구노트/3. RESUORCE/서재/몰입 Think hard 인생을 바꾸는 자기 혁명.md",
     "1. 영구노트/3. RESUORCE/서재/면접을 위한 CS 전공지식 노트 디자인 패턴 운영체제 데이터베이스 자료 구조 네트워크 개발자 면접.md",
@@ -202,10 +206,6 @@
     "1. 영구노트/3. RESUORCE/서재/네트워크 교과서 IT 초보 엔지니어가 알아야 할 네트워크 입문.md",
     "1. 영구노트/3. RESUORCE/서재/읽자마자 IT 전문가가 되는 네트워크 교과서 코딩·프로그래밍·해킹과 보안·IT 엔지니어링의 기초가 탄탄해지는 네트워크의 구조와 작동 원리.md",
     "1. 영구노트/3. RESUORCE/서재/이것이 취업을 위한 코딩 테스트다 with 파이썬 취업과 이직을 결정하는 알고리즘 인터뷰 완벽 가이드 C／C 자바 코드 제공.md",
-    "1. 영구노트/3. RESUORCE/서재/사피엔스 유인원에서 사이보그까지 인간 역사의 대담하고 위대한 질문.md",
-    "1. 영구노트/3. RESUORCE/서재/토비의 스프링 3.1 세트.md",
-    "1. 영구노트/3. RESUORCE/서재/니체와 장자는 이렇게 말했다.md",
-    "1. 영구노트/3. RESUORCE/서재/코스모스 특별판.md",
     "1. 영구노트/3. RESUORCE/DATABASE",
     "Spaces/Home",
     "Spaces",
