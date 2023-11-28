@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4e1dafed53ab9ef8",
+        "id": "fc462a2bcfcfb31d",
         "type": "tabs",
         "children": [
           {
-            "id": "d0a1b68b5eec41ea",
+            "id": "3925817bcb268582",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1. 영구노트/3. RESUORCE/서재/구글 엔지니어는 이렇게 일한다 구글러가 전하는 문화 프로세스 도구의 모든 것.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/서재/구글 엔지니어는 이렇게 일한다 구글러가 전하는 문화 프로세스 도구의 모든 것.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/서재/구글 엔지니어는 이렇게 일한다 구글러가 전하는 문화 프로세스 도구의 모든 것.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. 영구노트/3. RESUORCE/서재/구글 엔지니어는 이렇게 일한다 구글러가 전하는 문화 프로세스 도구의 모든 것.md"
+              }
             }
           },
           {
@@ -170,8 +178,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d0a1b68b5eec41ea",
+  "active": "3925817bcb268582",
   "lastOpenFiles": [
+    "0. inbox/서재 한 눈에 보기.md",
+    "1. 영구노트/3. RESUORCE/서재/테스트 주도 개발.md",
+    "1. 영구노트/3. RESUORCE/서재/임베디드 C를 위한 TDD.md",
+    "1. 영구노트/3. RESUORCE/서재/테스트 주도 개발 시작하기 TestDriven Development.md",
+    "1. 영구노트/3. RESUORCE/서재/오브젝트 코드로 이해하는 객체지향 설계.md",
+    "1. 영구노트/3. RESUORCE/서재/객체지향 파이썬 파이게임과 GUI로 객체지향 프로그래밍 정복하기.md",
+    "1. 영구노트/3. RESUORCE/서재/도메인 주도 개발 시작하기 DDD 핵심 개념 정리부터 구현까지.md",
     "1. 영구노트/3. RESUORCE/서재/집착의 법칙 마약중독자를 8000억 자산가로 만든 단 하나의 마인드셋.md",
     "1. 영구노트/3. RESUORCE/서재/신경 끄기의 기술 인생에서 가장 중요한 것만 남기는 힘.md",
     "1. 영구노트/3. RESUORCE/서재/생각의 법칙 10 + 1.md",
@@ -191,13 +206,6 @@
     "1. 영구노트/3. RESUORCE/서재/침묵의 봄.md",
     "1. 영구노트/3. RESUORCE/서재/함께 자라기 애자일로 가는 길.md",
     "1. 영구노트/3. RESUORCE/서재/한 권으로 읽는 컴퓨터 구조와 프로그래밍 더 나은 소프트웨어 개발을 위한 하드웨어 자료구조 필수 알고리즘 등 프로그래머의 비밀 노트.md",
-    "1. 영구노트/3. RESUORCE/서재/유대인 대화법 유대인의 말의 힘은 사람을 담고 세상을 움직인다.md",
-    "1. 영구노트/3. RESUORCE/서재/IT 5분 잡학사전 학교에서 알려 주지 않는 IT 지식.md",
-    "1. 영구노트/3. RESUORCE/서재/씽킹 101 더 나은 삶을 위한 생각하기 연습.md",
-    "1. 영구노트/3. RESUORCE/서재/총 균 쇠 인간 사회의 운명을 바꾼 힘.md",
-    "1. 영구노트/3. RESUORCE/서재/헤드 퍼스트 디자인 패턴 14가지 GoF 필살 패턴 유지 관리가 편리한 객체지향 소프트웨어를 만드는 법.md",
-    "1. 영구노트/3. RESUORCE/서재/자바 코딩 인터뷰 완벽 가이드 자바 프로그래머의 취업을 위한 258가지 코딩 인터뷰테스트.md",
-    "1. 영구노트/3. RESUORCE/서재/자바 코딩 인터뷰 완벽 가이드.md",
     "1. 영구노트/3. RESUORCE/DATABASE",
     "Spaces/Home",
     "Spaces",
