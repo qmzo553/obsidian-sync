@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c24577df6d63a8fd",
+        "id": "83946b555862f4a1",
         "type": "tabs",
         "children": [
           {
-            "id": "fa49cc53f7d97b7c",
+            "id": "58712cacc36c3b84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. inbox/JPA.md",
+                "file": "0. inbox/무제 파일.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. inbox/JPA.md",
+                "file": "0. inbox/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. inbox/JPA.md",
+                "file": "0. inbox/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. inbox/JPA.md"
+                "file": "0. inbox/무제 파일.md"
               }
             }
           },
@@ -178,10 +178,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fa49cc53f7d97b7c",
+  "active": "58712cacc36c3b84",
   "lastOpenFiles": [
-    "0. inbox/ORM Framework.md",
+    "0. inbox/무제 파일.md",
+    "Template/Zettelkasten.md",
+    "0. inbox/100일 변신 누구나 할 수 있다.md",
     "0. inbox/JPA.md",
+    "0. inbox/ORM Framework.md",
     "0. inbox/Framework.md",
     "0. inbox/SQL.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-28.md",
@@ -207,12 +210,9 @@
     "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA",
     "1. 영구노트/3. RESUORCE/서재/모던 자바 인 액션 람다 스트림 함수형 리액티브 프로그래밍으로 새로워진 자바 마스터하기.md",
     "1. 영구노트/3. RESUORCE/서재/자바 ORM 표준 JPA 프로그래밍 스프링 데이터 예제 프로젝트로 배우는 전자정부 표준 데이터베이스 프레임워크.md",
-    "1. 영구노트/3. RESUORCE/서재/이펙티브 자바 Effective Java 3／E.md",
     "1. 영구노트/3. RESUORCE/JAVA/이펙티브 자바",
     "1. 영구노트/3. RESUORCE/Spring Boot/스프링 부트와 AWS로 혼자 구현하는 웹 서비스",
     "1. 영구노트/3. RESUORCE/Spring Boot",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-21.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-20.md",
     "Attached file/조카사진1.jpg",
     "1. 영구노트/3. RESUORCE/JAVA/오브젝트",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary",
