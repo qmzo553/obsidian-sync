@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "fac4547a7f42c50b",
+        "id": "c24577df6d63a8fd",
         "type": "tabs",
         "children": [
           {
-            "id": "3c0e08bbf7e5aad9",
+            "id": "fa49cc53f7d97b7c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "0. inbox/JPA.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "0. inbox/JPA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "0. inbox/JPA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "0. inbox/JPA.md"
+              }
             }
           },
           {
@@ -170,7 +178,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3c0e08bbf7e5aad9",
+  "active": "fa49cc53f7d97b7c",
   "lastOpenFiles": [
     "0. inbox/ORM Framework.md",
     "0. inbox/JPA.md",
