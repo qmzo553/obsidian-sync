@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1af7db90d7e00e46",
+        "id": "ac3aba92f182b1d7",
         "type": "tabs",
         "children": [
           {
-            "id": "9c21fa425247e992",
+            "id": "f5644bd3afa607a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/코스모스.md",
+                "file": "1. 영구노트/3. RESUORCE/서재/이것이 취업을 위한 코딩 테스트다 with 파이썬 취업과 이직을 결정하는 알고리즘 인터뷰 완벽 가이드 C／C 자바 코드 제공.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/코스모스.md",
+                "file": "1. 영구노트/3. RESUORCE/서재/이것이 취업을 위한 코딩 테스트다 with 파이썬 취업과 이직을 결정하는 알고리즘 인터뷰 완벽 가이드 C／C 자바 코드 제공.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/코스모스.md",
+                "file": "1. 영구노트/3. RESUORCE/서재/이것이 취업을 위한 코딩 테스트다 with 파이썬 취업과 이직을 결정하는 알고리즘 인터뷰 완벽 가이드 C／C 자바 코드 제공.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/코스모스.md"
+                "file": "1. 영구노트/3. RESUORCE/서재/이것이 취업을 위한 코딩 테스트다 with 파이썬 취업과 이직을 결정하는 알고리즘 인터뷰 완벽 가이드 C／C 자바 코드 제공.md"
               }
             }
           },
@@ -178,9 +178,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9c21fa425247e992",
+  "active": "f5644bd3afa607a9",
   "lastOpenFiles": [
-    "1. 영구노트/3. RESUORCE/서재/코스모스.md",
+    "1. 영구노트/3. RESUORCE/서재/이것이 취업을 위한 코딩 테스트다 with 파이썬 취업과 이직을 결정하는 알고리즘 인터뷰 완벽 가이드 C／C 자바 코드 제공.md",
+    "1. 영구노트/3. RESUORCE/서재/사피엔스 유인원에서 사이보그까지 인간 역사의 대담하고 위대한 질문.md",
+    "1. 영구노트/3. RESUORCE/서재/토비의 스프링 3.1 세트.md",
+    "1. 영구노트/3. RESUORCE/서재/니체와 장자는 이렇게 말했다.md",
+    "1. 영구노트/3. RESUORCE/서재/코스모스 특별판.md",
     "1. 영구노트/3. RESUORCE/서재/멋진 신세계.md",
     "1. 영구노트/3. RESUORCE/서재/앵무새 죽이기.md",
     "1. 영구노트/3. RESUORCE/서재/차라투스트라는 이렇게 말했다.md",
@@ -202,10 +206,6 @@
     "1. 영구노트/3. RESUORCE/서재/스프링 입문을 위한 자바 객체 지향의 원리와 이해.md",
     "1. 영구노트/3. RESUORCE/서재/데일 카네기 인간관계론.md",
     "1. 영구노트/3. RESUORCE/서재/데일 카네기 자기관리론.md",
-    "1. 영구노트/3. RESUORCE/서재/나는 대출 없이 0원으로 소형 아파트를 산다 300만 원으로 100억 자산을 이룬 부동산 소액투자의 기술.md",
-    "1. 영구노트/3. RESUORCE/서재/현명한 투자자 1 벤저민 그레이엄 직접 쓴 마지막 개정판.md",
-    "1. 영구노트/3. RESUORCE/서재/소비의 사회.md",
-    "1. 영구노트/3. RESUORCE/서재/이웃집 백만장자 변하지 않는 부의 법칙 흔들리지 않는 부는 어떻게 축적되는가.md",
     "1. 영구노트/3. RESUORCE/DATABASE",
     "Spaces/Home",
     "Spaces",
