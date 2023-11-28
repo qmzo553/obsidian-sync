@@ -1,5 +1,5 @@
 # JPA 란?
-> ORM 기술 표준이다.
+> JPA(Java Persistence API)는 ORM 기술 표준이다.
 > 객체와 관계형 데이터베이스의 패러다임 불일치 문제를 해결할 수 있다.
 > 
 
