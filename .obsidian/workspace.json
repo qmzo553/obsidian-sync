@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fc82095e15d8a2cb",
+        "id": "40e3a9e69502c5f5",
         "type": "tabs",
         "children": [
           {
-            "id": "d256082edb398535",
+            "id": "a3d298f6c05f22b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/Do it 자료구조와 함께 배우는 알고리즘 입문 파이썬 편.md",
+                "file": "1. 영구노트/3. RESUORCE/서재/돈으로 살 수 없는 것들 무엇이 가치를 결정하는가.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/Do it 자료구조와 함께 배우는 알고리즘 입문 파이썬 편.md",
+                "file": "1. 영구노트/3. RESUORCE/서재/돈으로 살 수 없는 것들 무엇이 가치를 결정하는가.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/Do it 자료구조와 함께 배우는 알고리즘 입문 파이썬 편.md",
+                "file": "1. 영구노트/3. RESUORCE/서재/돈으로 살 수 없는 것들 무엇이 가치를 결정하는가.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/Do it 자료구조와 함께 배우는 알고리즘 입문 파이썬 편.md"
+                "file": "1. 영구노트/3. RESUORCE/서재/돈으로 살 수 없는 것들 무엇이 가치를 결정하는가.md"
               }
             }
           },
@@ -178,9 +178,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d256082edb398535",
+  "active": "a3d298f6c05f22b3",
   "lastOpenFiles": [
-    "1. 영구노트/3. RESUORCE/서재/Do it 자료구조와 함께 배우는 알고리즘 입문 파이썬 편.md",
+    "1. 영구노트/3. RESUORCE/서재/돈으로 살 수 없는 것들 무엇이 가치를 결정하는가.md",
+    "1. 영구노트/3. RESUORCE/서재/사람을 얻는 지혜 국내 최초 스페인어 완역본.md",
+    "1. 영구노트/3. RESUORCE/서재/딥 워크 강렬한 몰입 최고의 성과.md",
+    "1. 영구노트/3. RESUORCE/서재/아주 작은 습관의 힘 최고의 변화는 어떻게 만들어지는가.md",
+    "1. 영구노트/3. RESUORCE/서재/Do it 자료구조와 함께 배우는 알고리즘 입문 자바 편.md",
     "1. 영구노트/3. RESUORCE/서재/스프링 입문을 위한 자바 객체 지향의 원리와 이해.md",
     "1. 영구노트/3. RESUORCE/서재/데일 카네기 인간관계론.md",
     "1. 영구노트/3. RESUORCE/서재/데일 카네기 자기관리론.md",
@@ -203,10 +207,6 @@
     "0. inbox/100일 변신 누구나 할 수 있다.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-28.md",
     "1. 영구노트/3. RESUORCE/DATABASE",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-27.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-26.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-27.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-26.md",
     "Spaces/Home",
     "Spaces",
     "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA",
