@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "15493e6f285df2a7",
+        "id": "474a34a50974a89a",
         "type": "tabs",
         "children": [
           {
-            "id": "749901a2421f3e5d",
+            "id": "bd10b2a2a5af60bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/좋은 사람만 만나도 인생은 짧다 나와 마주 보기 나를 안아주기.md",
+                "file": "1. 영구노트/3. RESUORCE/서재/Clean Code 클린 코드 애자일 소프트웨어 장인 정신.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/좋은 사람만 만나도 인생은 짧다 나와 마주 보기 나를 안아주기.md",
+                "file": "1. 영구노트/3. RESUORCE/서재/Clean Code 클린 코드 애자일 소프트웨어 장인 정신.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/좋은 사람만 만나도 인생은 짧다 나와 마주 보기 나를 안아주기.md",
+                "file": "1. 영구노트/3. RESUORCE/서재/Clean Code 클린 코드 애자일 소프트웨어 장인 정신.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/좋은 사람만 만나도 인생은 짧다 나와 마주 보기 나를 안아주기.md"
+                "file": "1. 영구노트/3. RESUORCE/서재/Clean Code 클린 코드 애자일 소프트웨어 장인 정신.md"
               }
             }
           },
@@ -178,8 +178,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "749901a2421f3e5d",
+  "active": "bd10b2a2a5af60bd",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/서재/Clean Code 클린 코드 애자일 소프트웨어 장인 정신.md",
+    "1. 영구노트/3. RESUORCE/서재/몰입 Think hard 인생을 바꾸는 자기 혁명.md",
+    "1. 영구노트/3. RESUORCE/서재/면접을 위한 CS 전공지식 노트 디자인 패턴 운영체제 데이터베이스 자료 구조 네트워크 개발자 면접.md",
+    "1. 영구노트/3. RESUORCE/서재/Again 뒤집어본 영문법.md",
+    "1. 영구노트/3. RESUORCE/서재/프로그래머의 뇌 훌륭한 프로그래머가 알아야 할 인지과학의 모든 것.md",
     "1. 영구노트/3. RESUORCE/서재/좋은 사람만 만나도 인생은 짧다 나와 마주 보기 나를 안아주기.md",
     "1. 영구노트/3. RESUORCE/서재/넌 대체 몇 년째 영어 공부를 하고 있는 거니.md",
     "1. 영구노트/3. RESUORCE/서재/침묵의 봄.md",
@@ -201,11 +206,6 @@
     "1. 영구노트/3. RESUORCE/서재/토비의 스프링 3.1 세트.md",
     "1. 영구노트/3. RESUORCE/서재/니체와 장자는 이렇게 말했다.md",
     "1. 영구노트/3. RESUORCE/서재/코스모스 특별판.md",
-    "1. 영구노트/3. RESUORCE/서재/멋진 신세계.md",
-    "1. 영구노트/3. RESUORCE/서재/앵무새 죽이기.md",
-    "1. 영구노트/3. RESUORCE/서재/차라투스트라는 이렇게 말했다.md",
-    "1. 영구노트/3. RESUORCE/서재/오만과 편견.md",
-    "1. 영구노트/3. RESUORCE/서재/모모.md",
     "1. 영구노트/3. RESUORCE/DATABASE",
     "Spaces/Home",
     "Spaces",
