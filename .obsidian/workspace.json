@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "6a7e4b424f9b5928",
+        "id": "1af7db90d7e00e46",
         "type": "tabs",
         "children": [
           {
-            "id": "ee5147c47bf8787c",
+            "id": "9c21fa425247e992",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1. 영구노트/3. RESUORCE/서재/코스모스.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/서재/코스모스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/서재/코스모스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/세상의 마지막 기차역.md"
+                "file": "1. 영구노트/3. RESUORCE/서재/코스모스.md"
               }
             }
           },
@@ -172,11 +178,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "43b5be36d8212ed5",
+  "active": "9c21fa425247e992",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/서재/코스모스.md",
+    "1. 영구노트/3. RESUORCE/서재/멋진 신세계.md",
+    "1. 영구노트/3. RESUORCE/서재/앵무새 죽이기.md",
+    "1. 영구노트/3. RESUORCE/서재/차라투스트라는 이렇게 말했다.md",
+    "1. 영구노트/3. RESUORCE/서재/오만과 편견.md",
+    "1. 영구노트/3. RESUORCE/서재/모모.md",
+    "1. 영구노트/3. RESUORCE/서재/모모.md",
+    "1. 영구노트/3. RESUORCE/서재/세상의 마지막 기차역.md",
     "1. 영구노트/3. RESUORCE/서재/아가미.md",
-    "1. 영구노트/3. RESUORCE/서재/세상의 마지막 기차역.md",
-    "1. 영구노트/3. RESUORCE/서재/세상의 마지막 기차역.md",
     "1. 영구노트/3. RESUORCE/서재/미움받을 용기 1,2권 세트.md",
     "0. inbox/서재 한 눈에 보기.md",
     "1. 영구노트/3. RESUORCE/서재/정의란 무엇인가.md",
@@ -194,12 +206,6 @@
     "1. 영구노트/3. RESUORCE/서재/현명한 투자자 1 벤저민 그레이엄 직접 쓴 마지막 개정판.md",
     "1. 영구노트/3. RESUORCE/서재/소비의 사회.md",
     "1. 영구노트/3. RESUORCE/서재/이웃집 백만장자 변하지 않는 부의 법칙 흔들리지 않는 부는 어떻게 축적되는가.md",
-    "1. 영구노트/3. RESUORCE/서재/다시 나는 희망의 증거가 되고 싶다 가발공장에서 하버드까지 삶을 정복한 서진규 박사의 성공스토리.md",
-    "1. 영구노트/3. RESUORCE/서재/마음 가는 대로 해라.md",
-    "1. 영구노트/3. RESUORCE/서재/.md",
-    "1. 영구노트/3. RESUORCE/서재/세이노의 가르침 피보다 진하게 살아라.md",
-    "1. 영구노트/3. RESUORCE/서재/존리의 금융문맹 탈출 대한민국 경제독립 프로젝트.md",
-    "1. 영구노트/3. RESUORCE/서재/부자 아빠 가난한 아빠 20주년 특별 기념판.md",
     "1. 영구노트/3. RESUORCE/DATABASE",
     "Spaces/Home",
     "Spaces",
