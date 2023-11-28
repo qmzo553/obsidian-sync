@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "40e3a9e69502c5f5",
+        "id": "6a7e4b424f9b5928",
         "type": "tabs",
         "children": [
           {
-            "id": "a3d298f6c05f22b3",
+            "id": "ee5147c47bf8787c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/돈으로 살 수 없는 것들 무엇이 가치를 결정하는가.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/돈으로 살 수 없는 것들 무엇이 가치를 결정하는가.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/돈으로 살 수 없는 것들 무엇이 가치를 결정하는가.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/돈으로 살 수 없는 것들 무엇이 가치를 결정하는가.md"
+                "file": "1. 영구노트/3. RESUORCE/서재/세상의 마지막 기차역.md"
               }
             }
           },
@@ -178,8 +172,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a3d298f6c05f22b3",
+  "active": "43b5be36d8212ed5",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/서재/아가미.md",
+    "1. 영구노트/3. RESUORCE/서재/세상의 마지막 기차역.md",
+    "1. 영구노트/3. RESUORCE/서재/세상의 마지막 기차역.md",
+    "1. 영구노트/3. RESUORCE/서재/미움받을 용기 1,2권 세트.md",
+    "0. inbox/서재 한 눈에 보기.md",
+    "1. 영구노트/3. RESUORCE/서재/정의란 무엇인가.md",
+    "1. 영구노트/3. RESUORCE/서재/단단한 개인.md",
+    "1. 영구노트/3. RESUORCE/서재/시간은 흐르지 않는다 우리의 직관 너머 물리학의 눈으로 본 우주의 시간.md",
     "1. 영구노트/3. RESUORCE/서재/돈으로 살 수 없는 것들 무엇이 가치를 결정하는가.md",
     "1. 영구노트/3. RESUORCE/서재/사람을 얻는 지혜 국내 최초 스페인어 완역본.md",
     "1. 영구노트/3. RESUORCE/서재/딥 워크 강렬한 몰입 최고의 성과.md",
@@ -188,7 +190,6 @@
     "1. 영구노트/3. RESUORCE/서재/스프링 입문을 위한 자바 객체 지향의 원리와 이해.md",
     "1. 영구노트/3. RESUORCE/서재/데일 카네기 인간관계론.md",
     "1. 영구노트/3. RESUORCE/서재/데일 카네기 자기관리론.md",
-    "0. inbox/서재 한 눈에 보기.md",
     "1. 영구노트/3. RESUORCE/서재/나는 대출 없이 0원으로 소형 아파트를 산다 300만 원으로 100억 자산을 이룬 부동산 소액투자의 기술.md",
     "1. 영구노트/3. RESUORCE/서재/현명한 투자자 1 벤저민 그레이엄 직접 쓴 마지막 개정판.md",
     "1. 영구노트/3. RESUORCE/서재/소비의 사회.md",
@@ -199,13 +200,6 @@
     "1. 영구노트/3. RESUORCE/서재/세이노의 가르침 피보다 진하게 살아라.md",
     "1. 영구노트/3. RESUORCE/서재/존리의 금융문맹 탈출 대한민국 경제독립 프로젝트.md",
     "1. 영구노트/3. RESUORCE/서재/부자 아빠 가난한 아빠 20주년 특별 기념판.md",
-    "1. 영구노트/3. RESUORCE/DATABASE/JPA.md",
-    "1. 영구노트/3. RESUORCE/DATABASE/ORM Framework.md",
-    "1. 영구노트/3. RESUORCE/DATABASE/SQL.md",
-    "1. 영구노트/3. RESUORCE/JAVA/Framework.md",
-    "Template/Zettelkasten.md",
-    "0. inbox/100일 변신 누구나 할 수 있다.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-28.md",
     "1. 영구노트/3. RESUORCE/DATABASE",
     "Spaces/Home",
     "Spaces",
