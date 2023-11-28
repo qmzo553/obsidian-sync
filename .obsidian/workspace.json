@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e200df1b73a35dc1",
+        "id": "6123bb1ccfa95448",
         "type": "tabs",
         "children": [
           {
-            "id": "ba2f5d828cc799b0",
+            "id": "995803fb48b14b22",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/자바 코딩 인터뷰 완벽 가이드.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/자바 코딩 인터뷰 완벽 가이드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/자바 코딩 인터뷰 완벽 가이드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/자바 코딩 인터뷰 완벽 가이드.md"
-              }
+              "state": {}
             }
           },
           {
@@ -178,8 +170,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ba2f5d828cc799b0",
+  "active": "995803fb48b14b22",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/서재/총 균 쇠 인간 사회의 운명을 바꾼 힘.md",
+    "1. 영구노트/3. RESUORCE/서재/헤드 퍼스트 디자인 패턴 14가지 GoF 필살 패턴 유지 관리가 편리한 객체지향 소프트웨어를 만드는 법.md",
+    "1. 영구노트/3. RESUORCE/서재/자바 코딩 인터뷰 완벽 가이드 자바 프로그래머의 취업을 위한 258가지 코딩 인터뷰테스트.md",
     "1. 영구노트/3. RESUORCE/서재/자바 코딩 인터뷰 완벽 가이드.md",
     "1. 영구노트/3. RESUORCE/서재/Real MySQL 개발자와 DBA를 위한.md",
     "1. 영구노트/3. RESUORCE/서재/스프링5 프로그래밍 입문.md",
@@ -203,9 +198,6 @@
     "1. 영구노트/3. RESUORCE/서재/정의란 무엇인가.md",
     "1. 영구노트/3. RESUORCE/서재/단단한 개인.md",
     "1. 영구노트/3. RESUORCE/서재/시간은 흐르지 않는다 우리의 직관 너머 물리학의 눈으로 본 우주의 시간.md",
-    "1. 영구노트/3. RESUORCE/서재/돈으로 살 수 없는 것들 무엇이 가치를 결정하는가.md",
-    "1. 영구노트/3. RESUORCE/서재/사람을 얻는 지혜 국내 최초 스페인어 완역본.md",
-    "1. 영구노트/3. RESUORCE/서재/딥 워크 강렬한 몰입 최고의 성과.md",
     "1. 영구노트/3. RESUORCE/DATABASE",
     "Spaces/Home",
     "Spaces",
