@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8eb3113c331f588b",
+        "id": "7a35b90e55b307b3",
         "type": "tabs",
         "children": [
           {
-            "id": "f43b1452c614c6f9",
+            "id": "f663776e2924abd3",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Attached file/Pasted image 20231116154315.png"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -92,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attached file/Pasted image 20231116154315.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attached file/Pasted image 20231116154315.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Attached file/Pasted image 20231116154315.png"
-              }
+              "state": {}
             }
           },
           {
@@ -178,8 +172,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f43b1452c614c6f9",
+  "active": "f663776e2924abd3",
   "lastOpenFiles": [
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-30.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-30.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-29.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-29.md",
+    "Attached file/Pasted image 20231116154315.png",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-28.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-28.md",
     "0. inbox/서재 한 눈에 보기.md",
@@ -202,10 +201,6 @@
     "1. 영구노트/3. RESUORCE/서재/Clean Code 클린 코드 애자일 소프트웨어 장인 정신.md",
     "1. 영구노트/3. RESUORCE/서재/몰입 Think hard 인생을 바꾸는 자기 혁명.md",
     "1. 영구노트/3. RESUORCE/서재/면접을 위한 CS 전공지식 노트 디자인 패턴 운영체제 데이터베이스 자료 구조 네트워크 개발자 면접.md",
-    "1. 영구노트/3. RESUORCE/서재/Again 뒤집어본 영문법.md",
-    "1. 영구노트/3. RESUORCE/서재/프로그래머의 뇌 훌륭한 프로그래머가 알아야 할 인지과학의 모든 것.md",
-    "1. 영구노트/3. RESUORCE/서재/좋은 사람만 만나도 인생은 짧다 나와 마주 보기 나를 안아주기.md",
-    "1. 영구노트/3. RESUORCE/서재/넌 대체 몇 년째 영어 공부를 하고 있는 거니.md",
     "1. 영구노트/3. RESUORCE/DATABASE",
     "Spaces/Home",
     "Spaces",
@@ -216,7 +211,6 @@
     "Attached file/조카사진1.jpg",
     "1. 영구노트/3. RESUORCE/JAVA/오브젝트",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary",
-    "1. 영구노트/3. RESUORCE/서재/한 눈에 보기",
-    "Attached file/Pasted image 20231116154315.png"
+    "1. 영구노트/3. RESUORCE/서재/한 눈에 보기"
   ]
 }
