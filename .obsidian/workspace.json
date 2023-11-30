@@ -11,11 +11,9 @@
             "id": "f43b1452c614c6f9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-28.md",
-                "mode": "source",
-                "source": false
+                "file": "Attached file/Pasted image 20231116154315.png"
               }
             }
           }
@@ -73,7 +71,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -93,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-28.md",
+                "file": "Attached file/Pasted image 20231116154315.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-28.md",
+                "file": "Attached file/Pasted image 20231116154315.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-28.md"
+                "file": "Attached file/Pasted image 20231116154315.png"
               }
             }
           },
@@ -145,7 +144,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "f0fe4d93ee8faabd",
@@ -180,8 +180,8 @@
   },
   "active": "f43b1452c614c6f9",
   "lastOpenFiles": [
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-28.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-28.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-28.md",
     "0. inbox/서재 한 눈에 보기.md",
     "1. 영구노트/3. RESUORCE/서재/니체와 장자는 이렇게 말했다.md",
     "1. 영구노트/3. RESUORCE/서재/구글 엔지니어는 이렇게 일한다 구글러가 전하는 문화 프로세스 도구의 모든 것.md",
