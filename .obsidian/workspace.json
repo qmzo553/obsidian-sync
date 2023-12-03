@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "fcd1c39d127ce5b0",
+        "id": "aa8f2bd5055d17f1",
         "type": "tabs",
         "children": [
           {
-            "id": "743fc2721ade3cd5",
+            "id": "4f7b927c06d8df8b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-04.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -69,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-04.md"
+              }
             }
           },
           {
@@ -172,8 +179,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "743fc2721ade3cd5",
+  "active": "4f7b927c06d8df8b",
   "lastOpenFiles": [
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-04.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-04.md",
     "1. 영구노트/3. RESUORCE/DATABASE/JPA.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-01.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-01.md",
@@ -199,8 +208,6 @@
     "1. 영구노트/3. RESUORCE/서재/생각의 법칙 원하는 것을 이루는 핵심 전략.md",
     "1. 영구노트/3. RESUORCE/서재/Clean Code.md",
     "1. 영구노트/3. RESUORCE/서재/에머슨의 자기 신뢰 자기를 온전히 믿고 살아가라.md",
-    "1. 영구노트/3. RESUORCE/서재/모던 자바 인 액션 람다 스트림 함수형 리액티브 프로그래밍으로 새로워진 자바 마스터하기.md",
-    "1. 영구노트/3. RESUORCE/서재/BE HAPPY 노르웨이 라면왕 미스터 리 이야기.md",
     "1. 영구노트/3. RESUORCE/DATABASE",
     "Spaces/Home",
     "Spaces",
