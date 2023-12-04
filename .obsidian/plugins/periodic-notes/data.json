@@ -12,13 +12,13 @@
     "format": "",
     "template": "",
     "folder": "",
-    "enabled": true
+    "enabled": false
   },
   "monthly": {
     "format": "",
     "template": "",
     "folder": "",
-    "enabled": true
+    "enabled": false
   },
   "quarterly": {
     "format": "",
@@ -29,6 +29,6 @@
     "format": "",
     "template": "",
     "folder": "",
-    "enabled": true
+    "enabled": false
   }
 }
