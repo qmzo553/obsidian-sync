@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c4837d10b225e0ec",
+        "id": "04acbecf429af5e6",
         "type": "tabs",
         "children": [
           {
-            "id": "677f18c176eff9d2",
+            "id": "f7085a02b2f6d428",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -186,11 +186,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "43b5be36d8212ed5",
+  "active": "f7085a02b2f6d428",
   "lastOpenFiles": [
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-07.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-08.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-08.md",
     "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step",
     "1. 영구노트/3. RESUORCE/서재/자바 웹 프로그래밍 Next Step 하나씩 벗겨가는 양파껍질 학습법.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-07.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-07.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-06.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-06.md",
@@ -214,7 +216,6 @@
     "1. 영구노트/3. RESUORCE/서재/테스트 주도 개발.md",
     "1. 영구노트/3. RESUORCE/서재/임베디드 C를 위한 TDD.md",
     "1. 영구노트/3. RESUORCE/서재/테스트 주도 개발 시작하기 TestDriven Development.md",
-    "1. 영구노트/3. RESUORCE/서재/오브젝트 코드로 이해하는 객체지향 설계.md",
     "1. 영구노트/3. RESUORCE/DATABASE",
     "Spaces/Home",
     "Spaces",
@@ -224,7 +225,6 @@
     "1. 영구노트/3. RESUORCE/Spring Boot",
     "Attached file/조카사진1.jpg",
     "1. 영구노트/3. RESUORCE/JAVA/오브젝트",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary",
-    "1. 영구노트/3. RESUORCE/서재/한 눈에 보기"
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary"
   ]
 }
