@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "72e3d59dc67d1049",
+        "id": "dd7708fa5be1f938",
         "type": "tabs",
         "children": [
           {
-            "id": "b950b01274fe76f5",
+            "id": "9f29fd3a35a9e59e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step/문자열 계산기.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step/문자열 계산기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step/문자열 계산기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step/문자열 계산기.md"
-              }
+              "state": {}
             }
           },
           {
@@ -194,7 +186,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b950b01274fe76f5",
+  "active": "9f29fd3a35a9e59e",
   "lastOpenFiles": [
     "1. 영구노트/3. RESUORCE/DATABASE/JPA.md",
     "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step/문자열 계산기.md",
