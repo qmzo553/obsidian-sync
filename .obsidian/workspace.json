@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0f7f860a8b662a14",
+        "id": "72e3d59dc67d1049",
         "type": "tabs",
         "children": [
           {
-            "id": "c9fe2770a028790e",
+            "id": "b950b01274fe76f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-11.md",
+                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step/문자열 계산기.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,12 +73,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 252.5
   },
   "right": {
     "id": "9b755bf9867497c6",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-11.md",
+                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step/문자열 계산기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-11.md",
+                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step/문자열 계산기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-11.md"
+                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step/문자열 계산기.md"
               }
             }
           },
@@ -195,10 +194,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c9fe2770a028790e",
+  "active": "b950b01274fe76f5",
   "lastOpenFiles": [
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-11.md",
+    "1. 영구노트/3. RESUORCE/DATABASE/JPA.md",
+    "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step/문자열 계산기.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-11.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-11.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-09.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-09.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-08.md",
@@ -213,7 +214,6 @@
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-05.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-04.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-04.md",
-    "1. 영구노트/3. RESUORCE/DATABASE/JPA.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-01.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-01.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-30.md",
@@ -224,7 +224,6 @@
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-28.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-28.md",
     "0. inbox/서재 한 눈에 보기.md",
-    "1. 영구노트/3. RESUORCE/서재/니체와 장자는 이렇게 말했다.md",
     "1. 영구노트/3. RESUORCE/DATABASE",
     "Spaces/Home",
     "Spaces",
