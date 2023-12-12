@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/DATABASE/JPA.md",
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-12.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/DATABASE/JPA.md",
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/DATABASE/JPA.md",
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/DATABASE/JPA.md"
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-12.md"
               }
             }
           },
@@ -196,9 +196,11 @@
   },
   "active": "17eff0af26bcb401",
   "lastOpenFiles": [
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-13.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-13.md",
+    "1. 영구노트/3. RESUORCE/DATABASE/JPA.md",
     "1. 영구노트/3. RESUORCE/DATABASE/ORM Framework.md",
     "1. 영구노트/3. RESUORCE/DATABASE/SQL.md",
-    "1. 영구노트/3. RESUORCE/DATABASE/JPA.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-12.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-11.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-11.md",
@@ -221,8 +223,6 @@
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-01.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-01.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11-30.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-30.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11-29.md",
     "Attached file/Pasted image 20231116154315.png",
     "1. 영구노트/3. RESUORCE/DATABASE",
     "Spaces/Home",
