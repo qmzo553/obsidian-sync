@@ -11,8 +11,12 @@
             "id": "8cf33e1b08800637",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step/3장, 4장.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step/3장, 4장.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step/3장, 4장.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step/3장, 4장.md"
+              }
             }
           },
           {
@@ -188,6 +196,7 @@
   },
   "active": "8cf33e1b08800637",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step/3장, 4장.md",
     "무제 파일.canvas",
     "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA/3장.md",
     "Template/Zettelkasten.md",
