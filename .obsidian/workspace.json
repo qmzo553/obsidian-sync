@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "15536aa2d6f016e3",
+        "id": "02614e08b84dc3ab",
         "type": "tabs",
         "children": [
           {
-            "id": "17eff0af26bcb401",
+            "id": "8cf33e1b08800637",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-12.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-12.md"
-              }
+              "state": {}
             }
           },
           {
@@ -194,8 +186,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "17eff0af26bcb401",
+  "active": "8cf33e1b08800637",
   "lastOpenFiles": [
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-12.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-13.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-13.md",
     "1. 영구노트/3. RESUORCE/DATABASE/JPA.md",
@@ -204,7 +197,6 @@
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-12.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-11.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-11.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-12.md",
     "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step/문자열 계산기.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-09.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-09.md",
