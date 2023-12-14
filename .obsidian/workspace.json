@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dbcee2fc0a53bad2",
+        "id": "ebac0d36342ef532",
         "type": "tabs",
         "children": [
           {
-            "id": "1c369bf5225d318d",
+            "id": "26b02799ce64c26d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -69,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,6 +188,7 @@
   },
   "active": "43b5be36d8212ed5",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA/4장.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-14.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-13.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-14.md",
@@ -216,7 +216,6 @@
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-06.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-06.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-05.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-05.md",
     "Attached file/Pasted image 20231116154315.png",
     "1. 영구노트/3. RESUORCE/DATABASE",
     "Spaces/Home",
