@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-16.md",
+                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA/5장.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-16.md",
+                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA/5장.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-16.md",
+                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA/5장.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-16.md"
+                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA/5장.md"
               }
             }
           },
@@ -197,8 +196,9 @@
   },
   "active": "26b02799ce64c26d",
   "lastOpenFiles": [
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-16.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-16.md",
+    "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA/5장.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-16.md",
     "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA/4장.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-14.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-13.md",
@@ -224,7 +224,6 @@
     "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step",
     "1. 영구노트/3. RESUORCE/서재/자바 웹 프로그래밍 Next Step 하나씩 벗겨가는 양파껍질 학습법.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-07.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-06.md",
     "Attached file/Pasted image 20231116154315.png",
     "1. 영구노트/3. RESUORCE/DATABASE",
     "Spaces/Home",
