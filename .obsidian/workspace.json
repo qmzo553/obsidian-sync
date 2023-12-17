@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "11115474b434915a",
+        "id": "576522f7d874ce06",
         "type": "tabs",
         "children": [
           {
-            "id": "be6bc687c01f0bd4",
+            "id": "2b030df8cd33a650",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA/6장.md",
+                "file": "1. 영구노트/3. RESUORCE/StoreAPI/2023-12-17.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA/6장.md",
+                "file": "1. 영구노트/3. RESUORCE/StoreAPI/2023-12-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA/6장.md",
+                "file": "1. 영구노트/3. RESUORCE/StoreAPI/2023-12-17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA/6장.md"
+                "file": "1. 영구노트/3. RESUORCE/StoreAPI/2023-12-17.md"
               }
             }
           },
@@ -194,11 +194,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "43b5be36d8212ed5",
+  "active": "2b030df8cd33a650",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/StoreAPI/2023-12-17.md",
+    "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA/6장.md",
     "1. 영구노트/3. RESUORCE/StoreAPI",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-17.md",
-    "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA/6장.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-14.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-16.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-16.md",
@@ -233,7 +234,6 @@
     "1. 영구노트/3. RESUORCE/Spring Boot/스프링 부트와 AWS로 혼자 구현하는 웹 서비스",
     "1. 영구노트/3. RESUORCE/Spring Boot",
     "Attached file/조카사진1.jpg",
-    "1. 영구노트/3. RESUORCE/JAVA/오브젝트",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary"
+    "1. 영구노트/3. RESUORCE/JAVA/오브젝트"
   ]
 }
