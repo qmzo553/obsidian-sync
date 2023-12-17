@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/StoreAPI/2023-12-17.md",
+                "file": "Template/Zettelkasten.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/StoreAPI/2023-12-17.md",
+                "file": "Template/Zettelkasten.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/StoreAPI/2023-12-17.md",
+                "file": "Template/Zettelkasten.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/StoreAPI/2023-12-17.md"
+                "file": "Template/Zettelkasten.md"
               }
             }
           },
@@ -197,6 +197,9 @@
   "active": "2b030df8cd33a650",
   "lastOpenFiles": [
     "1. 영구노트/3. RESUORCE/StoreAPI/2023-12-17.md",
+    "1. 영구노트/3. RESUORCE/Spring Boot/Spring Security.md",
+    "1. 영구노트/3. RESUORCE/Web/JWT.md",
+    "1. 영구노트/3. RESUORCE/Web",
     "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA/6장.md",
     "1. 영구노트/3. RESUORCE/StoreAPI",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-17.md",
@@ -222,8 +225,6 @@
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-11.md",
     "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step/문자열 계산기.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-09.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-09.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-08.md",
     "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step",
     "Attached file/Pasted image 20231116154315.png",
     "1. 영구노트/3. RESUORCE/DATABASE",
@@ -233,7 +234,6 @@
     "1. 영구노트/3. RESUORCE/JAVA/이펙티브 자바",
     "1. 영구노트/3. RESUORCE/Spring Boot/스프링 부트와 AWS로 혼자 구현하는 웹 서비스",
     "1. 영구노트/3. RESUORCE/Spring Boot",
-    "Attached file/조카사진1.jpg",
-    "1. 영구노트/3. RESUORCE/JAVA/오브젝트"
+    "Attached file/조카사진1.jpg"
   ]
 }
