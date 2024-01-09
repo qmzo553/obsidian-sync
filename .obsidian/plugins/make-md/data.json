@@ -18,7 +18,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "Spaces/Home",
+  "activeView": "/",
   "hideFrontmatter": true,
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
@@ -37,7 +37,15 @@
   "expandedSpaces": [
     "/",
     "//1. 영구노트/1. 영구노트/1. PROJECT",
-    "//1. 영구노트/1. 영구노트/2. AREA OF RESPONSIBILITY"
+    "//1. 영구노트/1. 영구노트/2. AREA OF RESPONSIBILITY",
+    "//1. 영구노트",
+    "//1. 영구노트/1. 영구노트/1. PROJECT",
+    "//1. 영구노트/1. 영구노트/3. RESUORCE",
+    "//1. 영구노트/1. 영구노트/3. RESUORCE",
+    "//Spaces/Spaces/Home",
+    "//1. 영구노트/1. 영구노트/3. RESUORCE",
+    "//1. 영구노트/1. 영구노트/2. AREA OF RESPONSIBILITY",
+    "//1. 영구노트/1. 영구노트/2. AREA OF RESPONSIBILITY/1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
