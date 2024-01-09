@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5f0da89fed4386fe",
+        "id": "e352d8775d517b9e",
         "type": "tabs",
         "children": [
           {
-            "id": "19dc28cf5c364239",
+            "id": "db9bf87e46402b41",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -189,7 +187,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "19dc28cf5c364239",
+  "active": "db9bf87e46402b41",
   "lastOpenFiles": [
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-27.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12-24.md",
