@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ed0a7a6d04f3842e",
+        "id": "7273c87a358ce57f",
         "type": "tabs",
         "children": [
           {
-            "id": "b22c3053f7a5e84f",
+            "id": "db16f323b9800ef3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-12.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-12.md"
-              }
+              "state": {}
             }
           },
           {
@@ -195,8 +187,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b22c3053f7a5e84f",
+  "active": "db16f323b9800ef3",
   "lastOpenFiles": [
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-01-13.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-13.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-12.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-01-12.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-09.md",
@@ -221,8 +215,6 @@
     "1. 영구노트/3. RESUORCE/Web/JWT.md",
     "1. 영구노트/3. RESUORCE/DATABASE/MySQL.md",
     "1. 영구노트/3. RESUORCE/StoreAPI/2023-12-17.md",
-    "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA/7장.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-12-07.md",
     "1. 영구노트/3. RESUORCE/Web",
     "1. 영구노트/3. RESUORCE/StoreAPI",
     "무제 파일.canvas",
