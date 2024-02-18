@@ -189,10 +189,10 @@
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "periodic-notes:Open today": false,
       "kr-book-info-plugin:Add Book Info": false,
       "dbfolder:Create a new database table": false,
-      "obsidian-day-planner:Timeline": false
+      "obsidian-day-planner:Timeline": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "b29363c560cf5630",
