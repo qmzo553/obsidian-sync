@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -182,20 +183,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-day-planner:Timeline": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
+      "periodic-notes:Open today": false,
       "kr-book-info-plugin:Add Book Info": false,
       "dbfolder:Create a new database table": false,
-      "periodic-notes:Open today": false
+      "obsidian-day-planner:Timeline": false
     }
   },
   "active": "b29363c560cf5630",
   "lastOpenFiles": [
+    "Spaces/Home",
+    "Spaces",
     "0. inbox/공부 list.md",
     "3. RESUORCE/NHN academy/2024-02-19.md",
     "3. RESUORCE/NHN academy",
@@ -223,14 +226,11 @@
     "2. AREA OF RESPONSIBILITY/Diary/Diary.md",
     "2. AREA OF RESPONSIBILITY/Day Planner/Day Planner.md",
     "2. AREA OF RESPONSIBILITY/Day Planner/2024-01-15.md",
-    "2. AREA OF RESPONSIBILITY/Diary/2024-01-15.md",
     "3. RESUORCE/Web",
     "3. RESUORCE/StoreAPI",
     "3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step",
     "Attached file/Pasted image 20231116154315.png",
     "3. RESUORCE/DATABASE",
-    "Spaces/Home",
-    "Spaces",
     "3. RESUORCE/Spring Boot/자바 ORM 표준 JPA",
     "1. 영구노트/3. RESUORCE/JAVA/이펙티브 자바",
     "1. 영구노트/3. RESUORCE/Spring Boot/스프링 부트와 AWS로 혼자 구현하는 웹 서비스",
