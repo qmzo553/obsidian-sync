@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b29363c560cf5630",
+            "id": "1fc8c2257ef430fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -195,11 +195,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "43b5be36d8212ed5",
+  "active": "1fc8c2257ef430fe",
   "lastOpenFiles": [
     "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md",
+    "conflict-files-obsidian-git.md",
+    "0. inbox/하루 계획.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02-18.md",
-    "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md",
     "Spaces/Home",
     "Spaces",
     "0. inbox/공부 list.md",
@@ -225,8 +226,6 @@
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-01-16.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-17.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/Diary.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/Day Planner.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-15.md",
     "1. 영구노트/3. RESUORCE/Web",
     "1. 영구노트/3. RESUORCE/StoreAPI",
     "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step",
