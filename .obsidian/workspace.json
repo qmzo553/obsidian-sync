@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -196,11 +197,11 @@
   },
   "active": "43b5be36d8212ed5",
   "lastOpenFiles": [
+    "Spaces/Home",
+    "Spaces",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02-18.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md",
-    "Spaces/Home",
-    "Spaces",
     "0. inbox/공부 list.md",
     "1. 영구노트/3. RESUORCE/NHN academy",
     "0. inbox/서재 한 눈에 보기.md",
@@ -225,7 +226,6 @@
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-17.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/Diary.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/Day Planner.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-15.md",
     "1. 영구노트/3. RESUORCE/Web",
     "1. 영구노트/3. RESUORCE/StoreAPI",
     "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step",
