@@ -4,22 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "774ed4c869ce80b3",
+        "id": "fab63bc157416b1a",
         "type": "tabs",
         "children": [
           {
-            "id": "1fc8c2257ef430fe",
+            "id": "dd89a7711e3ae6d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "0. inbox/하루 계획.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "c0806b59704c6300",
+            "type": "leaf",
+            "state": {
+              "type": "make-file-view",
+              "state": {
+                "path": "https://www.make.md/static/latest.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,15 +77,23 @@
             }
           },
           {
-            "id": "2acbf75190f5f51b",
+            "id": "05d055ea72098253",
             "type": "leaf",
             "state": {
               "type": "mk-file-view",
               "state": {}
             }
+          },
+          {
+            "id": "2dd2ec983a073879",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -94,7 +113,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +129,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +150,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "conflict-files-obsidian-git.md"
-              }
+              "state": {}
             }
           },
           {
@@ -190,20 +205,20 @@
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "kr-book-info-plugin:Add Book Info": false,
-      "dbfolder:Create a new database table": false,
       "obsidian-day-planner:Timeline": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "dbfolder:Create a new database table": false
     }
   },
-  "active": "1fc8c2257ef430fe",
+  "active": "c0806b59704c6300",
   "lastOpenFiles": [
-    "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md",
-    "conflict-files-obsidian-git.md",
     "0. inbox/하루 계획.md",
+    "0. inbox/공부 list.md",
+    "conflict-files-obsidian-git.md",
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02-18.md",
     "Spaces/Home",
     "Spaces",
-    "0. inbox/공부 list.md",
     "1. 영구노트/3. RESUORCE/NHN academy",
     "0. inbox/서재 한 눈에 보기.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-02-18.md",
