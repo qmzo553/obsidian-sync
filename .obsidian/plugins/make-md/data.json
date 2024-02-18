@@ -44,7 +44,8 @@
     "//1. 영구노트/1. 영구노트/3. RESUORCE",
     "//Spaces/Spaces/Home",
     "//1. 영구노트/1. 영구노트/3. RESUORCE",
-    "//1. 영구노트/1. 영구노트/2. AREA OF RESPONSIBILITY"
+    "//1. 영구노트/1. 영구노트/2. AREA OF RESPONSIBILITY",
+    "//0. inbox"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -71,7 +72,6 @@
     "/",
     "spaces://$tags"
   ],
-  "rootSpaces": [],
   "spacesUseAlias": false,
   "fmKeyAlias": "aliases",
   "fmKeyBanner": "banner",
@@ -87,11 +87,13 @@
   "readableLineWidth": true,
   "autoAddContextsToSubtags": true,
   "autoMigration08": false,
-  "releaseNotesPrompt": 0.804,
+  "releaseNotesPrompt": 0.815,
   "enableDefaultSpaces": true,
   "enableTagSpaces": true,
   "enableHomeSpace": true,
   "showSpacePinIcon": true,
   "minimalFix": false,
-  "experimental": false
+  "experimental": false,
+  "systemName": "Vault",
+  "rootSpaces": []
 }
