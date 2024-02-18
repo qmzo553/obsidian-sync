@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. RESUORCE/NHN academy/2024-02-19.md",
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,15 +66,14 @@
             }
           },
           {
-            "id": "1d72d5e5141cddfa",
+            "id": "2acbf75190f5f51b",
             "type": "leaf",
             "state": {
               "type": "mk-file-view",
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. RESUORCE/NHN academy/2024-02-19.md",
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. RESUORCE/NHN academy/2024-02-19.md",
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. RESUORCE/NHN academy/2024-02-19.md"
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md"
               }
             }
           },
@@ -195,43 +194,44 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b29363c560cf5630",
+  "active": "43b5be36d8212ed5",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02-18.md",
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md",
     "Spaces/Home",
     "Spaces",
     "0. inbox/공부 list.md",
-    "3. RESUORCE/NHN academy/2024-02-19.md",
-    "3. RESUORCE/NHN academy",
+    "1. 영구노트/3. RESUORCE/NHN academy",
     "0. inbox/서재 한 눈에 보기.md",
-    "2. AREA OF RESPONSIBILITY/Day Planner/2024-02-18.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-02-18.md",
     "Untitled.md",
     "무제 파일.canvas",
-    "3. RESUORCE/서재/그림으로 공부하는 IT 인프라 구조 개정판.md",
-    "3. RESUORCE/StoreAPI/2023-12-23.md",
-    "3. RESUORCE/Spring Boot/Spring Security.md",
-    "3. RESUORCE/서재/맥스웰 몰츠 성공의 법칙 부와 성공을 부르는 마음의 법칙 사이코사이버네틱스.md",
-    "3. RESUORCE/서재/Again 뒤집어본 영문법.md",
-    "2. AREA OF RESPONSIBILITY/Diary/2024-02-18.md",
-    "2. AREA OF RESPONSIBILITY/Day Planner/2024-01-23.md",
-    "2. AREA OF RESPONSIBILITY/Diary/2024-01-23.md",
-    "2. AREA OF RESPONSIBILITY/Diary/2024-01-20.md",
-    "2. AREA OF RESPONSIBILITY/Day Planner/2024-01-20.md",
-    "2. AREA OF RESPONSIBILITY/Diary/2024-01-19.md",
-    "2. AREA OF RESPONSIBILITY/Day Planner/2024-01-19.md",
-    "2. AREA OF RESPONSIBILITY/Day Planner/2024-01-18.md",
-    "2. AREA OF RESPONSIBILITY/Diary/2024-01-18.md",
-    "2. AREA OF RESPONSIBILITY/Diary/2024-01-17.md",
-    "2. AREA OF RESPONSIBILITY/Diary/2024-01-16.md",
-    "2. AREA OF RESPONSIBILITY/Day Planner/2024-01-17.md",
-    "2. AREA OF RESPONSIBILITY/Diary/Diary.md",
-    "2. AREA OF RESPONSIBILITY/Day Planner/Day Planner.md",
-    "2. AREA OF RESPONSIBILITY/Day Planner/2024-01-15.md",
-    "3. RESUORCE/Web",
-    "3. RESUORCE/StoreAPI",
-    "3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step",
+    "1. 영구노트/3. RESUORCE/서재/그림으로 공부하는 IT 인프라 구조 개정판.md",
+    "1. 영구노트/3. RESUORCE/StoreAPI/2023-12-23.md",
+    "1. 영구노트/3. RESUORCE/Spring Boot/Spring Security.md",
+    "1. 영구노트/3. RESUORCE/서재/맥스웰 몰츠 성공의 법칙 부와 성공을 부르는 마음의 법칙 사이코사이버네틱스.md",
+    "1. 영구노트/3. RESUORCE/서재/Again 뒤집어본 영문법.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-23.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-01-23.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-01-20.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-20.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-01-19.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-19.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-18.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-01-18.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-01-17.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-01-16.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-17.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/Diary.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/Day Planner.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-15.md",
+    "1. 영구노트/3. RESUORCE/Web",
+    "1. 영구노트/3. RESUORCE/StoreAPI",
+    "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step",
     "Attached file/Pasted image 20231116154315.png",
-    "3. RESUORCE/DATABASE",
-    "3. RESUORCE/Spring Boot/자바 ORM 표준 JPA",
+    "1. 영구노트/3. RESUORCE/DATABASE",
+    "1. 영구노트/3. RESUORCE/Spring Boot/자바 ORM 표준 JPA",
     "1. 영구노트/3. RESUORCE/JAVA/이펙티브 자바",
     "1. 영구노트/3. RESUORCE/Spring Boot/스프링 부트와 AWS로 혼자 구현하는 웹 서비스",
     "Attached file/조카사진1.jpg"
