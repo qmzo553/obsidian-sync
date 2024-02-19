@@ -11,9 +11,11 @@
             "id": "b29363c560cf5630",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "0. inbox"
+                "file": "0. inbox/하루 계획.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -100,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "0. inbox/하루 계획.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "0. inbox/하루 계획.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "0. inbox/하루 계획.md"
+              }
             }
           },
           {
@@ -193,8 +199,8 @@
       "command-palette:명령어 팔레트 열기": false,
       "kr-book-info-plugin:Add Book Info": false,
       "obsidian-day-planner:Timeline": false,
-      "periodic-notes:Open today": false,
-      "dbfolder:Create a new database table": false
+      "dbfolder:Create a new database table": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "b29363c560cf5630",
