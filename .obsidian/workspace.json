@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. inbox/하루 계획.md",
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d9433460d833d145",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. inbox/하루 계획.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. inbox/하루 계획.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. inbox/하루 계획.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -187,7 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5
+    "width": 220.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,12 +216,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b29363c560cf5630",
+  "active": "d9433460d833d145",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md",
+    "conflict-files-obsidian-git.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-02-19.md",
     "0. inbox/하루 계획.md",
     "0. inbox/공부 list.md",
     "0. inbox/서재 한 눈에 보기.md",
-    "1. 영구노트/3. RESUORCE/NHN academy/2024-02-19.md",
     "Spaces/Home",
     "Spaces",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02-18.md",
@@ -233,7 +248,6 @@
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-01-16.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-17.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/Diary.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/Day Planner.md",
     "1. 영구노트/3. RESUORCE/Web",
     "1. 영구노트/3. RESUORCE/StoreAPI",
     "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step",
