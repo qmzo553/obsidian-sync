@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "58d6e3ac65ffe68a",
+        "id": "b495919a41f68d43",
         "type": "tabs",
         "children": [
           {
-            "id": "1cdd2f78f899b057",
+            "id": "0b0a09ca85158154",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02-21.md",
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-02-22.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02-21.md",
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-02-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02-21.md",
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-02-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02-21.md"
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-02-22.md"
               }
             }
           },
@@ -202,13 +202,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1cdd2f78f899b057",
+  "active": "0b0a09ca85158154",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-02-22.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02-21.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02-22.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-02-22.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-02-20.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-02-21.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02-21.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/Diary.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02-20.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02-18.md",
@@ -233,7 +234,6 @@
     "1. 영구노트/3. RESUORCE/서재/Again 뒤집어본 영문법.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01-23.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-01-23.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-01-20.md",
     "1. 영구노트/3. RESUORCE/Web",
     "1. 영구노트/3. RESUORCE/StoreAPI",
     "1. 영구노트/3. RESUORCE/Spring Boot/자바 웹 프로그래밍 next step",
