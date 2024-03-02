@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e9aea24877d34e83",
+        "id": "0044f79cf0c799e6",
         "type": "tabs",
         "children": [
           {
-            "id": "7e3d7c8768de0ac1",
+            "id": "c3f8c554bf06b454",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/무제 파일.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -101,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1. 영구노트/3. RESUORCE/서재/무제 파일.md"
-              }
+              "state": {}
             }
           },
           {
@@ -202,13 +194,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7e3d7c8768de0ac1",
+  "active": "c3f8c554bf06b454",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/서재/죽음이란 무엇인가 예일대 최고의 명강의 10주년 기념판.md",
+    "1. 영구노트/3. RESUORCE/서재/몰입 Think hard 인생을 바꾸는 자기 혁명.md",
     "1. 영구노트/3. RESUORCE/서재/맥스웰 몰츠 성공의 법칙 부와 성공을 부르는 마음의 법칙 사이코사이버네틱스.md",
     "1. 영구노트/3. RESUORCE/서재/마음 가는 대로 해라.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02-18.md",
-    "1. 영구노트/3. RESUORCE/서재/무제 파일.md",
-    "1. 영구노트/3. RESUORCE/서재/몰입 Think hard 인생을 바꾸는 자기 혁명.md",
     "1. 영구노트/3. RESUORCE/서재/모모.md",
     "1. 영구노트/3. RESUORCE/서재/생각의 법칙 10 + 1.md",
     "0. inbox/서재 한 눈에 보기.md",
