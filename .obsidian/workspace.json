@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-03-04.md",
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-03-04.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-03-04.md",
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-03-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-03-04.md",
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-03-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-03-04.md"
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-03-04.md"
               }
             }
           },
@@ -195,7 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 356.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,17 +205,17 @@
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "periodic-notes:Open today": false,
       "kr-book-info-plugin:Add Book Info": false,
       "dbfolder:Create a new database table": false,
-      "obsidian-day-planner:Timeline": false
+      "obsidian-day-planner:Timeline": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "9e37560892729abf",
   "lastOpenFiles": [
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-03-04.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-03-03.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-03-04.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-03-04.md",
     "Spaces/Home",
     "Spaces",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-03-04.md",
