@@ -1,8 +1,6 @@
 lombok
 CORS
 JIT
-call stack
-정규식
 docker
 cloud service
-GIT
+GIT - https://git-scm.com/book/ko/v2
