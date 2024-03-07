@@ -18,10 +18,10 @@ total_page: 360
 publish_date: 2020-12-09
 cover_url: https://image.yes24.com/goods/95800974/XL
 status: 🟩 완료
-start_read_date: 2024-02-07
+start_read_date: 2024-02-21
 finish_read_date: 2024-03-07
-my_rate: 0
-book_note: ❌
+my_rate: 4
+book_note: it 인프라 구조를 쉽게 공부할 수 있는 좋은 책
 ---
 
 # 그림으로 공부하는 IT 인프라 구조：개정판
