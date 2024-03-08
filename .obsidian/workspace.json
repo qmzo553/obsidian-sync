@@ -11,9 +11,11 @@
             "id": "6d40161a4ea4d65b",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-01"
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-08.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -108,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-08.md"
+              }
             }
           },
           {
@@ -205,8 +211,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "17cca6190ba78e43",
+  "active": "6d40161a4ea4d65b",
   "lastOpenFiles": [
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02/2024-02-27.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02/2024-02-25.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02/2024-02-23.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02/2024-02-22.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02/2024-02-18.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02/2024-02-29.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02/2024-02-28.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-02/2024-02-21.md",
@@ -231,11 +242,6 @@
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12/2023-12-22.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12/2023-12-19.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12/2023-12-18.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12/2023-12-17.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12/2023-12-16.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12/2023-12-14.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12/2023-12-13.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12/2023-12-12.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-12",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2023-11",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2023-11",
