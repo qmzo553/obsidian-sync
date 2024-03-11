@@ -11,9 +11,11 @@
             "id": "382ebb707932ca92",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "1. 영구노트/3. RESUORCE/NHN academy/2024-03"
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-11.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -56,22 +58,6 @@
             }
           },
           {
-            "id": "d6948137311060a5",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "a75bab87330097ef",
-            "type": "leaf",
-            "state": {
-              "type": "mk-file-view",
-              "state": {}
-            }
-          },
-          {
             "id": "17cca6190ba78e43",
             "type": "leaf",
             "state": {
@@ -80,15 +66,15 @@
             }
           },
           {
-            "id": "1ad5a9c183976219",
+            "id": "d6948137311060a5",
             "type": "leaf",
             "state": {
-              "type": "mk-path-view",
+              "type": "bookmarks",
               "state": {}
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -108,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-11.md"
+              }
             }
           },
           {
@@ -205,7 +195,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1ad5a9c183976219",
+  "active": "382ebb707932ca92",
   "lastOpenFiles": [
     "1. 영구노트/3. RESUORCE/NHN academy/2024-03-11.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-03/2024-03.md",
