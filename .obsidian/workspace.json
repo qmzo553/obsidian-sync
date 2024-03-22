@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "594588b906f2e9d3",
+        "id": "05c2202a6f34d7c1",
         "type": "tabs",
         "children": [
           {
-            "id": "3305c0efd4ea8997",
+            "id": "821271213c05f0fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-21.md",
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-22.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-21.md",
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-21.md",
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-21.md"
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-22.md"
               }
             }
           },
@@ -195,9 +195,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3305c0efd4ea8997",
+  "active": "821271213c05f0fd",
   "lastOpenFiles": [
-    "1. 영구노트/3. RESUORCE/NHN academy/2024-03-21.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-03-22.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-03-22.md",
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-03-22.md",
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-03/2024-03-21.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-03/2024-03-12.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-03-21.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-03/2024-03-20.md",
@@ -223,9 +226,6 @@
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-03/2024-03-13.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-03-14.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-03/2024-03-13.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-03/2024-03-12.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-03/2024-03-11.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-03-13.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-03",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-03",
     "Attached file/Pasted image 20240312153232.png",
