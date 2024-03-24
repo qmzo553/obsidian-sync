@@ -10,6 +10,7 @@
 > Stream API
 > Java 8에서의 주요 새로운 기능 중 하나는 스트림 기능(`java.util.stream`)의 도입입니다. 이 기능은 요소 시퀀스를 처리하기 위한 클래스를 포함합니다.
 > 중심 API 클래스는 `Stream<T>`입니다. 다음 섹션에서는 기존 데이터 제공 소스를 사용하여 스트림을 생성하는 방법을 보여줍니다.
+ 
 > 1. Stream Creation
 >  다양한 요소 소스에서 스트림을 생성할 수 있습니다. 예를 들어, 컬렉션 또는 배열에서 `stream()` 및 `of()` 메서드를 사용할 수 있습니다:
 ```
@@ -21,13 +22,13 @@ stream = Stream.of("a", "b", "c");
 ``` 
 Stream<String> stream = list.stream();
 ``` 
-> Multi-threading With Streams
-> **Stream API는 parallelStream() 메서드를 제공하여 스트림의 요소를 병렬 모드로 처리하여 다중 스레딩을 간단하게 할 수 있습니다.**
-   아래 코드는 스트림의 각 요소에 대해 doWork() 메서드를 병렬로 실행할 수 있도록 합니다:\
+> 2. Multi-threading With Streams
+>  **Stream API는 parallelStream() 메서드를 제공하여 스트림의 요소를 병렬 모드로 처리하여 다중 스레딩을 간단하게 할 수 있습니다.**
+>  아래 코드는 스트림의 각 요소에 대해 doWork() 메서드를 병렬로 실행할 수 있도록 합니다:
 ```
 list.parallelStream().forEach(element -> doWork(element));
 ```
-> 다음 섹션에서는 기본적인 Stream API 작업을 소개하겠습니다.
+>  다음 섹션에서는 기본적인 Stream API 작업을 소개하겠습니다.
 ### 출처(참고 문헌)
 - [https://www.baeldung.com/java-8-streams-introduction]
 
