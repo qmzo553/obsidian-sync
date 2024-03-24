@@ -12,7 +12,15 @@
 > 중심 API 클래스는 `Stream<T>`입니다. 다음 섹션에서는 기존 데이터 제공 소스를 사용하여 스트림을 생성하는 방법을 보여줍니다.
 > 1. Stream Creation
 >  다양한 요소 소스에서 스트림을 생성할 수 있습니다. 예를 들어, 컬렉션 또는 배열에서 `stream()` 및 `of()` 메서드를 사용할 수 있습니다:
+```
+String[] arr = new String[]{"a", "b", "c"};
+Stream<String> stream = Arrays.stream(arr);
+stream = Stream.of("a", "b", "c");
+```
 >  
+``` 
+Stream<String> stream = list.stream();
+``` 
 
 
 ### 출처(참고 문헌)
