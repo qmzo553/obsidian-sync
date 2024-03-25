@@ -138,8 +138,38 @@ Stream<String> stream = list.stream().filter(element -> {
 	return element.contains("2");
 });
 ```
+> 세 요소의 소스를 가지고 있으므로 filter() 메서드가 세 번 호출될 것으로 예상할 수 있으며, 카운터 변수의 값은 3이 될 것으로 예상할 수 있습니다. 그러나 이 코드를 실행하면 카운터 값이 전혀 변경되지 않고 여전히 0입니다. 따라서 filter() 메서드는 한 번도 호출되지 않았습니다. 그 이유는 최종 연산이 없기 때문입니다.
 > 
+> 이 코드를 조금 변경하여 map() 작업과 최종 연산인 findFirst()를 추가해 보겠습니다. 또한 로깅을 통해 메서드 호출 순서를 추적할 수 있도록 기능을 추가하겠습니다:
+```java
+Optional<String> stream = list.stream().filter(element -> {
+	log.info("filter() was called");
+	return element.contains("2");
+}).map(element -> {
+	log.info("map() was called");
+	return element.toUpperCase();
+}).findFirst();
+```
+> 결과 로그를 보면 `filter()` 메서드를 두 번 호출하고 `map()` 메서드를 한 번 호출했음을 확인할 수 있습니다. 이는 파이프라인이 세로로 실행되기 때문입니다. 우리의 예에서는 스트림의 첫 번째 요소가 필터의 조건을 충족시키지 않았습니다. 그런 다음 두 번째 요소에 대해 `filter()` 메서드를 호출했는데, 이 요소는 필터를 통과했습니다. 세 번째 요소에 대한 `filter()`를 호출하지 않고도, 파이프라인을 내려가서 `map()` 메서드로 이동했습니다.
+> 
+> `findFirst()` 작업은 하나의 요소만을 충족합니다. 따라서 이 특정 예제에서 게으른 호출을 사용하여 `filter()` 및 `map()` 각각의 두 번의 메서드 호출을 피할 수 있었습니다.
 #### 6. Order of Execution
+> 성능 측면에서 볼 때, 스트림 파이프라인에서 연산을 연결하는 올바른 순서는 가장 중요한 측면 중 하나입니다.
+```java
+long size = list.stream().map(element -> {
+	wasCalled();
+	return element.substring(0, 3);
+}).skip(2).count();
+```
+> 이 코드를 실행하면 카운터 값이 세 개 증가합니다. 즉, 스트림의 `map()` 메서드를 세 번 호출했지만 크기 값은 하나입니다. 따라서 결과 스트림은 하나의 요소만을 가지고 있으며, 세 번 중 두 번의 경우에는 비싼 `map()` 작업을 무의미하게 실행했습니다.
+> 
+> 만약 `skip()` 메서드와 `map()` 메서드의 순서를 변경한다면, 카운터는 하나만 증가합니다. 따라서 `map()` 메서드를 한 번만 호출합니다.
+```java
+long size = list.stream().skip(2).map(element -> {
+wasCalled(); return element.substring(0, 3);
+}).count();
+```
+
 #### 7. Stream Reduction
 ##### 7.1 The reduce() Method
 ##### 7.2. The collect() Method
