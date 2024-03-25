@@ -22,7 +22,6 @@ stream = Stream.of("a", "b", "c");
 ``` java
 Stream<String> stream = list.stream();
 ```
-```
 > 2. Multi-threading With Streams
 >  **Stream API는 parallelStream() 메서드를 제공하여 스트림의 요소를 병렬 모드로 처리하여 다중 스레딩을 간단하게 할 수 있습니다.**
 >  아래 코드는 스트림의 각 요소에 대해 doWork() 메서드를 병렬로 실행할 수 있도록 합니다:
@@ -31,7 +30,22 @@ list.parallelStream().forEach(element -> doWork(element));
 ```
 >  다음 섹션에서는 기본적인 Stream API 작업을 소개하겠습니다.
 
-> 2. 
+> Stream Operations
+> 스트림에서 수행할 수 있는 많은 유용한 작업이 있습니다.
+> 스트림 작업은 중간 작업(intermediate operations)과 최종 작업(terminal operations)으로 나뉩니다. 
+> 중간 작업은 `Stream<T>`를 반환하고, 최종 작업은 확정된 유형의 결과를 반환합니다. 중간 작업은 연결(chain)할 수 있습니다.
+> 또한 스트림의 작업은 소스를 변경하지 않는다는 것도 주목할 가치가 있습니다.
+> 다음은 간단한 예시입니다:
+```java
+long count = list.stream().distinct().count();
+```
+> 그렇습니다. `distinct()` 메서드는 이전 스트림의 고유한 요소로 구성된 새로운 스트림을 생성하는 중간 작업을 나타내며, `count()` 메서드는 스트림의 크기를 반환하는 최종 작업을 나타냅니다.
+
+>  3.1 Iterating
+>  스트림 API는 for, for-each 및 while 루프를 대체하는 데 도움이 됩니다. 이를 통해 요소 시퀀스를 반복하는 것이 아니라 작업 로직에 집중할 수 있습니다. 예를 들어:
+
+
+
 ### 출처(참고 문헌)
 - [https://www.baeldung.com/java-8-streams-introduction]
 
