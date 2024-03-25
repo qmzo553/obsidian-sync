@@ -272,6 +272,25 @@ Map<Integer, List<Product>> collectorMapOfLists = productList.stream()
 ```java
 Map<Boolean, List<Product>> mapPartioned = productList.stream() .collect(Collectors.partitioningBy(element -> element.getPrice() > 15));
 ```
+> 수집기가 추가적인 변환을 수행하도록 하려면, `Collectors.collectingAndThen()` 메서드를 사용할 수 있습니다. 
+> 이 메서드는 두 개의 인수를 취하는데, 첫 번째 인수는 원래 수집기이고 두 번째 인수는 추가 변환 함수입니다.
+```java
+Set<Product> unmodifiableSet = productList.stream()
+  .collect(Collectors.collectingAndThen(Collectors.toSet(),
+  Collections::unmodifiableSet));
+```
+> 이 특별한 경우에는, 수집기가 스트림을 Set으로 변환한 다음 그것을 변경할 수 없는 Set으로 만들었습니다.
+> 
+> 특정 이유로 사용자 정의 수집기를 만들어야 할 경우, 가장 쉽고 간결한 방법은 Collector 유형의 of() 메서드를 사용하는 것입니다.
+```java
+Collector<Product, ?, LinkedList<Product>> toLinkedList = 
+		Collector.of(LinkedList::new, LinkedList::add,
+		(first, second) -> {
+			first.addAll(second);
+			return first;
+	 });
+	LinkedList<Product> linkedListOfPersons = productList.stream().collect(toLinkedList);
+```
 
 #### 8. Parallel Streams
 #### 9. Conclusion
