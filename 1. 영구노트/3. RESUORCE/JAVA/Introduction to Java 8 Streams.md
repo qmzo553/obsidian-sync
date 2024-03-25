@@ -43,6 +43,37 @@ long count = list.stream().distinct().count();
 
 >  3.1 Iterating
 >  스트림 API는 for, for-each 및 while 루프를 대체하는 데 도움이 됩니다. 이를 통해 요소 시퀀스를 반복하는 것이 아니라 작업 로직에 집중할 수 있습니다. 예를 들어:
+```java
+for (String string : list) {
+	if (string.contains("a")) {
+		 return true; 
+	} 
+}
+```
+> 이 코드는 Java 8 코드 한 줄로 변경할 수 있습니다:
+```java
+boolean isExist = list.stream().anyMatch(element -> element.contains("a"));
+```
+
+> 3.2 Filtering
+> `filter()` 메서드는 주어진 조건을 만족하는 요소로 이루어진 스트림을 선택할 수 있도록 합니다.
+>  예를 들어, 다음 리스트를 고려해보겠습니다:
+```java
+ArrayList<String> list = new ArrayList<>();
+list.add("One");
+list.add("OneAndOnly");
+list.add("Derek");
+list.add("Change");
+list.add("factory");
+list.add("justBefore");
+list.add("Italy");
+list.add("Italy");
+list.add("Thursday");
+list.add("");
+list.add("");
+```
+> 다음 코드는 List<String>의 Stream<String>을 생성하고, 이 스트림에서 "d" 문자를 포함하는 모든 요소를 찾아 필터링된 요소만 포함하는 새로운 스트림을 생성합니다:
+```java
 
 
 
