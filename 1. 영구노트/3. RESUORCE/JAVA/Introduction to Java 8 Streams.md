@@ -72,10 +72,10 @@ list.add("Thursday");
 list.add("");
 list.add("");
 ```
-> 다음 코드는 List<String>의 Stream<String>을 생성하고, 이 스트림에서 "d" 문자를 포함하는 모든 요소를 찾아 필터링된 요소만 포함하는 새로운 스트림을 생성합니다:
+>  아래 코드는 'List<String>의 Stream<String>을 생성하고, 이 스트림에서 "d" 문자를 포함하는 모든 요소를 찾아 필터링된 요소만 포함하는 새로운 스트림을 생성합니다:
 ```java
-
-
+Stream<String> stream = list.stream().filter(element -> element.contains("d"));
+```
 
 ### 출처(참고 문헌)
 - [https://www.baeldung.com/java-8-streams-introduction]
