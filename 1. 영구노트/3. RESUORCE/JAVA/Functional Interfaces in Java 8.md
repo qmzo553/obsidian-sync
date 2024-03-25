@@ -171,11 +171,23 @@ List<Integer> values = Arrays.asList(3, 5, 8, 9, 12);
 int sum = values.stream()
 				.reduce(0, (i1, i2) -> i1 + i2);
 ```
-#### 11. Legacy Runctional Interfaces
+> reduce 메서드는 초기 누산기 값과 BinaryOperator 함수를 받습니다. 이 함수의 인수는 동일한 유형의 값 쌍이며 함수 자체에는 이를 동일한 유형의 단일 값으로 결합하는 논리가 포함됩니다. 전달된 함수는 결합이 순서에 상관없이 이루어져야합니다. 다음 조건이 성립해야합니다:
+```java
+op.apply(a, op.apply(b, c)) == op.apply(op.apply(a, b), c)
+```
+> BinaryOperator 연산자 함수의 결합성 속성은 우리가 간단히 축소 프로세스를 병렬화할 수 있도록 합니다.
+> 
+> 물론, 원시 값과 함께 사용할 수 있는 UnaryOperator 및 BinaryOperator의 특수화도 있습니다. 즉, DoubleUnaryOperator, IntUnaryOperator, LongUnaryOperator, DoubleBinaryOperator, IntBinaryOperator 및 LongBinaryOperator가 있습니다.
+#### 11. Legacy Functional Interfaces
+> 모든 함수형 인터페이스가 Java 8에서 나타난 것은 아닙니다. 이전 버전의 Java에서 많은 인터페이스가 FunctionalInterface의 제약 조건을 준수하며 람다로 사용할 수 있습니다. 대표적인 예로는 Runnable 및 Callable 인터페이스가 있습니다. 이들은 동시성 API에서 사용됩니다. Java 8에서는 이러한 인터페이스도 @FunctionalInterface 주석으로 표시됩니다. 이를 통해 동시성 코드를 크게 단순화할 수 있습니다.
+```java
+Thread thread = new Thread(() -> System.out.println("Hello From Another Thread"));
+thread.start();
+```
 
 
 ### 출처(참고 문헌)
--
+- [https://www.baeldung.com/java-8-functional-interfaces]
 
 ### 연결 문서
 -
