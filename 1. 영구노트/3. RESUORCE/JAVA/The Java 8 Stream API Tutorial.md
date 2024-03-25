@@ -319,7 +319,7 @@ boolean isParallel = intStreamSequential.isParallel();
 
 
 ### 출처(참고 문헌)
--
+- [https://www.baeldung.com/java-8-streams]
 
 ### 연결 문서
 -
