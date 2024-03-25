@@ -109,8 +109,36 @@ Optional<String> firstElement = elements.stream().findFirst();
 ```java
 Stream<String> onceModifiedStream = Stream.of("abcd", "bbcd", "cbcd").skip(1);
 ```
-
+> 만약 여러 가지 수정이 필요하다면 중간 작업을 연결할 수 있습니다. 현재의 `Stream<String>`의 각 요소를 처음 몇 글자의 하위 문자열로 대체해야 한다고 가정해 봅시다. 이를 위해 `skip()`와 `map()` 메서드를 연결할 수 있습니다:
+```java
+Stream<String> twiceModifiedStream = stream.skip(1).map(element -> element.substring(0, 3));
+```
+> map() 메서드는 람다 표현식을 매개변수로 받는 것을 볼 수 있습니다. 람다에 대해 더 알고 싶다면 람다 표현식 및 함수형 인터페이스: 팁과 모범 사례 튜토리얼을 참조할 수 있습니다.
+> 
+> 스트림 자체는 가치가 없으며 사용자는 스트림의 결과에 관심이 있습니다. 결과는 일부 유형의 값 또는 스트림의 각 요소에 적용되는 동작일 수 있습니다. 하나의 스트림에는 하나의 최종 연산만 사용할 수 있습니다.
+> 
+> 스트림을 사용하는 올바르고 가장 편리한 방법은 스트림 파이프라인을 사용하는 것입니다. 이는 스트림 소스, 중간 작업 및 최종 작업의 연결된 체인입니다.
+```java
+List<String> list = Arrays.asList("abc1", "abc2", "abc3");
+long size = list.stream().skip(1) .map(element -> element.substring(0, 3)).sorted().count();
+```
 #### 5. Lazy Invocation
+> 중간 작업은 게으릅니다. 이는 최종 연산 실행에 필요할 때만 호출됩니다.
+> 예를 들어, 호출될 때마다 내부 카운터를 증가시키는 wasCalled() 메서드를 호출해 봅시다:
+```java
+private long counter;
+private void wasCalled() { counter++; }
+```
+> 이제 중간 작업 `filter()`에서 메서드 `wasCalled()`를 호출해 봅시다:
+```java
+List<String> list = Arrays.asList(“abc1”, “abc2”, “abc3”);
+counter = 0;
+Stream<String> stream = list.stream().filter(element -> {
+	wasCalled();
+	return element.contains("2");
+});
+```
+> 
 #### 6. Order of Execution
 #### 7. Stream Reduction
 ##### 7.1 The reduce() Method
