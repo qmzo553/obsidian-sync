@@ -249,6 +249,29 @@ double averagePrice = productList.stream()
 int summingPrice = productList.stream() .collect(Collectors.summingInt(Product::getPrice));
 ```
 > 메서드 averagingXX(), summingXX() 및 summarizingXX()은 기본 유형 (int, long, double) 및 해당 래퍼 클래스 (Integer, Long, Double)와 함께 사용할 수 있습니다. 이러한 메서드의 한 가지 더 강력한 기능은 매핑을 제공하는 것입니다. 결과적으로, 개발자는 `collect()` 메서드 이전에 추가적인 `map()` 작업을 사용할 필요가 없습니다.
+> 
+> 스트림의 요소에 대한 통계 정보를 수집하는 방법은 `Collectors.summarizingDouble()`, `Collectors.summarizingInt()`, 또는 `Collectors.summarizingLong()`을 사용하는 것입니다.
+> 
+> 예를 들어, `summarizingDouble()`을 사용하여 double 타입 요소의 통계 정보를 수집하는 방법은 다음과 같습니다:
+```java
+IntSummaryStatistics statistics = productList.stream()
+									.collect(Collectors.summarizingInt(Product::getPrice));
+```
+> IntSummaryStatistics 유형의 결과 인스턴스를 사용하여 개발자는`toString()` 메서드를 적용하여 통계 보고서를 생성할 수 있습니다. 결과는 다음과 같은 일반적인 문자열이 될 것입니다: "IntSummaryStatistics{count=5, sum=86, min=13, average=17.200000, max=23}".
+> 
+> 이 객체에서 count, sum, min 및 average와 같은 개별 값들을 추출하는 것도 쉽습니다. `getCount(), getSum(), getMin(), getAverage(), getMax()` 메서드를 적용하여 가능합니다. 이러한 모든 값을 단일 파이프라인에서 추출할 수 있습니다.
+> 
+> 스트림 요소를 지정된 함수에 따라 그룹화하는 방법은 `Collectors.groupingBy()`를 사용하는 것입니다. 이 메서드는 요소를 그룹화할 기준이 되는 함수를 받습니다.
+```java
+Map<Integer, List<Product>> collectorMapOfLists = productList.stream()
+										.collect(Collectors.groupingBy(Product::getPrice));
+```
+> 위의 예시에서는 스트림이 가격별로 모든 제품을 그룹화하는 Map으로 축소되었습니다.
+> 
+> 스트림의 요소를 어떤 조건에 따라 그룹으로 나누는 방법은 `Collectors.partitioningBy()`를 사용하는 것입니다. 이 메서드는 true 또는 false 값을 반환하는 조건을 받습니다.
+```java
+Map<Boolean, List<Product>> mapPartioned = productList.stream() .collect(Collectors.partitioningBy(element -> element.getPrice() > 15));
+```
 
 #### 8. Parallel Streams
 #### 9. Conclusion
