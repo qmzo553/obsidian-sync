@@ -123,11 +123,54 @@ Stream<Integer> fibonacci = Stream.generate(() -> {
 > 
 > 예를 들어, 이름 목록에서 모든 사람을 인사하는 것을 생각해 보겠습니다. 이를 위해 List.forEach 메서드에 전달되는 람다는 Consumer 함수형 인터페이스를 구현합니다:
 ```java
+List<String> names = Arrays.asList("John", "Freddy", "Samuel");
+names.forEach(name -> System.out.println("Hello, " + name));
+```
+> Consumer의 특수화된 버전으로는 DoubleConsumer, IntConsumer 및 LongConsumer가 있습니다. 이들은 인수로 원시 값(primitive values)을 받습니다. 더 흥미로운 것은 BiConsumer 인터페이스입니다. 이의 사용 사례 중 하나는 맵의 항목을 반복하는 것입니다:
+```java
+Map<String, Integer> ages = new HashMap<>();
+ages.put("John", 25);
+ages.put("Freddy", 24);
+ages.put("Samuel", 30);
 
+ages.forEach((name, age) -> System.out.println(name + " is " + age + " years old"));
 ```
-```
+> 또 다른 특수화된 BiConsumer 버전으로는 ObjDoubleConsumer, ObjIntConsumer 및 ObjLongConsumer가 있습니다. 이들은 두 개의 인수를 받습니다. 하나는 일반화된 유형이고 다른 하나는 원시 유형입니다.
+
 #### 9. Predicates
+> 수학적 논리에서 술어는 값을 받아 불리언 값을 반환하는 함수입니다.
+> 
+> Predicate 함수형 인터페이스는 일반화된 값을 받아 불리언 값을 반환하는 Function의 특수화입니다. Predicate 람다의 전형적인 사용 사례는 값의 컬렉션을 필터링하는 것입니다:
+```java
+List<String> names = Arrays.asList("Angela", "Aaron", "Bob", "Claire", "David");
+
+List<String> namesWithA = names.stream()
+							.filter(name -> name.startsWith("A"))
+							.collect(Collectors.toList());
+```
+> 위의 코드에서는 Stream API를 사용하여 리스트를 필터링하고 이름이 "A"로 시작하는 항목만 유지합니다. Predicate 구현은 필터링 로직을 캡슐화합니다.
+> 
+> 이전 예제와 마찬가지로 이 함수의 원시 값(primitive values)을 받는 IntPredicate, DoublePredicate 및 LongPredicate 버전이 있습니다.
 #### 10. Operators
+> 연산자 인터페이스는 동일한 값 유형을 받아들이고 반환하는 함수의 특수한 경우입니다. UnaryOperator 인터페이스는 단일 인수를 받습니다. 컬렉션 API에서의 사용 사례 중 하나는 리스트의 모든 값을 동일한 유형의 일부 계산된 값으로 교체하는 것입니다:
+```java
+List<String> names = Arrays.asList("bob", "josh", "megan");
+
+names.replaceAll(name -> name.toUpperCase());
+```
+> List.replaceAll 함수는 값을 직접 교체하기 때문에 void를 반환합니다. 목적에 맞게 리스트의 값을 변환하는 람다는 받은 값과 동일한 결과 유형을 반환해야 합니다. 이것이 UnaryOperator가 여기서 유용한 이유입니다.
+> 
+> 물론 name -> name.toUpperCase() 대신에 메서드 참조를 사용할 수 있습니다:
+```java
+names.replaceAll(String::toUpperCase);
+```
+> BinaryOperator의 가장 흥미로운 사용 사례 중 하나는 reduction 작업입니다. 정수 컬렉션을 모든 값의 합계로 집계하고자 한다고 가정해 보겠습니다. Stream API를 사용하여 collector를 사용하여이 작업을 수행 할 수 있지만 더 일반적인 방법은 reduce 메서드를 사용하는 것입니다:
+```java
+List<Integer> values = Arrays.asList(3, 5, 8, 9, 12);
+
+int sum = values.stream()
+				.reduce(0, (i1, i2) -> i1 + i2);
+```
 #### 11. Legacy Runctional Interfaces
 
 
