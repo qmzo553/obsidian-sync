@@ -81,10 +81,35 @@ Path path = Paths.get("C:\\file.txt");
 Stream<String> streamOfStrings = Files.lines(path);
 Stream<String> streamWithCharset = Files.lines(path, Charset.forName("UTF-8")); 
 ```
-> The _Charset_ can be specified as an argument of the _lines()_ method.
+> Charset은 `lines()` 메서드의 인수로 지정할 수 있습니다.
 #### 3. Referencing a Stream
-
+> 중간 연산만 호출되는 한 스트림을 인스턴스화하고 액세스 가능한 참조를 가질 수 있습니다. 최종 연산을 실행하면 스트림에 액세스할 수 없습니다. 이를 설명하기 위해 일련의 작업을 연결하는 것이 최선의 방법이라는 것을 잠시 잊어 보겠습니다. 불필요한 번잡함은 있지만, 기술적으로 다음 코드는 유효합니다.
+```java
+Stream<String> stream = Stream.of("a", "b", "c").filter(element -> element.contains("b")); Optional<String> anyElement = stream.findAny();
+```
+>   그러나 최종 작업을 호출한 후에 동일한 참조를 재사용하려고 시도하면 IllegalStateException이 발생합니다.
+```java
+Optional<String> firstElement = stream.findFirst();
+```
+> IllegalStateException은 RuntimeException이므로 컴파일러가 문제를 신호화하지 않습니다. 따라서 Java 8 스트림을 재사용할 수 없다는 것을 기억하는 것이 매우 중요합니다.
+> 
+> 이러한 종류의 동작은 논리적입니다. 우리는 스트림을 함수형 스타일로 요소 소스에 대한 유한한 일련의 작업을 적용하기 위해 설계했기 때문에 요소를 저장하기 위한 것이 아닙니다.
+> 
+> 따라서 이전 코드가 올바르게 작동하도록 하려면 몇 가지 변경이 필요합니다:
+```java
+List<String> elements = Stream.of("a", "b", "c")
+								.filter(element -> element.contains("b"))
+								.collect(Collectors.toList());
+Optional<String> anyElement = elements.stream().findAny();
+Optional<String> firstElement = elements.stream().findFirst();
+```
 #### 4. Stream Pipeline
+> 데이터 소스의 요소에 대해 일련의 작업을 수행하고 결과를 집계하려면 세 가지 부분이 필요합니다: 소스, 중간 작업 및 최종 작업입니다.
+> 중간 작업은 새로운 수정된 스트림을 반환합니다. 예를 들어, 기존 스트림에서 일부 요소를 제외한 새로운 스트림을 생성하려면 `skip()` 메서드를 사용해야 합니다:
+```java
+Stream<String> onceModifiedStream = Stream.of("abcd", "bbcd", "cbcd").skip(1);
+```
+
 #### 5. Lazy Invocation
 #### 6. Order of Execution
 #### 7. Stream Reduction
