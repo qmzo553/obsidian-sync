@@ -166,12 +166,42 @@ long size = list.stream().map(element -> {
 > 만약 `skip()` 메서드와 `map()` 메서드의 순서를 변경한다면, 카운터는 하나만 증가합니다. 따라서 `map()` 메서드를 한 번만 호출합니다.
 ```java
 long size = list.stream().skip(2).map(element -> {
-wasCalled(); return element.substring(0, 3);
+	wasCalled();
+	return element.substring(0, 3);
 }).count();
 ```
+> 이것은 다음과 같은 규칙으로 이어집니다: 스트림의 크기를 줄이는 중간 작업은 각 요소에 적용되는 작업보다 앞에 배치해야 합니다.
+>  따라서 `skip(), filter(), distinct()`와 같은 메서드를 스트림 파이프라인의 맨 위에 유지해야 합니다.
 
 #### 7. Stream Reduction
+> API에는 스트림을 유형 또는 기본 유형으로 집계하는 많은 최종 작업이 있습니다: `count(), max(), min(), sum()` 등. 그러나 이러한 작업은 미리 정의된 구현에 따라 작동합니다. 그렇다면 개발자가 스트림의 축소 메커니즘을 사용자 정의해야 할 경우 어떻게 해야 할까요? 이를 위해 `reduce()`와 `collect()` 메서드 두 가지가 있습니다.
 ##### 7.1 The reduce() Method
+> 이 메서드에는 서명과 반환 유형에 따라 세 가지 변형이 있습니다. 다음과 같은 매개변수를 가질 수 있습니다:
+> 
+> - identity: 누적기의 초기값 또는 스트림이 비어 있고 누적할 것이 없을 때의 기본값
+>
+> - accumulator: 요소를 집계하는 논리를 지정하는 함수입니다. 누적기가 감소의 각 단계마다 새 값을 생성하기 때문에 새 값의 수는 스트림의 크기와 같으며 마지막 값만 유용합니다. 이는 성능에 좋지 않습니다.
+>
+> - combiner: 누적기의 결과를 집계하는 함수입니다. 우리는 병렬 모드에서만 combiner를 호출하여 서로 다른 스레드에서 누적기의 결과를 줄입니다.
+>
+> 이제 이 세 가지 메서드를 실제로 살펴보겠습니다:
+```java
+OptionalInt reduced = IntStream.range(1, 4).reduce((a, b) -> a + b);
+```
+> _reduced_ = 6 (1 + 2 + 3)
+```java
+int reducedTwoParams = IntStream.range(1, 4).reduce(10, (a, b) -> a + b);
+```
+> _reducedTwoParams_ = 16 (10 + 1 + 2 + 3)
+```java
+int reducedParams = Stream.of(1, 2, 3)
+						.reduce(10, (a, b) -> a + b, (a, b) -> {
+						 log.info("combiner was called");
+						  return a + b;
+					});
+```
+> 
+
 ##### 7.2. The collect() Method
 #### 8. Parallel Streams
 #### 9. Conclusion
