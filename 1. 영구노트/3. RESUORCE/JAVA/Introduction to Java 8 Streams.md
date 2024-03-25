@@ -93,7 +93,7 @@ Stream<String> stream = details.stream().flatMap(detail -> detail.getParts().str
 ```
 >  이 예시에서는 Detail 유형의 요소 목록이 있습니다. Detail 클래스에는 `List<String>`인 PARTS 필드가 포함되어 있습니다. `flatMap()` 메서드를 사용하여 PARTS 필드의 각 요소가 추출되고 새로운 결과 스트림에 추가됩니다. 그 후에는 초기 `Stream<Detail>`이 손실됩니다.
 ##### 3.4. Matching
-> 스트림 API는 일련의 요소를 일정한 조건에 따라 유효성 검사할 수 있는 편리한 도구를 제공합니다. 이를 위해 다음 중 하나의 메서드를 사용할 수 있습니다: anyMatch(), allMatch(), noneMatch(). 이들의 이름은 자명합니다. 이들은 불리언을 반환하는 최종 작업입니다.
+> 스트림 API는 일련의 요소를 일정한 조건에 따라 유효성 검사할 수 있는 편리한 도구를 제공합니다. 이를 위해 다음 중 하나의 메서드를 사용할 수 있습니다: `anyMatch(), allMatch(), noneMatch().` 이들의 이름은 자명합니다. 이들은 불리언을 반환하는 최종 작업입니다.
 ```java
 boolean isValid = list.stream().anyMatch(element -> element.contains("h")); // true boolean
 isValidOne = list.stream().allMatch(element -> element.contains("h")); // false boolean
@@ -110,7 +110,7 @@ Stream.empty().anyMatch(Objects::nonNull); // false
 ```
 > 마찬가지로, 이는 합리적인 동작입니다. 왜냐하면 이 조건을 만족하는 요소를 찾을 수 없기 때문입니다.
 ##### 3.5. Reduction
-> 스트림 API는 지정된 함수에 따라 일련의 요소를 어떤 값으로 줄이는 데 도움이 되는 reduce() 메서드를 제공합니다. 이 메서드는 두 개의 매개변수를 사용합니다: 첫 번째는 시작 값이고, 두 번째는 누산기 함수입니다.
+> 스트림 API는 지정된 함수에 따라 일련의 요소를 어떤 값으로 줄이는 데 도움이 되는 `reduce()` 메서드를 제공합니다. 이 메서드는 두 개의 매개변수를 사용합니다: 첫 번째는 시작 값이고, 두 번째는 누산기 함수입니다.
 > 예를 들어, `List<Integer>`가 있고 이 모든 요소의 합과 초기 Integer(이 예제에서는 23)을 가지고 싶다고 가정해보세요. 그렇다면 다음 코드를 실행할 수 있고 결과는 26이 될 것입니다 (23 + 1 + 1 + 1).
 ```java
 List<Integer> integers = Arrays.asList(1, 1, 1);
@@ -119,8 +119,12 @@ Integer reduced = integers.stream().reduce(23, (a, b) -> a + b);
 ##### 3.6. Collecting
 > 축소 작업은 Stream 유형의 collect() 메서드를 통해서도 제공될 수 있습니다. 이 작업은 스트림을 컬렉션이나 맵으로 변환하거나 스트림을 단일 문자열 형태로 표현할 때 매우 편리합니다. 거의 모든 일반적인 수집 작업에 대한 솔루션을 제공하는 유틸리티 클래스인 Collectors가 있습니다. 일부 복잡한 작업에 대해서는 사용자 정의 Collector를 만들 수도 있습니다.
 ```java
-
+List<String> resultList = 
+	list.stream()
+		.map(element -> element.toUpperCase())
+		.collect(Collectors.toList());
 ```
+> 다음 코드는 `Stream<String>`을 `List<String>`으로 축소하기 위해 최종 `collect()` 작업을 사용합니다.
 ### 출처(참고 문헌)
 - [https://www.baeldung.com/java-8-streams-introduction]
 
