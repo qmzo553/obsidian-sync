@@ -284,15 +284,24 @@ Set<Product> unmodifiableSet = productList.stream()
 > 특정 이유로 사용자 정의 수집기를 만들어야 할 경우, 가장 쉽고 간결한 방법은 Collector 유형의 of() 메서드를 사용하는 것입니다.
 ```java
 Collector<Product, ?, LinkedList<Product>> toLinkedList = 
-		Collector.of(LinkedList::new, LinkedList::add,
+	Collector.of(LinkedList::new, LinkedList::add,
 		(first, second) -> {
 			first.addAll(second);
 			return first;
 	 });
 	LinkedList<Product> linkedListOfPersons = productList.stream().collect(toLinkedList);
 ```
-
+> 이 예제에서는 Collector의 인스턴스가 `LinkedList<Person>`으로 축소되었습니다.
 #### 8. Parallel Streams
+> Java 8 이전에 병렬화는 복잡했습니다. ExecutorService와 ForkJoin의 등장으로 개발자의 일은 조금 더 간단해졌지만, 여전히 특정 executor를 만드는 방법, 실행하는 방법 등을 기억하는 것이 중요했습니다. Java 8은 함수형 스타일에서 병렬성을 달성하는 방법을 소개했습니다.
+> 
+> API는 병렬 모드로 작업을 수행하는 병렬 스트림을 생성할 수 있게 합니다. 스트림의 소스가 Collection이거나 배열인 경우 `pallelStream()` 메서드를 사용하여 이를 달성할 수 있습니다:
+```java
+Stream<Product> streamOfCollection = productList.parallelStream();
+boolean isParallel = streamOfCollection.isParallel();
+boolean bigPrice = streamOfCollection .map(product -> product.getPrice() * 12)
+									.anyMatch(price -> price > 200);
+```
 #### 9. Conclusion
 
 ### 출처(참고 문헌)
