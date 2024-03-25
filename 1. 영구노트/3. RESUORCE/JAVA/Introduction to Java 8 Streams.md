@@ -3,15 +3,15 @@
 ### 날짜 : 2024-03-25 08:30
 ----
 ### 메모
-> Overview
+#### 1. Overview
 > 이 문서에서는 Java 8에서 추가된 주요 기능 중 하나인 "스트림"에 대해 간단히 살펴보겠습니다.
 > 스트림이란 무엇인지 설명하고, 간단한 예제를 통해 스트림의 생성과 기본적인 작업을 소개하겠습니다.
 
-> Stream API
+#### 2. Stream API
 > Java 8에서의 주요 새로운 기능 중 하나는 스트림 기능(`java.util.stream`)의 도입입니다. 이 기능은 요소 시퀀스를 처리하기 위한 클래스를 포함합니다.
 > 중심 API 클래스는 `Stream<T>`입니다. 다음 섹션에서는 기존 데이터 제공 소스를 사용하여 스트림을 생성하는 방법을 보여줍니다.
  
-> 1. Stream Creation
+##### 1. Stream Creation
 >  다양한 요소 소스에서 스트림을 생성할 수 있습니다. 예를 들어, 컬렉션 또는 배열에서 `stream()` 및 `of()` 메서드를 사용할 수 있습니다:
 ```java
 String[] arr = new String[]{"a", "b", "c"};
@@ -86,7 +86,12 @@ Stream<Path> stream = uris.stream().map(uri -> Paths.get(uri));
 ```
 >  따라서 위의 코드는 초기 스트림의 각 요소에 특정 람다 표현식을 적용하여 `Stream<String>`을 `Stream<Path>`로 변환합니다.
 >  만약 각 요소가 자체 시퀀스의 요소를 포함하고 있고, 이러한 내부 요소들의 스트림을 생성하려면 `flatMap()` 메서드를 사용해야 합니다.
-
+```java
+List<Detail> details = new ArrayList<>();
+details.add(new Detail());
+Stream<String> stream = details.stream().flatMap(detail -> detail.getParts().stream());
+```
+>  이 예시에서는 Detail 유형의 요소 목록이 있습니다. Detail 클래스에는 `List<String>`인 PARTS 필드가 포함되어 있습니다. `flatMap()` 메서드를 사용하여 PARTS 필드의 각 요소가 추출되고 새로운 결과 스트림에 추가됩니다. 그 후에는 초기 `Stream<Detail>`이 손실됩니다.
 ### 출처(참고 문헌)
 - [https://www.baeldung.com/java-8-streams-introduction]
 
