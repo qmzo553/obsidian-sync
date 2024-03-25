@@ -50,10 +50,40 @@ Stream<String> streamGenerated = Stream.generate(() -> "element").limit(10);
 ```java
 Stream<Integer> streamIterated = Stream.iterate(40, n -> n + 2).limit(20);
 ```
-##### 2.7. Streamof Primitives
+> 결과 스트림의 첫 번째 요소는 iterate() 메서드의 첫 번째 매개변수입니다. 다음 요소를 생성할 때마다 지정된 함수가 이전 요소에 적용됩니다. 위의 예제에서 두 번째 요소는 42가 됩니다.
+##### 2.7. Stream of Primitives
+> Java 8에서는 세 가지 기본 유형(int, long 및 double)의 스트림을 생성할 수 있는 기능을 제공합니다. `Stream<T>`는 제네릭 인터페이스이므로 제네릭과 기본 유형을 형식 매개변수로 사용할 수 없습니다. 따라서 IntStream, LongStream, DoubleStream 세 가지 새로운 특수 인터페이스가 만들어졌습니다. 새로운 인터페이스를 사용하면 불필요한 자동 박싱을 줄일 수 있어 생산성이 향상됩니다.
+```java
+IntStream intStream = IntStream.range(1, 3); LongStream longStream = LongStream.rangeClosed(1, 3);
+```
+> range(int startInclusive, int endExclusive) 메서드는 첫 번째 매개변수부터 두 번째 매개변수까지의 정렬된 스트림을 생성합니다. 연속 요소의 값을 1씩 증가시킵니다. 결과에는 마지막 매개변수가 포함되지 않습니다. 이것은 시퀀스의 상한만을 나타냅니다.
+> 
+> rangeClosed(int startInclusive, int endInclusive) 메서드는 두 번째 매개변수가 포함된다는 점을 제외하고 동일한 작업을 수행합니다. 이 두 메서드를 사용하여 기본 유형의 스트림을 생성할 수 있습니다.
+> 
+> Java 8부터 Random 클래스는 기본 유형의 스트림을 생성하기 위한 다양한 메서드를 제공합니다. 예를 들어, 다음 코드는 세 개의 요소를 포함하는 DoubleStream을 생성합니다:
+```java
+Random random = new Random();
+DoubleStream doubleStream = random.doubles(3);
+```
 ##### 2.8. Stream of String
+> 우리는 또한 String을 스트림을 생성하는 소스로 사용할 수 있습니다. 이를 위해 String 클래스의 chars() 메서드를 사용합니다. JDK에는 CharStream을 나타내는 인터페이스가 없기 때문에, 대신 IntStream을 사용하여 문자 스트림을 나타냅니다.
+```java
+IntStream streamOfChars = "abc".chars();
+```
+> 다음 예제는 지정된 정규식에 따라 문자열을 하위 문자열로 분할합니다:
+```java
+Stream<String> streamOfString = Pattern.compile(", ").splitAsStream("a, b, c");
+```
 ##### 2.9. Stream of File
+> 또한 Java NIO 클래스 Files를 사용하여 lines() 메서드를 통해 텍스트 파일의 `Stream<String>`을 생성할 수 있습니다. 텍스트의 각 줄은 스트림의 요소가 됩니다.
+```java
+Path path = Paths.get("C:\\file.txt");
+Stream<String> streamOfStrings = Files.lines(path);
+Stream<String> streamWithCharset = Files.lines(path, Charset.forName("UTF-8")); 
+```
+> The _Charset_ can be specified as an argument of the _lines()_ method.
 #### 3. Referencing a Stream
+
 #### 4. Stream Pipeline
 #### 5. Lazy Invocation
 #### 6. Order of Execution
