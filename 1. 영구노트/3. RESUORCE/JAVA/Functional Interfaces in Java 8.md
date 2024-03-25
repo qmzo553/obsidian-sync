@@ -17,7 +17,7 @@
 > SAM(Single Abstract Method)을 갖는 모든 인터페이스는 함수형 인터페이스이며, 해당 구현은 람다 표현식으로 처리될 수 있습니다.
 > 
 > Java 8의 기본 메서드는 추상적이지 않으며 세어지지 않습니다. 함수형 인터페이스는 여전히 여러 기본 메서드를 가질 수 있습니다. 이를 Function의 문서를 통해 확인할 수 있습니다.
-#### 5. Primitive Function Specializations
+> 
 > 가장 간단하고 일반적인 람다의 경우는 하나의 값만 받고 다른 값을 반환하는 메서드를 가진 함수형 인터페이스입니다. 이러한 단일 인수 함수는 인수와 반환 값의 유형에 의해 매개변수화된 Function 인터페이스에 의해 나타납니다:
 ```java
 public interface Function<T, R> { … }
@@ -34,7 +34,42 @@ Integer value = nameMap.computeIfAbsent("John", s -> s.length());
 Integer value = nameMap.computeIfAbsent("John", String::length);
 ```
 > Function 인터페이스에는 여러 함수를 결합하여 하나의 함수로 만들고 순차적으로 실행할 수 있는 기본 compose 메서드도 있습니다.
+```java
+Function<Integer, String> intToString = Object::toString;
+Function<String, String> quote = s -> "'" + s + "'";
+Function<Integer, String> quoteIntToString = quote.compose(intToString);
+assertEquals("'5'", quoteIntToString.apply(5));
+```
+> quoteIntToString 함수는 intToString 함수의 결과에 적용된 quote 함수의 결합입니다.
 #### 6. Two-Arity Function Specializations
+> 원시 유형은 제네릭 유형 인수가 될 수 없기 때문에 가장 일반적으로 사용되는 원시 유형 double, int, long 및 그들의 인수와 반환 유형의 조합에 대한 Function 인터페이스의 버전이 있습니다:
+> - IntFunction, LongFunction, DoubleFunction: 지정된 유형의 인수, 반환 유형이 매개변수화됨
+> - ToIntFunction, ToLongFunction, ToDoubleFunction: 반환 유형이 지정된 유형, 인수가 매개변수화됨 
+> - DoubleToIntFunction, DoubleToLongFunction, IntToDoubleFunction, IntToLongFunction, LongToIntFunction, LongToDoubleFunction: 인수와 반환 유형이 모두 원시 유형으로 정의되며,
+> 그 이름에서 지정된대로 예를 들어, short를 취하고 byte를 반환하는 함수에 대한 기본적인 함수형 인터페이스가 없지만 직접 작성할 수 있습니다:
+```java
+@FunctionalInterface public interface ShortToByteFunction {
+	byte applyAsByte(short s);
+}
+```
+> 이제 ShortToByteFunction에서 정의한 규칙을 사용하여 short 배열을 byte 배열로 변환하는 메서드를 작성할 수 있습니다:
+```java
+public byte[] transformArray(short[] array, ShortToByteFunction function) {
+    byte[] transformedArray = new byte[array.length];
+    for (int i = 0; i < array.length; i++) {
+        transformedArray[i] = function.applyAsByte(array[i]);
+    }
+    return transformedArray;
+}
+```
+> 다음은 short 배열을 2배로 곱한 byte 배열로 변환하는 데 사용하는 방법입니다:
+```java
+short[] array = {(short) 1, (short) 2, (short) 3};
+byte[] transformedArray = transformArray(array, s -> (byte) (s * 2));
+
+byte[] expectedArray = {(byte) 2, (byte) 4, (byte) 6};
+assertArrayEquals(expectedArray, transformedArray);
+```
 #### 7. Suppliers
 #### 8. Consumers
 #### 9. Predicates
