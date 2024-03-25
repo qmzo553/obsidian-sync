@@ -21,12 +21,35 @@ public Stream<String> streamOf(List<String> list) {
 ##### 2.2. Stream Of Collection
 > 우리는 컬렉션(Collection), 리스트(List), 세트(Set)와 같은 모든 종류의 컬렉션으로부터 스트림을 생성할 수도 있습니다.
 ```java
-
+Collection<String> collection = Arrays.asList("a", "b", "c"); Stream<String> streamOfCollection = collection.stream();
 ```
 ##### 2.3. Stream of Array
+> 배열 또한 스트림의 소스가 될 수 있습니다.
+```java
+Stream<String> streamOfArray = Stream.of("a", "b", "c");
+```
+> 기존 배열이나 배열의 일부를 사용하여 스트림을 생성할 수도 있습니다.
+```java
+String[] arr = new String[]{"a", "b", "c"};
+Stream<String> streamOfArrayFull = Arrays.stream(arr);
+Stream<String> streamOfArrayPart = Arrays.stream(arr, 1, 3);
+```
 ##### 2.4. Stream.builder()
+> 빌더를 사용할 때는 원하는 유형을 명시적으로 지정해야 합니다. 그렇지 않으면 `build()` 메서드가 `Stream<Object>`의 인스턴스를 생성합니다.
+```java
+Stream<String> streamBuilder = Stream.<String> builder().add("a").add("b").add("c").build();
+```
 ##### 2.5. Stream.generate()
+> `generate()` 메서드는 요소 생성을 위한 `Supplier<T>`를 인수로 받습니다. 결과 스트림이 무한하기 때문에 개발자는 원하는 크기를 명시해야 합니다. 그렇지 않으면 generate()4 메서드는 43메모리 한계에 도달할 때까지 작동합니다.
+```java
+Stream<String> streamGenerated = Stream.generate(() -> "element").limit(10);
+```
+> 위의 코드는 "element"라는 값을 가진 문자열을 10개 포함하는 시퀀스를 생성합니다.
 ##### 2.6. Stream.iterate()
+> 무한 스트림을 생성하는 또 다른 방법은 `iterate()` 메서드를 사용하는 것입니다.
+```java
+Stream<Integer> streamIterated = Stream.iterate(40, n -> n + 2).limit(20);
+```
 ##### 2.7. Streamof Primitives
 ##### 2.8. Stream of String
 ##### 2.9. Stream of File
