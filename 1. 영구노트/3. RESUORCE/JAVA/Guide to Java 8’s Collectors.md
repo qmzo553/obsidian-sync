@@ -51,9 +51,33 @@ assertThatThrownBy(() -> result.add("foo"))
 > 요소의 시퀀스를 나타내는 Stream 인스턴스를 생성 한 다음 이를 Set 인스턴스로 수집해 보겠습니다:
 ```java
 Set<String> result = givenList.stream()
-  .collect(toSet());
+							  .collect(toSet());
+```
+> Set은 중복 요소를 포함하지 않습니다. 우리의 컬렉션에 서로 동일한 요소가 포함되어 있으면, 결과 Set에는 한 번만 나타납니다. 아래는 이를 보여주는 예제 코드입니다:
+```java
+List<String> listWithDuplicates = Arrays.asList("a", "bb", "c", "d", "bb");
+Set<String> result = listWithDuplicates.stream().collect(toSet());
+assertThat(result).hasSize(4);
 ```
 ###### 3.2.1. Collectors.toUnmodifiableSet()
+> Java 10부터는 toUnmodifiableSet() 수집기를 사용하여 변경할 수 없는 Set을 쉽게 만들 수 있습니다. 아래는 이를 사용하는 예제 코드입니다:
+```java
+Set<String> result = givenList.stream()
+							  .collect(toUnmodifiableSet());
+```
+> 다음은 수정 시도가 UnsupportedOperationException으로 끝날 것임을 나타냅니다:
+```java
+assertThatThrownBy(() -> result.add("foo"))
+							  .isInstanceOf(UnsupportedOperationException.class);
+```
+> 우리가 이미 언급한 바와 같이, toSet 및 toList 수집기를 사용할 때, 그들의 구현에 대해 가정을 할 수 없습니다. 사용자 정의 구현을 사용하려면 선택한 컬렉션을 제공하여 toCollection 수집기를 사용해야 합니다.
+> 
+> 이제 요소 시퀀스를 나타내는 Stream 인스턴스를 생성하고, 그것들을 LinkedList 인스턴스로 수집해 봅시다:
+```java
+List<String> result = givenList.stream()
+							  .collect(toCollection(LinkedList::new))
+```
+> 이는 변경할 수 없는 컬렉션과는 작동하지 않음을 주의하세요. 이런 경우에는 사용자 정의 수집기 구현을 작성하거나 collectingAndThen을 사용해야 합니다.
 ##### 3.3. Collectors.toCollection()
 ##### 3.4. Collectors.toMap()
 ###### 3.4.1. Collectors.toUnmodifiableMap()
