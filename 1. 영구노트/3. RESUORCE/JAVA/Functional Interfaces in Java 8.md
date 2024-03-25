@@ -41,7 +41,7 @@ Function<Integer, String> quoteIntToString = quote.compose(intToString);
 assertEquals("'5'", quoteIntToString.apply(5));
 ```
 > quoteIntToString 함수는 intToString 함수의 결과에 적용된 quote 함수의 결합입니다.
-#### 6. Two-Arity Function Specializations
+#### 5. Primitive Function Specializations
 > 원시 유형은 제네릭 유형 인수가 될 수 없기 때문에 가장 일반적으로 사용되는 원시 유형 double, int, long 및 그들의 인수와 반환 유형의 조합에 대한 Function 인터페이스의 버전이 있습니다:
 > - IntFunction, LongFunction, DoubleFunction: 지정된 유형의 인수, 반환 유형이 매개변수화됨
 > - ToIntFunction, ToLongFunction, ToDoubleFunction: 반환 유형이 지정된 유형, 인수가 매개변수화됨 
@@ -70,8 +70,62 @@ byte[] transformedArray = transformArray(array, s -> (byte) (s * 2));
 byte[] expectedArray = {(byte) 2, (byte) 4, (byte) 6};
 assertArrayEquals(expectedArray, transformedArray);
 ```
+#### 6. Two-Arity Function Specializations
+> 두 개의 인수로 람다를 정의하려면 이름에 "Bi" 키워드가 포함된 추가적인 인터페이스를 사용해야 합니다: BiFunction, ToDoubleBiFunction, ToIntBiFunction 및 ToLongBiFunction 등이 있습니다.
+> 
+> BiFunction은 두 인수와 반환 유형이 매개변수화되어 있으며, ToDoubleBiFunction 및 기타 유형은 원시 값을 반환할 수 있습니다.
+> 
+> 표준 API에서이 인터페이스를 사용하는 전형적인 예 중 하나는 Map.replaceAll 메서드입니다. 이 메서드는 맵의 모든 값을 계산된 값으로 대체할 수 있습니다.
+> 
+> 키와 이전 값이 주어졌을 때 새로운 급여를 계산하고 반환하는 BiFunction 구현을 사용해 봅시다.
+```java
+Map<String, Integer> salaries = new HashMap<>();
+salaries.put("John", 40000);
+salaries.put("Freddy", 30000);
+salaries.put("Samuel", 50000);
+
+salaries.replaceAll((name, oldValue) -> name.equals("Freddy") ? oldValue : oldValue + 10000);
+```
 #### 7. Suppliers
+> Supplier 함수형 인터페이스는 인수를 전혀 사용하지 않는 또 다른 Function 특수화입니다. 일반적으로 값을 게으르게 생성하는 데 사용됩니다. 예를 들어, double 값을 제곱하는 함수를 정의해 봅시다. 이 함수는 값 자체를 받지 않고 해당 값을 공급하는 Supplier를 받습니다:
+```java
+public double squareLazy(Supplier<Double> lazyValue) {
+    return Math.pow(lazyValue.get(), 2);
+}
+```
+> 이를 통해 Supplier 구현을 사용하여이 함수를 호출하는 인수를 게으르게 생성할 수 있습니다. 이는 인수 생성에 상당한 시간이 소요되는 경우 유용할 수 있습니다. 우리는 Guava의 sleepUninterruptibly 메서드를 사용하여 이를 시뮬레이션해 볼 것입니다:
+```java
+Supplier<Double> lazyValue = () -> {
+    Uninterruptibles.sleepUninterruptibly(1000, TimeUnit.MILLISECONDS);
+    return 9d;
+};
+
+Double valueSquared = squareLazy(lazyValue);
+```
+> Supplier의 또 다른 사용 사례는 시퀀스 생성을 위한 로직을 정의하는 것입니다. 이를 보여주기 위해 정적 Stream.generate 메서드를 사용하여 피보나치 수의 Stream을 생성해 보겠습니다:
+```java
+int[] fibs = {0, 1};
+Stream<Integer> fibonacci = Stream.generate(() -> {
+    int result = fibs[1];
+    int fib3 = fibs[0] + fibs[1];
+    fibs[0] = fibs[1];
+    fibs[1] = fib3;
+    return result;
+});
+```
+> Stream.generate 메서드에 전달하는 함수는 Supplier 함수형 인터페이스를 구현합니다. 제너레이터로 유용하게 사용하려면 보통 어떤 종류의 외부 상태가 필요합니다. 이 경우에는 상태로 마지막 두 개의 피보나치 수가 있습니다.
+> 
+> 이 상태를 구현하기 위해 우리는 변수 쌍 대신 배열을 사용합니다. **람다 내부에서 사용되는 모든 외부 변수는 사실상 final이어야 하기 때문입니다.**
+> 
+> Supplier 함수형 인터페이스의 다른 특수화로는 BooleanSupplier, DoubleSupplier, LongSupplier 및 IntSupplier가 있으며, 이들의 반환 유형은 해당 원시 형식입니다.
 #### 8. Consumers
+> Supplier와 달리 Consumer는 일반화된 인수를 받고 아무 것도 반환하지 않습니다. 이는 부작용을 나타내는 함수입니다.
+> 
+> 예를 들어, 이름 목록에서 모든 사람을 인사하는 것을 생각해 보겠습니다. 이를 위해 List.forEach 메서드에 전달되는 람다는 Consumer 함수형 인터페이스를 구현합니다:
+```java
+
+```
+```
 #### 9. Predicates
 #### 10. Operators
 #### 11. Legacy Runctional Interfaces
