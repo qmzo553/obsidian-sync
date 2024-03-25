@@ -200,9 +200,39 @@ int reducedParams = Stream.of(1, 2, 3)
 						  return a + b;
 					});
 ```
-> 
+> 결과는 이전 예제와 동일하게 (16)이며 combiner가 호출되지 않았으므로 로그가 없습니다. combiner를 작동하려면 스트림을 병렬로 처리해야 합니다:
+```java
+int reducedParallel = Arrays.asList(1, 2, 3).parallelStream()
+							.reduce(10, (a, b) -> a + b, (a, b) -> {
+							 log.info("combiner was called");
+							  return a + b;
+						});
+```
+> 여기서 결과는 다릅니다(36) 그리고 combiner는 두 번 호출되었습니다. 
+> 여기서 축소는 다음 알고리즘에 의해 작동합니다: 누적기가 스트림의 각 요소를 identity에 추가하여 세 번 실행됩니다. 
+> 이러한 작업은 병렬로 수행됩니다. 결과적으로 (10 + 1 = 11; 10 + 2 = 12; 10 + 3 = 13;)을 얻게 됩니다. 
+> 이제 combiner는 이 세 결과를 병합할 수 있습니다. 이를 위해 두 번의 반복이 필요합니다 (12 + 13 = 25; 25 + 11 = 36).
 
 ##### 7.2. The collect() Method
+> 스트림의 축소는 또 다른 최종 작업인 collect() 메서드를 사용하여 실행할 수도 있습니다. 이 메서드는 축소 메커니즘을 지정하는 Collector 유형의 인수를 허용합니다. 가장 일반적인 작업에 대해 이미 만들어진 사전 정의된 수집기가 있습니다. 이들은 Collectors 유형의 도움으로 액세스할 수 있습니다.
+> 
+> 이 섹션에서는 다음 List를 모든 스트림의 소스로 사용합니다:
+```java
+List<Product> productList = Arrays.asList(
+	new Product(23, "potatoes"),
+	new Product(14, "orange"), new Product(13, "lemon"),
+	new Product(23, "bread"), new Product(13, "sugar"));
+```
+> 스트림을 컬렉션(Collection, List 또는 Set)으로 변환하는 방법은 `collect()` 메서드를 사용하는 것입니다. 이 메서드는 Collector를 인수로 받습니다. 다음은 List로의 변환 예시입니다:
+```java
+List<String> collectorCollection =
+	productList.stream().map(Product::getName).collect(Collectors.toList());
+```
+> 스트림의 요소를 문자열로 축소하는 방법 중 하나는 collect() 메서드를 사용하여 문자열 수집기를 적용하는 것입니다.
+> 이를 사용하면 요소를 하나의 문자열로 결합할 수 있습니다. 예를 들어:
+```java
+
+```
 #### 8. Parallel Streams
 #### 9. Conclusion
 
