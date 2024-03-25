@@ -231,8 +231,25 @@ List<String> collectorCollection =
 > 스트림의 요소를 문자열로 축소하는 방법 중 하나는 collect() 메서드를 사용하여 문자열 수집기를 적용하는 것입니다.
 > 이를 사용하면 요소를 하나의 문자열로 결합할 수 있습니다. 예를 들어:
 ```java
-
+String listToString = productList.stream()
+								.map(Product::getName)
+								.collect(Collectors.joining(", ", "[", "]"));
 ```
+> 스트림의 모든 숫자 요소의 평균 값을 처리하는 방법은 `Collectors.averagingDouble()`, `Collectors.averagingInt()`, 또는 `Collectors.averagingLong()`을 사용하는 것입니다.
+> 
+>  예를 들어, `averagingDouble()`을 사용하여 double 타입 요소의 평균 값을 계산하는 방법은 다음과 같습니다:
+```java
+double averagePrice = productList.stream()
+  .collect(Collectors.averagingInt(Prodeuct::getPrice));
+```
+> 스트림의 모든 숫자 요소의 합을 처리하는 방법은 `Collectors.summingDouble()`, `Collectors.summingInt()`, 또는 `Collectors.summingLong()`을 사용하는 것입니다.
+> 
+> 예를 들어, `summingDouble()`을 사용하여 double 타입 요소의 합을 계산하는 방법은 다음과 같습니다:
+```java
+int summingPrice = productList.stream() .collect(Collectors.summingInt(Product::getPrice));
+```
+> 메서드 averagingXX(), summingXX() 및 summarizingXX()은 기본 유형 (int, long, double) 및 해당 래퍼 클래스 (Integer, Long, Double)와 함께 사용할 수 있습니다. 이러한 메서드의 한 가지 더 강력한 기능은 매핑을 제공하는 것입니다. 결과적으로, 개발자는 `collect()` 메서드 이전에 추가적인 `map()` 작업을 사용할 필요가 없습니다.
+
 #### 8. Parallel Streams
 #### 9. Conclusion
 
