@@ -93,8 +93,32 @@ Map<String, Integer> result = givenList.stream()
 									  .collect(toMap(Function.identity(), String::length))
 ```
 ###### 3.4.1. Collectors.toUnmodifiableMap()
+> 리스트와 세트와 유사하게, Java 10에서는 Stream 요소를 변경할 수 없는 맵으로 수집하는 간단한 방법을 소개했습니다.
+```java
+Map<String, Integer> result = givenList.stream()
+						.collect(toUnmodifiableMap(Function.identity(), String::length))
+```
+> 우리가 볼 수 있듯이, 결과 맵에 새 항목을 넣으려고 하면 UnsupportedOperationException을 받게 됩니다.
+```java
+assertThatThrownBy(() -> result.put("foo", 3))
+							.isInstanceOf(UnsupportedOperationException.class);
+```
 ##### 3.5. Collectors.collectingAndThen()
+> CollectingAndThen은 수집이 끝난 후 결과에 대해 바로 다른 작업을 수행할 수 있게 해주는 특별한 수집기입니다.
+> 
+> 스트림 요소를 List 인스턴스로 수집한 다음 결과를 ImmutableList 인스턴스로 변환해 봅시다.
+```java
+List<String> result = givenList.stream()
+						  .collect(collectingAndThen(toList(), ImmutableList::copyOf))
+```
 ##### 3.6. Collectors.joining()
+> Joining 수집기는 `Stream<String>` 요소를 결합하는 데 사용할 수 있습니다.
+> 
+> 다음과 같이 그들을 함께 결합할 수 있습니다:
+```java
+  .collect(joining());
+
+```
 ##### 3.7. Collectors.counting()
 ##### 3.8. Collectors.summarizingdouble / Long / Int()
 ##### 3.9. Collectors.averagingDouble / Long / int()
