@@ -12,9 +12,47 @@
 > 
 > 이 작업을 위한 전략은 Collector 인터페이스 구현을 통해 제공됩니다.
 #### 3. Collectors
+> 모든 미리 정의된 구현은 Collectors 클래스에서 찾을 수 있습니다. 이러한 구현을 활용하기 위해 일반적으로 다음과 같은 정적 임포트를 사용하는 것이 일반적입니다.
+```java
+import static java.util.stream.Collectors.*;
+```
+> 우리는 원하는 단일 임포트 컬렉터도 사용할 수 있습니다.
+```java
+import static java.util.stream.Collectors.toList;
+import static java.util.stream.Collectors.toMap;
+import static java.util.stream.Collectors.toSet;
+```
+> 다음 예제에서는 다음 목록을 재사용합니다:
+```java
+List<String> givenList = Arrays.asList("a", "bb", "ccc", "dd");
+```
 ##### 3.1. Collectors.toList()
+> toList 수집기는 모든 스트림 요소를 List 인스턴스로 수집하는 데 사용할 수 있습니다. 이 메서드로 특정 List 구현을 가정할 수 없다는 것을 기억하는 것이 중요합니다. 이를 더 제어하려면 toCollection을 사용할 수 있습니다.
+> 
+> 요소 시퀀스를 나타내는 Stream 인스턴스를 생성한 다음 이를 List 인스턴스로 수집해 보겠습니다:
+```java
+List<String> result = givenList.stream()
+							.collect(toList());
+```
 ###### 3.1.1. Collectors.toUnmodifiableList()
+> Java 10에서는 Stream 요소를 변경할 수 없는 List로 누적하는 편리한 방법을 소개했습니다.
+```java
+List<String> result = givenList.stream()
+							  .collect(toUnmodifiableList());
+```
+> 이제 결과 List를 수정하려고하면 UnsupportedOperationException이 발생합니다.
+```java
+assertThatThrownBy(() -> result.add("foo"))
+							  .isInstanceOf(UnsupportedOperationException.class);
+```
 ##### 3.2. Collectors.toSet()
+> toList 수집기는 모든 Stream 요소를 List 인스턴스로 수집하는 데 사용할 수 있습니다. 이 방법으로 특정 List 구현을 가정할 수 없습니다. 더 많은 제어를 원한다면 toCollection을 사용할 수 있습니다.
+> 
+> 요소의 시퀀스를 나타내는 Stream 인스턴스를 생성 한 다음 이를 Set 인스턴스로 수집해 보겠습니다:
+```java
+Set<String> result = givenList.stream()
+  .collect(toSet());
+```
 ###### 3.2.1. Collectors.toUnmodifiableSet()
 ##### 3.3. Collectors.toCollection()
 ##### 3.4. Collectors.toMap()
