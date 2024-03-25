@@ -70,6 +70,7 @@ Set<String> result = givenList.stream()
 assertThatThrownBy(() -> result.add("foo"))
 							  .isInstanceOf(UnsupportedOperationException.class);
 ```
+##### 3.3. Collectors.toCollection()
 > 우리가 이미 언급한 바와 같이, toSet 및 toList 수집기를 사용할 때, 그들의 구현에 대해 가정을 할 수 없습니다. 사용자 정의 구현을 사용하려면 선택한 컬렉션을 제공하여 toCollection 수집기를 사용해야 합니다.
 > 
 > 이제 요소 시퀀스를 나타내는 Stream 인스턴스를 생성하고, 그것들을 LinkedList 인스턴스로 수집해 봅시다:
@@ -78,8 +79,19 @@ List<String> result = givenList.stream()
 							  .collect(toCollection(LinkedList::new))
 ```
 > 이는 변경할 수 없는 컬렉션과는 작동하지 않음을 주의하세요. 이런 경우에는 사용자 정의 수집기 구현을 작성하거나 collectingAndThen을 사용해야 합니다.
-##### 3.3. Collectors.toCollection()
 ##### 3.4. Collectors.toMap()
+> toMap 수집기는 Stream 요소를 Map 인스턴스로 수집하는 데 사용할 수 있습니다. 이를 위해 두 가지 함수를 제공해야 합니다:
+> 
+> - keyMapper
+> - valueMapper
+  >
+  우리는 keyMapper를 사용하여 Stream 요소에서 Map 키를 추출하고, valueMapper를 사용하여 주어진 키에 연관된 값을 추출할 것입니다.
+>
+> 이제 그 요소들을 문자열을 키로 하고 그 길이를 값으로 하는 Map으로 수집해 봅시다:
+```java
+Map<String, Integer> result = givenList.stream()
+									  .collect(toMap(Function.identity(), String::length))
+```
 ###### 3.4.1. Collectors.toUnmodifiableMap()
 ##### 3.5. Collectors.collectingAndThen()
 ##### 3.6. Collectors.joining()
