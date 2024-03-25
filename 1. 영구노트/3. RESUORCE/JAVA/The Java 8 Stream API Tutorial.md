@@ -302,7 +302,21 @@ boolean isParallel = streamOfCollection.isParallel();
 boolean bigPrice = streamOfCollection .map(product -> product.getPrice() * 12)
 									.anyMatch(price -> price > 200);
 ```
-#### 9. Conclusion
+> 만약 스트림의 소스가 컬렉션 또는 배열이 아닌 경우, parallel() 메서드를 사용해야 합니다.
+```java
+IntStream intStreamParallel = IntStream.range(1, 150).parallel();
+boolean isParallel = intStreamParallel.isParallel();
+```
+> Stream API는 내부적으로 작업을 병렬로 실행하기 위해 ForkJoin 프레임워크를 자동으로 사용합니다. 기본적으로 일반적인 스레드 풀이 사용되며 (최소한 현재까지는) 사용자 정의 스레드 풀을 할당하는 방법은 없습니다. 이를 해결하기 위해서는 사용자 정의 병렬 수집기를 사용해야 합니다.
+> 
+> 병렬 모드에서 스트림을 사용할 때는 블로킹 작업을 피해야 합니다. 또한 작업이 비슷한 시간이 소요될 때 병렬 모드를 사용하는 것이 가장 좋습니다. 하나의 작업이 다른 작업보다 훨씬 더 오래 걸리면 전체 애플리케이션의 워크플로우가 느려질 수 있습니다.
+> 
+> 병렬 모드의 스트림은 sequential() 메서드를 사용하여 순차 모드로 다시 변환할 수 있습니다.
+```java
+IntStream intStreamSequential = intStreamParallel.sequential();
+boolean isParallel = intStreamSequential.isParallel();
+```
+
 
 ### 출처(참고 문헌)
 -
