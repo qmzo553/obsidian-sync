@@ -72,10 +72,20 @@ list.add("Thursday");
 list.add("");
 list.add("");
 ```
->  아래 코드는 'List<String>의 Stream<String>을 생성하고, 이 스트림에서 "d" 문자를 포함하는 모든 요소를 찾아 필터링된 요소만 포함하는 새로운 스트림을 생성합니다:
+>  아래 코드는 `List<String>`의 `Stream<String>`을 생성하고, 이 스트림에서 "d" 문자를 포함하는 모든 요소를 찾아 필터링된 요소만 포함하는 새로운 스트림을 생성합니다:
 ```java
 Stream<String> stream = list.stream().filter(element -> element.contains("d"));
 ```
+
+> 3.3 Mapping
+>  특별한 함수를 적용하여 스트림의 요소를 변환하고, 이러한 새로운 요소들을 스트림으로 수집하기 위해 `map()` 메서드를 사용할 수 있습니다.
+```java
+List<String> uris = new ArrayList<>();
+uris.add("C:\\My.txt");
+Stream<Path> stream = uris.stream().map(uri -> Paths.get(uri));
+```
+>  따라서 위의 코드는 초기 스트림의 각 요소에 특정 람다 표현식을 적용하여 `Stream<String>`을 `Stream<Path>`로 변환합니다.
+>  만약 각 요소가 자체 시퀀스의 요소를 포함하고 있고, 이러한 내부 요소들의 스트림을 생성하려면 `flatMap()` 메서드를 사용해야 합니다.
 
 ### 출처(참고 문헌)
 - [https://www.baeldung.com/java-8-streams-introduction]
