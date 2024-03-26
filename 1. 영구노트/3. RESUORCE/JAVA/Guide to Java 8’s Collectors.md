@@ -116,11 +116,55 @@ List<String> result = givenList.stream()
 > 
 > 다음과 같이 그들을 함께 결합할 수 있습니다:
 ```java
-  .collect(joining());
-
+String result = givenList.stream()
+						.collect(joining());
+```
+> 결과는 다음과 같습니다:
+```java
+"abbcccdd"
+```
+> 우리는 사용자 정의 구분 기호, 접두사, 접미사를 지정할 수도 있습니다:
+```java
+String result = givenList.stream()
+						.collect(joining(" "));
+```
+> 결과는 다음과 같습니다:
+```java
+"a bb ccc dd"
+```
+> 우리는 또한 다음과 같이 작성할 수도 있습니다:
+```java
+String result = givenList.stream()
+					  .collect(joining(" ", "PRE-", "-POST"));
+```
+>  결과는 다음과 같습니다:
+```java
+"PRE-a bb ccc dd-POST"
 ```
 ##### 3.7. Collectors.counting()
+> Counting은 모든 스트림 요소의 개수를 세는 간단한 수집기입니다.
+> 
+> 이제 다음과 같이 작성할 수 있습니다:
+```java
+Long result = givenList.stream()
+					  .collect(counting());
+```
 ##### 3.8. Collectors.summarizingdouble / Long / Int()
+> SummarizingDouble/Long/Int는 추출된 요소의 숫자 데이터에 대한 통계 정보를 포함하는 특수한 클래스를 반환하는 수집기입니다.
+> 
+> 문자열 길이에 대한 정보를 얻을 수 있습니다. 다음과 같이 수행합니다:
+```java
+DoubleSummaryStatistics result = givenList.stream()
+										  .collect(summarizingDouble(String::length));
+```
+> 이 경우에는 다음이 참일 것입니다:
+```java
+assertThat(result.getAverage()).isEqualTo(2);
+assertThat(result.getCount()).isEqualTo(4);
+assertThat(result.getMax()).isEqualTo(3);
+assertThat(result.getMin()).isEqualTo(1);
+assertThat(result.getSum()).isEqualTo(8);
+```
 ##### 3.9. Collectors.averagingDouble / Long / int()
 ##### 3.10. Collectors.summingDouble / Long / int()
 ##### 3.11. Collectors.maxBy() / minBy()
