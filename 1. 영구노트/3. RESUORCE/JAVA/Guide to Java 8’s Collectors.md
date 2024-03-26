@@ -259,10 +259,82 @@ private class ImmutableSetCollector<T>
 > - `BinaryOperator<ImmutableSet.Builder<T>> combiner()`
 > - `Function<ImmutableSet.Builder<T>, ImmutableSet<T>> finisher()`
 > - `Set<Characteristics> characteristics()`
-> - 
+> 
 > `supplier()` 메서드는 빈 누산기 인스턴스를 생성하는 Supplier 인스턴스를 반환합니다. 따라서 이 경우에는 간단히 다음과 같이 작성할 수 있습니다:
+```java
+@Override
+public Supplier<ImmutableSet.Builder<T>> supplier() {
+    return ImmutableSet::builder;
+}
+```
+> `accumulator()` 메서드는 새로운 요소를 기존의 누산기 객체에 추가하는 데 사용되는 함수를 반환합니다. 그래서 단순히 Builder의 add 메서드를 사용하겠습니다:
+```java
+@Override
+public BiConsumer<ImmutableSet.Builder<T>, T> accumulator() {
+    return ImmutableSet.Builder::add;
+}
+```
+> `combiner()` 메서드는 두 개의 누산기를 병합하는 데 사용되는 함수를 반환합니다:
+```java
+@Override
+public BinaryOperator<ImmutableSet.Builder<T>> combiner() {
+    return (left, right) -> left.addAll(right.build());
+}
+```
+> `finisher()` 메서드는 누산기를 최종 결과 유형으로 변환하는 데 사용되는 함수를 반환합니다. 이 경우에는 Builder의 build 메서드를 사용하겠습니다:
+```java
+@Override
+public Function<ImmutableSet.Builder<T>, ImmutableSet<T>> finisher() {
+    return ImmutableSet.Builder::build;
+}
+```
+> `characteristics()` 메서드는 Stream에 내부 최적화에 사용되는 추가 정보를 제공하는 데 사용됩니다. 이 경우에는 Set에서 요소의 순서에 주의를 기울이지 않으므로 Characteristics.UNORDERED를 사용합니다. 이 주제에 대한 자세한 정보를 얻으려면 Characteristics의 JavaDoc을 확인하세요:
+```java
+@Override public Set<Characteristics> characteristics() {
+    return Sets.immutableEnumSet(Characteristics.UNORDERED);
+}
+```
+> 다음은 완전한 구현과 사용 예제입니다:
+```java
+public class ImmutableSetCollector<T>
+  implements Collector<T, ImmutableSet.Builder<T>, ImmutableSet<T>> {
 
+@Override
+public Supplier<ImmutableSet.Builder<T>> supplier() {
+    return ImmutableSet::builder;
+}
 
+@Override
+public BiConsumer<ImmutableSet.Builder<T>, T> accumulator() {
+    return ImmutableSet.Builder::add;
+}
+
+@Override
+public BinaryOperator<ImmutableSet.Builder<T>> combiner() {
+    return (left, right) -> left.addAll(right.build());
+}
+
+@Override
+public Function<ImmutableSet.Builder<T>, ImmutableSet<T>> finisher() {
+    return ImmutableSet.Builder::build;
+}
+
+@Override
+public Set<Characteristics> characteristics() {
+    return Sets.immutableEnumSet(Characteristics.UNORDERED);
+}
+
+public static <T> ImmutableSetCollector<T> toImmutableSet() {
+    return new ImmutableSetCollector<>();
+}
+```
+> 마지막으로, 여기서 실제로 동작하는 것을 확인할 수 있습니다:
+```java
+List<String> givenList = Arrays.asList("a", "bb", "ccc", "dddd");
+
+ImmutableSet<String> result = givenList.stream()
+									  .collect(toImmutableSet());
+```
 ### 출처(참고 문헌)
 - [https://www.baeldung.com/java-8-collectors]
 
