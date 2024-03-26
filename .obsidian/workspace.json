@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-26.md",
+                "file": "1. 영구노트/3. RESUORCE/JAVA/Java Stream Filter with Lambda Expression.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-26.md",
+                "file": "1. 영구노트/3. RESUORCE/JAVA/Java Stream Filter with Lambda Expression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-26.md",
+                "file": "1. 영구노트/3. RESUORCE/JAVA/Java Stream Filter with Lambda Expression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-03-26.md"
+                "file": "1. 영구노트/3. RESUORCE/JAVA/Java Stream Filter with Lambda Expression.md"
               }
             }
           },
@@ -197,8 +197,9 @@
   },
   "active": "6d482fb87fd07a7e",
   "lastOpenFiles": [
-    "1. 영구노트/3. RESUORCE/JAVA/Guide to Java 8’s Collectors.md",
+    "1. 영구노트/3. RESUORCE/JAVA/Java Stream Filter with Lambda Expression.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-03-26.md",
+    "1. 영구노트/3. RESUORCE/JAVA/Guide to Java 8’s Collectors.md",
     "1. 영구노트/3. RESUORCE/JAVA/Functional Interfaces in Java 8.md",
     "1. 영구노트/3. RESUORCE/JAVA/The Java 8 Stream API Tutorial.md",
     "1. 영구노트/3. RESUORCE/JAVA/Introduction to Java 8 Streams.md",
@@ -231,7 +232,6 @@
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-03/2024-03-19.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-03/2024-03-18.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-03-18.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-03/2024-03-18.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-03",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Diary/2024-03",
     "Attached file/Pasted image 20240312153232.png",
