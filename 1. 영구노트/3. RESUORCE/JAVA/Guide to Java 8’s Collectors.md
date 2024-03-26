@@ -205,8 +205,62 @@ assertThat(result)
 ```
 > 우리는 groupingBy 메서드의 두 번째 인수가 수집기라는 것을 볼 수 있습니다. 게다가, 우리는 자유롭게 원하는 수집기를 사용할 수 있습니다.
 ##### 3.13. Collectors.partitioningBy()
+> PartitioningBy는 Predicate 인스턴스를 허용하고, 그런 다음 Stream 요소를 Boolean 값을 키로, 컬렉션을 값으로 저장하는 Map 인스턴스로 수집하는 groupingBy의 특수한 경우입니다. "true" 키 아래에는 주어진 Predicate와 일치하는 요소의 컬렉션이 있고, "false" 키 아래에는 주어진 Predicate와 일치하지 않는 요소의 컬렉션이 있습니다.
+> 
+> 다음과 같이 작성할 수 있습니다:
+```java
+Map<Boolean, List<String>> result = givenList.stream()
+											.collect(partitioningBy(s -> s.length() > 2))
+```
+> 이렇게 하면 다음과 같은 맵이 생성됩니다:
+```java
+{false=["a", "bb", "dd"], true=["ccc"]}
+```
 ##### 3.14. Collectors.teeing()
+> 지금까지 배운 수집기를 사용하여 주어진 스트림에서 최대 및 최소 숫자를 찾아봅시다:
+```java
+List<Integer> numbers = Arrays.asList(42, 4, 2, 24);
+Optional<Integer> min = numbers.stream().collect(minBy(Integer::compareTo));
+Optional<Integer> max = numbers.stream().collect(maxBy(Integer::compareTo));
+// do something useful with min and max
+```
+> 여기서는 두 가지 다른 수집기를 사용하고, 그 두 가지의 결과를 결합하여 의미 있는 결과물을 만들고 있습니다. Java 12 이전에는 이와 같은 사용 사례를 다루기 위해 주어진 스트림에 대해 두 번 작업하고 중간 결과를 임시 변수에 저장한 다음 이러한 결과를 결합해야 했습니다.
+> 
+> 다행히도, Java 12는 이러한 단계를 대신 처리해주는 내장 수집기를 제공합니다. 우리가 해야 할 일은 두 개의 수집기와 결합 함수를 제공하는 것뿐입니다.
+> 
+> 이 새로운 수집기는 주어진 스트림을 두 가지 다른 방향으로 향하게 하기 때문에 teeing이라고 불립니다:
+```java
+numbers.stream().collect(teeing(
+  minBy(Integer::compareTo), // The first collector
+  maxBy(Integer::compareTo), // The second collector
+  (min, max) -> // Receives the result from those collectors and combines them
+));
+```
 #### 4. Custom Collectors
+> 만약 우리가 자체적인 Collector 구현을 작성하려면, Collector 인터페이스를 구현하고 그 세 가지 제네릭 매개변수를 명시해야 합니다:
+```java
+public interface Collector<T, A, R> {...}
+```
+> 매개변수를 세 가지로 명시해야 합니다:
+> 
+> - T: 수집 대상 객체의 유형
+> - A: 변경 가능한 누산기 객체의 유형
+> - R: 최종 결과의 유형
+> 
+> 이제 올바른 유형을 지정하여 요소를 ImmutableSet 인스턴스로 수집하는 예제 수집기를 작성해 보겠습니다:
+```java
+private class ImmutableSetCollector<T>
+  implements Collector<T, ImmutableSet.Builder<T>, ImmutableSet<T>> {...}
+```
+> 내부 수집 작업 처리에 변경 가능한 컬렉션이 필요하기 때문에 ImmutableSet을 사용할 수 없습니다. 대신 다른 변경 가능한 컬렉션 또는 우리를 위해 임시로 객체를 축적할 수 있는 다른 클래스를 사용해야 합니다. 이 경우에는 ImmutableSet.Builder를 사용하겠습니다. 이제 5개의 메서드를 구현해야 합니다:
+> 
+> - `Supplier<ImmutableSet.Builder<T>> supplier()`
+> - `BiConsumer<ImmutableSet.Builder<T>, T> accumulator()`
+> - `BinaryOperator<ImmutableSet.Builder<T>> combiner()`
+> - `Function<ImmutableSet.Builder<T>, ImmutableSet<T>> finisher()`
+> - `Set<Characteristics> characteristics()`
+> - 
+> `supplier()` 메서드는 빈 누산기 인스턴스를 생성하는 Supplier 인스턴스를 반환합니다. 따라서 이 경우에는 간단히 다음과 같이 작성할 수 있습니다:
 
 
 ### 출처(참고 문헌)
