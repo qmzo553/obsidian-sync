@@ -166,9 +166,44 @@ assertThat(result.getMin()).isEqualTo(1);
 assertThat(result.getSum()).isEqualTo(8);
 ```
 ##### 3.9. Collectors.averagingDouble / Long / int()
+> AveragingDouble/Long/Int는 추출된 요소의 평균을 반환하는 수집기입니다.
+> 
+> 다음과 같이 문자열 길이의 평균을 구할 수 있습니다:
+```java
+Double result = givenList.stream()
+						.collect(averagingDouble(String::length));
+```
 ##### 3.10. Collectors.summingDouble / Long / int()
+> SummingDouble/Long/Int는 추출된 요소의 합을 반환하는 수집기입니다.
+```java
+Double result = givenList.stream()
+						.collect(summingDouble(String::length));
+```
 ##### 3.11. Collectors.maxBy() / minBy()
+> MaxBy/MinBy 수집기는 제공된 Comparator 인스턴스에 따라 스트림의 가장 큰/가장 작은 요소를 반환합니다.
+> 
+> 다음과 같이 가장 큰 요소를 선택할 수 있습니다:
+```java
+Optional<String> result = givenList.stream()
+								  .collect(maxBy(Comparator.naturalOrder()));
+```
+> 우리는 반환된 값이 Optional 인스턴스로 래핑되어 있음을 볼 수 있습니다. 이는 사용자가 빈 컬렉션 코너 케이스를 다시 생각하도록 강제합니다.
 ##### 3.12. Collectors.groupingBy()
+> GroupingBy 수집기는 어떤 속성에 따라 객체를 그룹화한 다음 결과를 Map 인스턴스에 저장하는 데 사용됩니다.
+> 
+> 우리는 문자열 길이에 따라 그룹화하고, 그룹화된 결과를 Set 인스턴스에 저장할 수 있습니다:
+```java
+Map<Integer, Set<String>> result = givenList.stream()
+										  .collect(groupingBy(String::length, toSet()));
+```
+> 이로 인해 다음이 참이 됩니다:
+```java
+assertThat(result)
+.containsEntry(1, newHashSet("a"))
+.containsEntry(2, newHashSet("bb", "dd"))
+.containsEntry(3, newHashSet("ccc"));
+```
+> 우리는 groupingBy 메서드의 두 번째 인수가 수집기라는 것을 볼 수 있습니다. 게다가, 우리는 자유롭게 원하는 수집기를 사용할 수 있습니다.
 ##### 3.13. Collectors.partitioningBy()
 ##### 3.14. Collectors.teeing()
 #### 4. Custom Collectors
