@@ -86,7 +86,54 @@ public boolean hasValidProfilePhoto() throws IOException {
     return connection.getResponseCode() == HttpURLConnection.HTTP_OK;
 }
 ```
+> 우리는 `hasValidProfilePhoto()` 메서드가 IOException을 throw하는 것을 볼 수 있습니다. 이제 이 메서드를 사용하여 고객을 필터링하려고 시도해 봅시다:
+```java
+List<Customer> customersWithValidProfilePhoto = customers
+  .stream()
+  .filter(Customer::hasValidProfilePhoto)
+  .collect(Collectors.toList());
+```
+> 우리는 다음과 같은 오류를 볼 것입니다:
+```java
+Incompatible thrown types java.io.IOException in functional expression
+```
+> 해결하기 위해 사용할 수 있는 대안 중 하나는 try-catch 블록으로 감싸는 것입니다:
+```java
+List<Customer> customersWithValidProfilePhoto = customers
+  .stream()
+  .filter(c -> {
+      try {
+          return c.hasValidProfilePhoto();
+      } catch (IOException e) {
+          //handle exception
+      }
+      return false;
+  })
+  .collect(Collectors.toList());
+```
+> 우리의 predicate에서 예외를 throw해야 하는 경우에는 RuntimeException과 같은 확인되지 않은 예외로 감싸면 됩니다.
 ##### 3.2. Using Throwing Function
+> 대안으로 ThrowingFunction 라이브러리를 사용할 수도 있습니다.
+> 
+> ThrowingFunction은 Java 함수형 인터페이스에서 확인된 예외를 처리할 수 있게 해주는 오픈 소스 라이브러리입니다.
+> 
+> 우리의 pom에 throwing-function 종속성을 추가하는 것으로 시작해 보겠습니다
+```java
+<dependency>	
+    <groupId>com.pivovarit</groupId>	
+    <artifactId>throwing-function</artifactId>	
+    <version>1.5.1</version>	
+</dependency>
+```
+> predicate에서 예외를 처리하기 위해, 이 라이브러리는 ThrowingPredicate 클래스를 제공합니다. 이 클래스에는 checked 예외를 감싸는 `unchecked()` 메서드가 있습니다.
+> 
+> 실제로 동작하는 것을 살펴보겠습니다:
+```java
+List customersWithValidProfilePhoto = customers
+  .stream()
+  .filter(ThrowingPredicate.unchecked(Customer::hasValidProfilePhoto))
+  .collect(Collectors.toList());
+```
 ### 출처(참고 문헌)
 - [https://www.baeldung.com/java-stream-filter-lambda]
 
