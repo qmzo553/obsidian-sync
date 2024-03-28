@@ -23,8 +23,8 @@ stream = Stream.of("a", "b", "c");
 Stream<String> stream = list.stream();
 ```
 ##### 2.2. Multi-threading With Streams
->  **Stream API는 parallelStream() 메서드를 제공하여 스트림의 요소를 병렬 모드로 처리하여 다중 스레딩을 간단하게 할 수 있습니다.**
->  아래 코드는 스트림의 각 요소에 대해 doWork() 메서드를 병렬로 실행할 수 있도록 합니다:
+>  **Stream API는 `parallelStream()` 메서드를 제공하여 스트림의 요소를 병렬 모드로 처리하여 다중 스레딩을 간단하게 할 수 있습니다.**
+>  아래 코드는 스트림의 각 요소에 대해 `doWork()` 메서드를 병렬로 실행할 수 있도록 합니다:
 ```java
 list.parallelStream().forEach(element -> doWork(element));
 ```
