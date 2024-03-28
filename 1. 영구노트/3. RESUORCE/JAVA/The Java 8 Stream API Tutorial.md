@@ -253,7 +253,7 @@ double averagePrice = productList.stream()
 > 
 > 예를 들어, `summingDouble()`을 사용하여 double 타입 요소의 합을 계산하는 방법은 다음과 같습니다:
 ```java
-int summingPrice = productList.stream() .collect(Collectors.summingInt(Product::getPrice));
+int summingPrice = productList.stream().collect(Collectors.summingInt(Product::getPrice));
 ```
 > 메서드 averagingXX(), summingXX() 및 summarizingXX()은 기본 유형 (int, long, double) 및 해당 래퍼 클래스 (Integer, Long, Double)와 함께 사용할 수 있습니다. 이러한 메서드의 한 가지 더 강력한 기능은 매핑을 제공하는 것입니다. 결과적으로, 개발자는 `collect()` 메서드 이전에 추가적인 `map()` 작업을 사용할 필요가 없습니다.
 > 
@@ -270,8 +270,7 @@ IntSummaryStatistics statistics = productList.stream()
 > 
 > 스트림 요소를 지정된 함수에 따라 그룹화하는 방법은 `Collectors.groupingBy()`를 사용하는 것입니다. 이 메서드는 요소를 그룹화할 기준이 되는 함수를 받습니다.
 ```java
-Map<Integer, List<Product>> collectorMapOfLists = productList.stream()
-										.collect(Collectors.groupingBy(Product::getPrice));
+Map<Integer, List<Product>> collectorMapOfLists = productList.stream()										.collect(Collectors.groupingBy(Product::getPrice));
 ```
 > 위의 예시에서는 스트림이 가격별로 모든 제품을 그룹화하는 Map으로 축소되었습니다.
 > 
