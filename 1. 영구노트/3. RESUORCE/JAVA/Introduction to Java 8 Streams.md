@@ -18,7 +18,7 @@ String[] arr = new String[]{"a", "b", "c"};
 Stream<String> stream = Arrays.stream(arr);
 stream = Stream.of("a", "b", "c");
 ```
->  **`Collection` 인터페이스에는 `_stream()_` 기본 메서드가 추가되었으며, 이를 통해 어떤 컬렉션도 요소 소스로 사용하여 `_Stream<T>_`를 생성할 수 있습니다.**
+>  **`Collection` 인터페이스에는 `stream()` 기본 메서드가 추가되었으며, 이를 통해 어떤 컬렉션도 요소 소스로 사용하여 `Stream<T>`를 생성할 수 있습니다.**
 ``` java
 Stream<String> stream = list.stream();
 ```
