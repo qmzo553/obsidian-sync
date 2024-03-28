@@ -41,7 +41,7 @@ Stream<String> streamOfArrayPart = Arrays.stream(arr, 1, 3);
 Stream<String> streamBuilder = Stream.<String> builder().add("a").add("b").add("c").build();
 ```
 ##### 2.5. Stream.generate()
-> `generate()` 메서드는 요소 생성을 위한 `Supplier<T>`를 인수로 받습니다. 결과 스트림이 무한하기 때문에 개발자는 원하는 크기를 명시해야 합니다. 그렇지 않으면 generate()4 메서드는 43메모리 한계에 도달할 때까지 작동합니다.
+> `generate()` 메서드는 요소 생성을 위한 `Supplier<T>`를 인수로 받습니다. 결과 스트림이 무한하기 때문에 개발자는 원하는 크기를 명시해야 합니다. 그렇지 않으면 `generate()` 메서드는 메모리 한계에 도달할 때까지 작동합니다.
 ```java
 Stream<String> streamGenerated = Stream.generate(() -> "element").limit(10);
 ```
