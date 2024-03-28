@@ -87,7 +87,9 @@ Stream<String> streamWithCharset = Files.lines(path, Charset.forName("UTF-8"));
 #### 3. Referencing a Stream
 > 중간 연산만 호출되는 한 스트림을 인스턴스화하고 액세스 가능한 참조를 가질 수 있습니다. 최종 연산을 실행하면 스트림에 액세스할 수 없습니다. 이를 설명하기 위해 일련의 작업을 연결하는 것이 최선의 방법이라는 것을 잠시 잊어 보겠습니다. 불필요한 번잡함은 있지만, 기술적으로 다음 코드는 유효합니다.
 ```java
-Stream<String> stream = Stream.of("a", "b", "c").filter(element -> element.contains("b")); Optional<String> anyElement = stream.findAny();
+Stream<String> stream = Stream.of("a", "b", "c")
+							.filter(element -> element.contains("b"));
+Optional<String> anyElement = stream.findAny();
 ```
 >   그러나 최종 작업을 호출한 후에 동일한 참조를 재사용하려고 시도하면 IllegalStateException이 발생합니다.
 ```java
