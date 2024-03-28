@@ -55,7 +55,8 @@ Stream<Integer> streamIterated = Stream.iterate(40, n -> n + 2).limit(20);
 ##### 2.7. Stream of Primitives
 > Java 8에서는 세 가지 기본 유형(int, long 및 double)의 스트림을 생성할 수 있는 기능을 제공합니다. `Stream<T>`는 제네릭 인터페이스이므로 제네릭과 기본 유형을 형식 매개변수로 사용할 수 없습니다. 따라서 IntStream, LongStream, DoubleStream 세 가지 새로운 특수 인터페이스가 만들어졌습니다. 새로운 인터페이스를 사용하면 불필요한 자동 박싱을 줄일 수 있어 생산성이 향상됩니다.
 ```java
-IntStream intStream = IntStream.range(1, 3); LongStream longStream = LongStream.rangeClosed(1, 3);
+IntStream intStream = IntStream.range(1, 3); 
+LongStream longStream = LongStream.rangeClosed(1, 3);
 ```
 > range(int startInclusive, int endExclusive) 메서드는 첫 번째 매개변수부터 두 번째 매개변수까지의 정렬된 스트림을 생성합니다. 연속 요소의 값을 1씩 증가시킵니다. 결과에는 마지막 매개변수가 포함되지 않습니다. 이것은 시퀀스의 상한만을 나타냅니다.
 > 
