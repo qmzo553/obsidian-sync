@@ -90,7 +90,8 @@ Stream<Path> stream = uris.stream().map(uri -> Paths.get(uri));
 ```java
 List<Detail> details = new ArrayList<>();
 details.add(new Detail());
-Stream<String> stream = details.stream().flatMap(detail -> detail.getParts().stream());
+Stream<String> stream = details.stream().flatMap(detail ->
+												 detail.getParts().stream());
 ```
 >  이 예시에서는 Detail 유형의 요소 목록이 있습니다. Detail 클래스에는 `List<String>`인 PARTS 필드가 포함되어 있습니다. `flatMap()` 메서드를 사용하여 PARTS 필드의 각 요소가 추출되고 새로운 결과 스트림에 추가됩니다. 그 후에는 초기 `Stream<Detail>`이 손실됩니다.
 ##### 3.4. Matching
