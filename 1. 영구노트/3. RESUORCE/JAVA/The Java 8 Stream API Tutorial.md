@@ -305,10 +305,10 @@ Collector<Product, ?, LinkedList<Product>> toLinkedList =
 ```java
 Stream<Product> streamOfCollection = productList.parallelStream();
 boolean isParallel = streamOfCollection.isParallel();
-boolean bigPrice = streamOfCollection .map(product -> product.getPrice() * 12)
+boolean bigPrice = streamOfCollection.map(product -> product.getPrice() * 12)
 									.anyMatch(price -> price > 200);
 ```
-> 만약 스트림의 소스가 컬렉션 또는 배열이 아닌 경우, parallel() 메서드를 사용해야 합니다.
+> 만약 스트림의 소스가 컬렉션 또는 배열이 아닌 경우, `parallel()` 메서드를 사용해야 합니다.
 ```java
 IntStream intStreamParallel = IntStream.range(1, 150).parallel();
 boolean isParallel = intStreamParallel.isParallel();
