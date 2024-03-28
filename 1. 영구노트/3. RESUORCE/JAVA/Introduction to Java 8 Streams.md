@@ -97,9 +97,12 @@ Stream<String> stream = details.stream().flatMap(detail ->
 ##### 3.4. Matching
 > 스트림 API는 일련의 요소를 일정한 조건에 따라 유효성 검사할 수 있는 편리한 도구를 제공합니다. 이를 위해 다음 중 하나의 메서드를 사용할 수 있습니다: `anyMatch(), allMatch(), noneMatch().` 이들의 이름은 자명합니다. 이들은 불리언을 반환하는 최종 작업입니다.
 ```java
-boolean isValid = list.stream().anyMatch(element -> element.contains("h")); // true boolean
-isValidOne = list.stream().allMatch(element -> element.contains("h")); // false boolean
-isValidTwo = list.stream().noneMatch(element -> element.contains("h"));  // false
+boolean isValid = list.stream().anyMatch(element -> element.contains("h")); 
+// true
+boolean isValidOne = list.stream().allMatch(element -> element.contains("h")); 
+// false 
+boolean isValidTwo = list.stream().noneMatch(element -> element.contains("h"));  
+// false
 ```
 > 예시로 빈 스트림에 대해 allMatch() 메서드를 사용하면 어떤 조건이 주어져도 true를 반환합니다.
 ```java
