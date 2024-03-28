@@ -33,7 +33,8 @@ list.parallelStream().forEach(element -> doWork(element));
 #### 3. Stream Operations
 > 스트림에서 수행할 수 있는 많은 유용한 작업이 있습니다.
 > 스트림 작업은 중간 작업(intermediate operations)과 최종 작업(terminal operations)으로 나뉩니다. 
-> 중간 작업은 `Stream<T>`를 반환하고, 최종 작업은 확정된 유형의 결과를 반환합니다. 중간 작업은 연결(chain)할 수 있습니다.
+> 중간 작업은 `Stream<T>`를 반환하고, 최종 작업은 확정된 유형의 결과를 반환합니다.
+> 중간 작업은 연결(chain)할 수 있습니다.
 > 또한 스트림의 작업은 소스를 변경하지 않는다는 것도 주목할 가치가 있습니다.
 > 다음은 간단한 예시입니다:
 ```java
