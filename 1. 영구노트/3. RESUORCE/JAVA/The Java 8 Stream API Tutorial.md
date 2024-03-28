@@ -224,8 +224,11 @@ int reducedParallel = Arrays.asList(1, 2, 3).parallelStream()
 ```java
 List<Product> productList = Arrays.asList(
 	new Product(23, "potatoes"),
-	new Product(14, "orange"), new Product(13, "lemon"),
-	new Product(23, "bread"), new Product(13, "sugar"));
+	new Product(14, "orange"),
+	new Product(13, "lemon"),
+	new Product(23, "bread"),
+	new Product(13, "sugar")
+);
 ```
 > 스트림을 컬렉션(Collection, List 또는 Set)으로 변환하는 방법은 `collect()` 메서드를 사용하는 것입니다. 이 메서드는 Collector를 인수로 받습니다. 다음은 List로의 변환 예시입니다:
 ```java
