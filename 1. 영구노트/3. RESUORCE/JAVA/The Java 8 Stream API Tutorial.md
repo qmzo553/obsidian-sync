@@ -21,7 +21,8 @@ public Stream<String> streamOf(List<String> list) {
 ##### 2.2. Stream Of Collection
 > 우리는 컬렉션(Collection), 리스트(List), 세트(Set)와 같은 모든 종류의 컬렉션으로부터 스트림을 생성할 수도 있습니다.
 ```java
-Collection<String> collection = Arrays.asList("a", "b", "c"); Stream<String> streamOfCollection = collection.stream();
+Collection<String> collection = Arrays.asList("a", "b", "c"); 
+Stream<String> streamOfCollection = collection.stream();
 ```
 ##### 2.3. Stream of Array
 > 배열 또한 스트림의 소스가 될 수 있습니다.
