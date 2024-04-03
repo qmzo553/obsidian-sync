@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-04-03.md",
+                "file": "1. 영구노트/3. RESUORCE/JAVA/Java Stream Filter with Lambda Expression.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-04-03.md",
+                "file": "1. 영구노트/3. RESUORCE/JAVA/Java Stream Filter with Lambda Expression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-04-03.md",
+                "file": "1. 영구노트/3. RESUORCE/JAVA/Java Stream Filter with Lambda Expression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-04-03.md"
+                "file": "1. 영구노트/3. RESUORCE/JAVA/Java Stream Filter with Lambda Expression.md"
               }
             }
           },
@@ -191,6 +191,7 @@
   },
   "active": "f3b012ef331edd8e",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-04-03.md",
     "Attached file/Pasted image 20240403100155.png",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-03.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04/2024-04-02.md",
@@ -200,7 +201,6 @@
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-03/2024-03-29.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-03/2024-03-28.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-04/2024-04-02.md",
-    "1. 영구노트/3. RESUORCE/NHN academy/2024-04-03.md",
     "1. 영구노트/3. RESUORCE/JAVA/The Java 8 Stream API Tutorial.md",
     "Attached file/Pasted image 20240402133128.png",
     "Attached file/Pasted image 20240402094419.png",
@@ -211,7 +211,6 @@
     "Attached file/Pasted image 20240325110116.png",
     "Attached file/Pasted image 20240320112433.png",
     "Attached file/Pasted image 20240320111928.png",
-    "Attached file/Pasted image 20240319091039.png",
     "1. 영구노트/3. RESUORCE/JAVA/Java Stream Filter with Lambda Expression.md",
     "1. 영구노트/3. RESUORCE/JAVA/Functional Interfaces in Java 8.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-04/2024-04-01.md",
