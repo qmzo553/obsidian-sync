@@ -210,7 +210,7 @@ assertThat(result)
 > 다음과 같이 작성할 수 있습니다:
 ```java
 Map<Boolean, List<String>> result = givenList.stream()
-											.collect(partitioningBy(s -> s.length() > 2))
+										.collect(partitioningBy(s -> s.length() > 2));
 ```
 > 이렇게 하면 다음과 같은 맵이 생성됩니다:
 ```java
