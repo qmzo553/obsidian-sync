@@ -145,23 +145,17 @@
               "type": "calendar",
               "state": {}
             }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "3e9ac208d3171ce8",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "4891d693ddd4a6bd",
+            "id": "2c487eac34a0e29a",
             "type": "leaf",
             "state": {
               "type": "timeline",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "f0fe4d93ee8faabd",
@@ -195,7 +189,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f3b012ef331edd8e",
+  "active": "2c487eac34a0e29a",
   "lastOpenFiles": [
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-03.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04/2024-04-02.md",
