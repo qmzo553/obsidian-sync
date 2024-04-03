@@ -48,7 +48,8 @@ assertEquals("'5'", quoteIntToString.apply(5));
 > - DoubleToIntFunction, DoubleToLongFunction, IntToDoubleFunction, IntToLongFunction, LongToIntFunction, LongToDoubleFunction: 인수와 반환 유형이 모두 원시 유형으로 정의되며,
 > 그 이름에서 지정된대로 예를 들어, short를 취하고 byte를 반환하는 함수에 대한 기본적인 함수형 인터페이스가 없지만 직접 작성할 수 있습니다:
 ```java
-@FunctionalInterface public interface ShortToByteFunction {
+@FunctionalInterface
+public interface ShortToByteFunction {
 	byte applyAsByte(short s);
 }
 ```
