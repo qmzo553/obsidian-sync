@@ -90,13 +90,13 @@ List<String> result = givenList.stream()
 > 이제 그 요소들을 문자열을 키로 하고 그 길이를 값으로 하는 Map으로 수집해 봅시다:
 ```java
 Map<String, Integer> result = givenList.stream()
-									  .collect(toMap(Function.identity(), String::length))
+									.collect(toMap(Function.identity(), String::length));
 ```
 ###### 3.4.1. Collectors.toUnmodifiableMap()
 > 리스트와 세트와 유사하게, Java 10에서는 Stream 요소를 변경할 수 없는 맵으로 수집하는 간단한 방법을 소개했습니다.
 ```java
 Map<String, Integer> result = givenList.stream()
-						.collect(toUnmodifiableMap(Function.identity(), String::length))
+						.collect(toUnmodifiableMap(Function.identity(), String::length));
 ```
 > 우리가 볼 수 있듯이, 결과 맵에 새 항목을 넣으려고 하면 UnsupportedOperationException을 받게 됩니다.
 ```java
