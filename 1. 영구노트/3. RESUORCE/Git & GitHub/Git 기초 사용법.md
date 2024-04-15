@@ -25,6 +25,12 @@
 > 	![[Pasted image 20240415200457.png]]
 
 > Git-flow
+> 	- 브랜치 관리 모델 . 중하나로 Vincent Driessen이 주장
+> 
+> main branch
+> 	- 밑의  두 브랜치는 항상 존재하는 메인 브랜치 이다.
+> 	- master(main) : 배포된 소스가 있다.
+> 	- develop : 다음 배포를 위한 소스가 있다. 개발이 완료되면 일련의 과정을 통해 master(main)으로 merge한다.
 > 
 
 ### 출처(참고 문헌)
