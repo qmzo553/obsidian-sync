@@ -20,6 +20,9 @@
 > 	- local branch에 원격 저장소의 변경 사항을 반영하고 싶다면 수동으로 원격 브랜치를 로컬 브랜치로 merge해야 한다.
 > 	![[Pasted image 20240416080847.png]]
 
+> Pull
+> 	- fetch + merge를 같이 해주는 명령어이다.
+
 > Push
 > 	- 로컬 저장소의 변경 사항을 원격 저장소로 올리는 것을 push라고 한다.
 > 	![[Pasted image 20240416080942.png]]
