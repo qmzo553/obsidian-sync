@@ -31,8 +31,23 @@
 > 	- 밑의  두 브랜치는 항상 존재하는 메인 브랜치 이다.
 > 	- master(main) : 배포된 소스가 있다.
 > 	- develop : 다음 배포를 위한 소스가 있다. 개발이 완료되면 일련의 과정을 통해 master(main)으로 merge한다.
+> 	![[Pasted image 20240415203312.png]]
 > 
 > 서포팅 브랜치
+> 	- master와 develop 외에 팀 멤버들이 병렬로 일할 수 있도록 도와주는 브랜치가 있다.
+> 	- 메인 브랜치와는 다르게 필요할 때 생성하였다가 삭제한다.
+> 		1. feature branch
+> 		2. release branch
+> 		3. hotfix branch
+> 
+> feature branch
+> 	- branch 생성 : develop으로 부터
+> 	- merge : develop으로
+> 	- prefix: feature/
+> 	- feature brach는 특정 기능 하나에 대하여 develop으로부터 생성하여 개발하며 개발이 완료되면 다시 develop으로 merge
+> 	- 이때 각 기능 별로 개발한 커밋을 구별할 수 있도록 fast-forward를 사용하지 않는다.
+> 	![[Pasted image 20240415203703.png]]
+> 	
 
 ### 출처(참고 문헌)
 -
