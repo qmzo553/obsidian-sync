@@ -58,6 +58,21 @@
 > 	- master에는 버전 태그를 붙인다.
 > 	- release branch를 따로 가져가기 때문에 develop branch에서는 바로 다음 배포를 위한 기능을 시작할 수 있다.
 > 	- release branch를 다시 develop으로 merge하기 때문에 release 브랜치의 변경 사항이 develop에 반영된다.
+> 	![[Pasted image 20240415204333.png]]
+> 
+> hotfix branch
+> 	- branch 생성 : master로 부터
+> 	- merge : develop과 master로
+> 	- prefix : hotfix/
+> 	- hotfix branch는 배포된 버전에 긴급한 변경 사항이 있을 때 활용한다.
+> 	- hotfix branch는 master로부터 생성한다.
+> 	- 긴급한 이슈가 해결되면 다시 master와 develop에 merge한다.
+> 	- hotfix branch 역시 따로 가져가기 때문에 develop branch에서는 다음 배포를 위한 기능 개발을 계속 진행할 . 수있다.
+> 	- hotfix branch를 develop으로 merge하기 때문에 hotfix branch의 변경 사항이 develop에 반영된다.
+> 	![[Pasted image 20240415204631.png]]
+> 
+> 요약
+> 	![[Pasted image 20240415204703.png]]
 
 ### 출처(참고 문헌)
 -
