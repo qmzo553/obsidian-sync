@@ -47,7 +47,17 @@
 > 	- feature brach는 특정 기능 하나에 대하여 develop으로부터 생성하여 개발하며 개발이 완료되면 다시 develop으로 merge
 > 	- 이때 각 기능 별로 개발한 커밋을 구별할 수 있도록 fast-forward를 사용하지 않는다.
 > 	![[Pasted image 20240415203703.png]]
-> 	
+> 
+> release branch
+> 	- branch 생성 : develop으로 부터
+> 	- merge : develop과 mater로
+> 	- prefix : release/
+> 	- release branch는 배포를 위한 준비를 할 수 있는 브랜치이다.
+> 	- release branch에서는 각종 메타 데이터를 변경하거나 작은 버그를 수정한다.
+> 	- 배포 준비가 완료되면 release branch를 master와 develop에 각각 merge한다.
+> 	- master에는 버전 태그를 붙인다.
+> 	- release branch를 따로 가져가기 때문에 develop branch에서는 바로 다음 배포를 위한 기능을 시작할 수 있다.
+> 	- release branch를 다시 develop으로 merge하기 때문에 release 브랜치의 변경 사항이 develop에 반영된다.
 
 ### 출처(참고 문헌)
 -
