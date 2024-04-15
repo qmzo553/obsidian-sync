@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Git & GitHub/원격 저장소(remote).md",
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-16.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Git & GitHub/원격 저장소(remote).md",
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Git & GitHub/원격 저장소(remote).md",
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Git & GitHub/원격 저장소(remote).md"
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-16.md"
               }
             }
           },
@@ -191,8 +191,10 @@
   },
   "active": "bddda8924c75f2fa",
   "lastOpenFiles": [
-    "1. 영구노트/3. RESUORCE/Git & GitHub/Git 기초 사용법.md",
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-04-16.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-16.md",
     "1. 영구노트/3. RESUORCE/Git & GitHub/원격 저장소(remote).md",
+    "1. 영구노트/3. RESUORCE/Git & GitHub/Git 기초 사용법.md",
     "Attached file/Pasted image 20240416080942.png",
     "Attached file/Pasted image 20240416080847.png",
     "Attached file/Pasted image 20240416080553.png",
@@ -226,7 +228,6 @@
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04/2024-04-03.md",
     "1. 영구노트/3. RESUORCE/서재/Modern Java In Action.md",
     "1. 영구노트/3. RESUORCE/서재/Clean Code 클린 코드 애자일 소프트웨어 장인 정신.md",
-    "1. 영구노트/3. RESUORCE/NHN academy/2024-04-11.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-04",
     "gitignore.sb-29e8642b-kaxsvC",
