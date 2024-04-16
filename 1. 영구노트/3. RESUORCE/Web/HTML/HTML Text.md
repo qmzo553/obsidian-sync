@@ -26,10 +26,13 @@
 > 	- 컴퓨터 프로그램의 출력을 표시 : samp
 
 > 시간과 날짜 표시
-> 	-  '<time datetime="YYYY-MM-DDThh:mm:ssTZD|PTDHMS">```
+```html
+<time datetime="YYYY-MM-DDThh:mm:ssTZD|PTDHMS">
+```
+
 
 ### 출처(참고 문헌)
 -
 
 ### 연결 문서
--
+- [[Hyperlink]]
