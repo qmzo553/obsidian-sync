@@ -13,8 +13,12 @@
 ```
 
 > URL과 Path
-> 	URL(Unified Resource Locator) : 웹 상의 어디에 위치하는지 결정하는 텍스트 문자열
-> 	Path : 내부 파일을 찾기 위해 Path 사용
+> 	- URL(Unified Resource Locator) : 웹 상의 어디에 위치하는지 결정하는 텍스트 문자열
+> 	- Path : 내부 파일을 찾기 위해 Path 사용
+> 		1. 같은 디렉터리 : 파일의 이름만 지정
+> 		2. 하위 디렉터리 : 디렉터리 이름 + "/" + 파일이름
+> 		3. 부모 디렉터리 : "../" + 파일 이름
+> 		4. 홈 디렉터리 : "~/" + 파일 이름
 > 	![[Pasted image 20240416100500.png]]
 
 > Document fragments
