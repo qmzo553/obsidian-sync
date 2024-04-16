@@ -29,6 +29,15 @@
 
 > 공백과 특수 문자
 > 	- HTML은 공백을 표시하지 않는다.
+> 	- newline or blank를 표시하려면 <br/> : new line
+> 	- 주석 : <!-- -->
+
+> Boolean Attribute
+> 	![[Pasted image 20240416092915.png]]
+> 	- 양식 요소에 입력하면 사용자가 데이터를 입력할 수 없도록 비 활성화
+
+> HTML 문서의 구조
+> 	![[Pasted image 20240416093043.png]]
 ### 출처(참고 문헌)
 -
 
