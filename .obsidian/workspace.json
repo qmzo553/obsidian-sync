@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/CSS/CSS란?.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/CSS/Selector.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/CSS/CSS란?.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/CSS/Selector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/CSS/CSS란?.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/CSS/Selector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/CSS/CSS란?.md"
+                "file": "1. 영구노트/3. RESUORCE/Web/CSS/Selector.md"
               }
             }
           },
@@ -191,8 +191,10 @@
   },
   "active": "a2fbed2f36ae86d5",
   "lastOpenFiles": [
-    "Attached file/Pasted image 20240416134942.png",
+    "1. 영구노트/3. RESUORCE/Web/CSS/Selector.md",
     "1. 영구노트/3. RESUORCE/Web/CSS/CSS란?.md",
+    "Attached file/Pasted image 20240416135504.png",
+    "Attached file/Pasted image 20240416134942.png",
     "1. 영구노트/3. RESUORCE/Web/HTML/Table.md",
     "1. 영구노트/3. RESUORCE/Web/CSS/CSS.md",
     "1. 영구노트/3. RESUORCE/Web/CSS",
@@ -213,8 +215,6 @@
     "Attached file/Pasted image 20240416100500.png",
     "1. 영구노트/3. RESUORCE/Web/JWT.md",
     "Attached file/Pasted image 20240416093043.png",
-    "Attached file/Pasted image 20240416092915.png",
-    "Attached file/Pasted image 20240416092256.png",
     "1. 영구노트/3. RESUORCE/Web/HTML.md",
     "1. 영구노트/3. RESUORCE/Web/Web.md",
     "1. 영구노트/3. RESUORCE/Web/HTML/HTML.md",
