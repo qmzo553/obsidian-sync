@@ -146,8 +146,79 @@
 
 > 바로 뒤 형제 Selector
 > 	- 바로 뒤 형제 선택 시 사용
-```htm
+```html
+<style>
+    h1 + p{
+        color:red;
+    }
+</style>
+
+<h1>h1</h1>
+<p>첫 번째 자식 p</p>
+<h2>h2</h2>
+<p>두 번째 자식 p</p>
 ```
+
+> 전체 Selector
+> 	- 모든 엘리먼트 선택 시 '\*'사용
+> 	- 성능에 좋지 않아 남발하지 않는 것이 좋다.
+```html
+<style>
+    header * {
+        color:red;
+    }
+</style>
+
+or
+
+<style>
+    header p {
+        color:red;
+    }
+</style>
+
+or
+
+<style>
+    * {
+        color:red;
+    }
+</style>
+
+<header>
+    <p>Avengers</p>
+    <div>
+        <p>End game</p>
+    </div>
+</header>
+```
+
+> 유사 class Selector
+> 	-Element가 특별한 상태일 때를 선택
+> 	- 마우스가 올라가 있거나, 선택되어 있거나 등
+```html
+<style>
+    header  > p:hover  {
+        color:red;
+    }
+</style>
+
+
+<header>
+    <p>Avengers</p>
+    <div>
+        <p>End game</p>
+    </div>
+</header>
+```
+
+> 유사 Element Selector
+> 	- Element 내용의 앞과 뒤에 내용을 삽입
+> 	- 가상요소이므로 블록 지정이 안됨
+> 	- 존재하는 Element가 없는 가상의 요소를 선택
+> 	- 유사 class는 상태를 선택하고, 유사 Element는 선택적인 부분을 선택
+> 	- 주로 문자열을 지정할 수 있는 content 속성과 함계 사용
+> 	- 콜론 두 개
 
 ### 출처(참고 문헌)
 -
