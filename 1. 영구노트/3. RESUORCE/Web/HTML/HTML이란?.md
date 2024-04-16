@@ -66,4 +66,4 @@
 -
 
 ### 연결 문서
--
+- [[Character Sets and Encodings]]
