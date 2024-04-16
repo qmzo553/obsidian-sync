@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/HTML/HTML이란?.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/HTML/Character Sets and Encodings.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/HTML/HTML이란?.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/HTML/Character Sets and Encodings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/HTML/HTML이란?.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/HTML/Character Sets and Encodings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/HTML/HTML이란?.md"
+                "file": "1. 영구노트/3. RESUORCE/Web/HTML/Character Sets and Encodings.md"
               }
             }
           },
@@ -191,11 +191,12 @@
   },
   "active": "f2c5463486ddf185",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/Web/HTML/HTML이란?.md",
+    "1. 영구노트/3. RESUORCE/Web/HTML/Character Sets and Encodings.md",
     "Attached file/Pasted image 20240416093043.png",
     "Attached file/Pasted image 20240416092915.png",
     "Attached file/Pasted image 20240416092256.png",
     "Attached file/Pasted image 20240416091953.png",
-    "1. 영구노트/3. RESUORCE/Web/HTML/HTML이란?.md",
     "1. 영구노트/3. RESUORCE/Web/HTML.md",
     "1. 영구노트/3. RESUORCE/Web/Web.md",
     "1. 영구노트/3. RESUORCE/Web/HTML/HTML.md",
@@ -213,7 +214,6 @@
     "Attached file/Pasted image 20240416080507.png",
     "Attached file/Pasted image 20240415204703.png",
     "Attached file/Pasted image 20240415204631.png",
-    "Attached file/Pasted image 20240415204333.png",
     "1. 영구노트/3. RESUORCE/Git & GitHub/Git의 역사와 여러가지 특성.md",
     "1. 영구노트/3. RESUORCE/Git & GitHub/버전 관리 시스템.md",
     "1. 영구노트/3. RESUORCE/DATABASE/ORM Framework.md",
