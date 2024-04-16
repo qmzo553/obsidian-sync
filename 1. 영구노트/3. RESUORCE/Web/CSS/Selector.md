@@ -218,10 +218,32 @@ or
 > 	- 존재하는 Element가 없는 가상의 요소를 선택
 > 	- 유사 class는 상태를 선택하고, 유사 Element는 선택적인 부분을 선택
 > 	- 주로 문자열을 지정할 수 있는 content 속성과 함계 사용
-> 	- 콜론 두 개
+> 	- 콜론 두 개(\:\:)와 함계 사용
+```html
+<style>
+    div::before{
+        content: "마블's";
+        color:red;
+        margin-right:10px;
+    }
+    div::after{
+        content:"시리즈";
+        color:blue;
+        margin-left:10px;
+    }
+</style>
+
+<div>캡틴 아메리카</div>
+```
+
+> CSS 우선 순위
+> 	- 하나의 Element에 여러 가지 Selector로 선택이 가능
+> 	- 각 Selector로 지정한 스타일 중 우선순위에 따라 적용
+> 	- Class Selector > Tag Selector
+> 	- Selector 우선순위 동등 시 나중에 선언된 스타일 적용
 
 ### 출처(참고 문헌)
 -
 
 ### 연결 문서
--
+- [[Box Model]]
