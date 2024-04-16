@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "434256e8bbe06c7d",
+        "id": "6ebadace7983bf20",
         "type": "tabs",
         "children": [
           {
-            "id": "a2fbed2f36ae86d5",
+            "id": "f23a360f7cc5431e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/CSS/Overflow.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/CSS/Overflow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/CSS/Overflow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/CSS/Overflow.md"
-              }
+              "state": {}
             }
           },
           {
@@ -189,10 +181,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a2fbed2f36ae86d5",
+  "active": "f23a360f7cc5431e",
   "lastOpenFiles": [
-    "1. 영구노트/3. RESUORCE/Web/CSS/Box Model.md",
     "1. 영구노트/3. RESUORCE/Web/CSS/Overflow.md",
+    "Attached file/Pasted image 20240416142858.png",
+    "Attached file/Pasted image 20240416142826.png",
+    "Attached file/Pasted image 20240416142758.png",
+    "Attached file/Pasted image 20240416142754.png",
+    "1. 영구노트/3. RESUORCE/Web/CSS/Box Model.md",
     "1. 영구노트/3. RESUORCE/Web/HTML/Hyperlink.md",
     "1. 영구노트/3. RESUORCE/Web/HTML/HTML Text.md",
     "1. 영구노트/3. RESUORCE/Web/HTML/Tag 분류.md",
@@ -213,10 +209,6 @@
     "1. 영구노트/3. RESUORCE/Web/HTML/HTML이란?.md",
     "Attached file/Pasted image 20240416103255.png",
     "Attached file/Pasted image 20240416103248.png",
-    "Attached file/Pasted image 20240416102406.png",
-    "Attached file/Pasted image 20240416102156.png",
-    "Attached file/Pasted image 20240416102045.png",
-    "Attached file/Pasted image 20240416102036.png",
     "1. 영구노트/3. RESUORCE/Web/JWT.md",
     "1. 영구노트/3. RESUORCE/Web/HTML.md",
     "1. 영구노트/3. RESUORCE/Web/Web.md",
@@ -229,7 +221,6 @@
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-16.md",
     "1. 영구노트/3. RESUORCE/Git & GitHub/원격 저장소(remote).md",
     "1. 영구노트/3. RESUORCE/Git & GitHub/Git 기초 사용법.md",
-    "1. 영구노트/3. RESUORCE/Git & GitHub/Git의 역사와 여러가지 특성.md",
     "1. 영구노트/3. RESUORCE/Git & GitHub",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-04",
