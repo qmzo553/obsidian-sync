@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/\bSimple Http Server.md",
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-18.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/\bSimple Http Server.md",
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/\bSimple Http Server.md",
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/\bSimple Http Server.md"
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-18.md"
               }
             }
           },
@@ -191,8 +191,10 @@
   },
   "active": "f23a360f7cc5431e",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-04-18.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-18.md",
+    "1. 영구노트/3. RESUORCE/NHN academy/\b2024-04-17.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-17.md",
-    "1. 영구노트/3. RESUORCE/NHN academy/\bSimple Http Server.md",
     "1. 영구노트/3. RESUORCE/Web/CSS/Overflow.md",
     "Attached file/Pasted image 20240416142858.png",
     "Attached file/Pasted image 20240416142826.png",
@@ -228,8 +230,6 @@
     "WebFrontEnd/Web Front End.md",
     "WebFrontEnd",
     "1. 영구노트/3. RESUORCE/무제 파일.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-16.md",
-    "1. 영구노트/3. RESUORCE/Git & GitHub/원격 저장소(remote).md",
     "1. 영구노트/3. RESUORCE/Git & GitHub",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-04",
