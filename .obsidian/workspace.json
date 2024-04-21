@@ -11,24 +11,15 @@
             "id": "23f202f2a7be89d4",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "1. 영구노트/3. RESUORCE/JAVA"
-              }
-            }
-          },
-          {
-            "id": "2d41f49bb1d69d56",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
+                "file": "1. 영구노트/3. RESUORCE/Algorithm/구간합에 대하여.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/Algorithm/구간합에 대하여.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/Algorithm/구간합에 대하여.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. 영구노트/3. RESUORCE/Algorithm/구간합에 대하여.md"
+              }
             }
           },
           {
@@ -194,7 +189,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2d41f49bb1d69d56",
+  "active": "23f202f2a7be89d4",
   "lastOpenFiles": [
     "1. 영구노트/3. RESUORCE/JAVA/Build Tools.md",
     "1. 영구노트/3. RESUORCE/Algorithm/구간합에 대하여.md",
