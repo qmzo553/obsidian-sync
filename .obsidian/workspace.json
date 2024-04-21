@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6a5cf273957899e3",
+        "id": "80b8462ac9c6ffb0",
         "type": "tabs",
         "children": [
           {
-            "id": "43e85346e7bfdea9",
+            "id": "23f202f2a7be89d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Algorithm/구간합.md",
+                "file": "1. 영구노트/3. RESUORCE/Algorithm/구간합에 대하여.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Algorithm/구간합.md",
+                "file": "1. 영구노트/3. RESUORCE/Algorithm/구간합에 대하여.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Algorithm/구간합.md",
+                "file": "1. 영구노트/3. RESUORCE/Algorithm/구간합에 대하여.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Algorithm/구간합.md"
+                "file": "1. 영구노트/3. RESUORCE/Algorithm/구간합에 대하여.md"
               }
             }
           },
@@ -189,16 +189,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "43e85346e7bfdea9",
+  "active": "23f202f2a7be89d4",
   "lastOpenFiles": [
-    "1. 영구노트/3. RESUORCE/Algorithm/구간합.md",
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-04/2024-04-17.md",
+    "1. 영구노트/3. RESUORCE/Algorithm/구간합에 대하여.md",
     "1. 영구노트/3. RESUORCE/Algorithm/Algorithm.md",
     "1. 영구노트/3. RESUORCE/Algorithm",
     "1. 영구노트/3. RESUORCE/Untitled.canvas",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-21.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-18.md",
-    "1. 영구노트/3. RESUORCE/NHN academy/2024-04-18.md",
-    "1. 영구노트/3. RESUORCE/NHN academy/\b2024-04-17.md",
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-04/2024-04-18.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-17.md",
     "1. 영구노트/3. RESUORCE/Web/CSS/Overflow.md",
     "Attached file/Pasted image 20240416142858.png",
