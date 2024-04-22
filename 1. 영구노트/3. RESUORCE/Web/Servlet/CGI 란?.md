@@ -38,7 +38,10 @@
 > Java CGI Program
 > 
 > Java Application은 컴파일 방식?
-> 	- .clas
+> 	- .class 형태로 컴파일 된 Java는 컴파일 방식으로 실행 불가능 하다. -> JVM은 Java를 실행할 수 있지만 Server간의 통신은 불가능 하다.
+> 	- 웹 서버와 Java Application 사이에서 서로 통신할 수 있도록 한 JCGI가 있어야 한다.
+> 	![[Pasted image 20240422111330.png]]
+> 	
 
 ### 출처(참고 문헌)
 -
