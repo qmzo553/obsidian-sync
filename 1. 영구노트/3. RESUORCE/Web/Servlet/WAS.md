@@ -12,7 +12,10 @@
 > Tomcat
 > 	- apache 재단에서 개발한 무료 오픈 소스 WAS(Web Application Server)
 > 	- Servlet Container의 reference 구현
-> ㄴ
+> 
+> Servlet API
+> 	- Java EE 에서는 Servlet API Spec만 정의
+> 	- 실제 구현은 WAS에서 담당
 
 ### 출처(참고 문헌)
 -
