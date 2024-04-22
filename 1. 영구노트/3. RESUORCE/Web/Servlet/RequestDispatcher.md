@@ -21,7 +21,12 @@
 > 
 > rd.forward()
 > 	1. /aaa 요청을 처리하고 HttpServletRequest, HttpServletResponse 생성됨
-> 	2. /bbb에 /aaa 에서 생성 된 
+> 	2. /bbb에 /aaa 에서 생성 된 HttpServletRequest와 HttpServletResponse를 보냄
+> 	3. /bbb 는 요청을 처리하고 Browser에 응답
+> 	- 즉 새로운 페이지 /bbb 로 이동하지 않고 /aaa로 유지 한다. -> /aaa에서 요청했던 데이터가 유지된다.
+> 	- redirect와 동작방식은 비슷하지만 서버에서 동작한다.
+> 	![[Pasted image 20240422164820.png]]
+> 	
 
 ### 출처(참고 문헌)
 -
