@@ -18,7 +18,27 @@
 > Meta-Variables(메타 변수)
 > 	- 웹 서버에서 CGI 프로그램으로 전달되는 요청 관련 데이터이다.
 > 	- 주로 환경변수(environment variable) 형태로 구현한다.
-> 	- 
+> 		1. SERVER_NAME
+> 		2. SERVER_PORT
+> 		3. REMOTE_ADDR
+> 		4. REQUEST_METHOD
+> 		5. CONTENT_TYPE
+> 		6. CONTENT_LENGTH
+> 
+> Script
+> 	- 서버에 의해 호출되는 소프트웨어
+> 	- 런타임에 해석되는 일련의 명령문
+> 	- 장점 : 언어, 플랫폼에 독립적이다. 구조가 단순하고 다른 서버 사이드 프로그래밍 언어에 비해 쉽게 수행가능하다.
+> 	- 단점 : 
+> 		1. 속도가 느리다.(매 요청마다 DB Connection을 새로 열어야 한다.)
+> 		2. Http 요청마다 새로운 프로세스를 만들어 서버 메모리를 사용한다.
+> 		3. 데이터가 메모리에 캐시 될 수 없다.
+> 	![[Pasted image 20240422111046.png]]
+
+> Java CGI Program
+> 
+> Java Application은 컴파일 방식?
+> 	- .clas
 
 ### 출처(참고 문헌)
 -
