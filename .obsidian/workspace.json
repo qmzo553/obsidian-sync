@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Web Server.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/CGI 란?.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Web Server.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/CGI 란?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Web Server.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/CGI 란?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Web Server.md"
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/CGI 란?.md"
               }
             }
           },
@@ -192,6 +192,7 @@
   "active": "708d73e9e2ad0e86",
   "lastOpenFiles": [
     "1. 영구노트/3. RESUORCE/Web/Servlet/Web Application이란?.md",
+    "1. 영구노트/3. RESUORCE/Web/Servlet/CGI 란?.md",
     "1. 영구노트/3. RESUORCE/Web/Servlet/Web Server.md",
     "1. 영구노트/3. RESUORCE/Web/Servlet/Servlet.md",
     "1. 영구노트/3. RESUORCE/Web/Servlet",
@@ -228,7 +229,6 @@
     "1. 영구노트/3. RESUORCE/Web/CSS",
     "1. 영구노트/3. RESUORCE/Web/HTML/Semantic tags.md",
     "1. 영구노트/3. RESUORCE/Web/HTML/Element.md",
-    "1. 영구노트/3. RESUORCE/Web/HTML/Images.md",
     "Attached file/Pasted image 20240416103255.png",
     "Attached file/Pasted image 20240416103248.png",
     "1. 영구노트/3. RESUORCE/Web/HTML",
