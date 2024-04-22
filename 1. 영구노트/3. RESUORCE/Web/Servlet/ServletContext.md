@@ -11,7 +11,19 @@
 
 > ServletContext란?
 > 	- Servlet Container 실행 환경
-> 	- Servlet과 Servlet Container 간에 연
+> 	- Servlet과 Servlet Container 간에 연동을 위해 사용
+> 	- 웹 애플리케이션마다 하나의 ServletContext 생성
+> 	- 하나의 웹 애플리케이션에 포함된 Servlet들은 동일한 ServletContext 공유
+> 	- Servlet끼리 자원을 공유하는 데 활용
+> 	- Servlet Container 실행 시 생성되고 Servlet Container 종료 시 소멸
+> 	- Application Context = Servlet Context
+> 	![[Pasted image 20240422145729.png]]
+
+> ServletContext 기능
+> 	- 환경 정보 제공 (context path, servlet version, real path 등)
+> 	- 설정 정보 제공 (init param, attribute 등)
+> 	- Servlet / Filter / Listener 등록
+> 	- Servlet 에서의 파일 접근
 
 ### 출처(참고 문헌)
 -
