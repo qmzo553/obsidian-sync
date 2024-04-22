@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Servlet 이란?.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Java EE란?.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Servlet 이란?.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Java EE란?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Servlet 이란?.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Java EE란?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Servlet 이란?.md"
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Java EE란?.md"
               }
             }
           },
@@ -191,8 +191,9 @@
   },
   "active": "7e94150ac7134d28",
   "lastOpenFiles": [
-    "Attached file/Pasted image 20240422130200.png",
     "1. 영구노트/3. RESUORCE/Web/Servlet/Servlet 이란?.md",
+    "1. 영구노트/3. RESUORCE/Web/Servlet/Java EE란?.md",
+    "Attached file/Pasted image 20240422130200.png",
     "1. 영구노트/3. RESUORCE/Web/Servlet/CGI 란?.md",
     "1. 영구노트/3. RESUORCE/Web/Servlet/Web Application이란?.md",
     "Attached file/Pasted image 20240422112229.png",
@@ -226,7 +227,6 @@
     "1. 영구노트/3. RESUORCE/Web/CSS/Selector.md",
     "1. 영구노트/3. RESUORCE/Web/CSS/Display.md",
     "Attached file/Pasted image 20240416142114.png",
-    "Attached file/Pasted image 20240416141758.png",
     "1. 영구노트/3. RESUORCE/Web/CSS/CSS란?.md",
     "1. 영구노트/3. RESUORCE/Web/HTML/Table.md",
     "1. 영구노트/3. RESUORCE/Web/CSS/CSS.md",
