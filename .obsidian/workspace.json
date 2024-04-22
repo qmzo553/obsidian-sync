@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/load-on-startup.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/WAS.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/load-on-startup.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/WAS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/load-on-startup.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/WAS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/load-on-startup.md"
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/WAS.md"
               }
             }
           },
@@ -191,8 +191,9 @@
   },
   "active": "7e94150ac7134d28",
   "lastOpenFiles": [
-    "1. 영구노트/3. RESUORCE/Web/Servlet/WAS.md",
     "1. 영구노트/3. RESUORCE/Web/Servlet/load-on-startup.md",
+    "Attached file/Pasted image 20240422140555.png",
+    "1. 영구노트/3. RESUORCE/Web/Servlet/WAS.md",
     "1. 영구노트/3. RESUORCE/Web/Servlet/Java EE란?.md",
     "1. 영구노트/3. RESUORCE/Web/Servlet/Servlet 이란?.md",
     "Attached file/Pasted image 20240422132625.png",
@@ -222,14 +223,12 @@
     "Attached file/Pasted image 20240416142858.png",
     "Attached file/Pasted image 20240416142826.png",
     "Attached file/Pasted image 20240416142758.png",
-    "Attached file/Pasted image 20240416142754.png",
     "1. 영구노트/3. RESUORCE/Web/CSS/Box Model.md",
     "1. 영구노트/3. RESUORCE/Web/HTML/Hyperlink.md",
     "1. 영구노트/3. RESUORCE/Web/HTML/HTML Text.md",
     "1. 영구노트/3. RESUORCE/Web/HTML/Tag 분류.md",
     "1. 영구노트/3. RESUORCE/Web/CSS/Selector.md",
     "1. 영구노트/3. RESUORCE/Web/CSS/Display.md",
-    "1. 영구노트/3. RESUORCE/Web/CSS/CSS란?.md",
     "1. 영구노트/3. RESUORCE/Web/CSS",
     "1. 영구노트/3. RESUORCE/Web/HTML",
     "WebFrontEnd",
