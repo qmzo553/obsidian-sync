@@ -16,7 +16,12 @@
 > web.xml 파일내 web-app 하위 태그들
 > 	- servlet : Servlet 등록 정보
 > 	- servlet-mapping : servlet과 URL 매핑 정보
-> 	- context-param : servletContext
+> 	- context-param : servletContext의 초기 파라미터
+> 	- welcome-file-list : welcome file list(index.html 같은 파일 -> 기본 페이지)
+> 	- error-page
+> 	- filter : servlet filter 등록 정보
+> 	- filter-mapping : servlet filter와 URL 맵핑 정보
+> 	- listener : Listener 등록 정보
 
 ### 출처(참고 문헌)
 -
