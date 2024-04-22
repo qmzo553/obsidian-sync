@@ -10,6 +10,19 @@
 > 	- forward() : JSP 페이지와 같은 다른 리소스로 제어를 전송한다.
 > 	- include() : 다른 리소스의 출력을 현재 페이지의 출력에 포함시키는 데 사용된다.
 
+> re.forward() vs response.sendRedirect()
+> 
+> response.sendRedirect()
+> 	1. /aaa 요청을 처리
+> 	2. Http Status Code : 302 응답
+> 	3. Browser는 서버로부터 응답받은 코드를 확인하고 /bbb로 요청을 보냄 -> 새로운 페이지 /bbb로 이동한다.
+> 	![[Pasted image 20240422164350.png]]
+> 	![[Pasted image 20240422164356.png]]
+> 
+> rd.forward()
+> 	1. /aaa 요청을 처리하고 HttpServletRequest, HttpServletResponse 생성됨
+> 	2. /bbb에 /aaa 에서 생성 된 
+
 ### 출처(참고 문헌)
 -
 
