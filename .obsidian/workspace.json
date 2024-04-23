@@ -11,8 +11,12 @@
             "id": "a779f1a58e2a67d0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1. 영구노트/3. RESUORCE/Maven/BOM.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/Maven/BOM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/Maven/BOM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. 영구노트/3. RESUORCE/Maven/BOM.md"
+              }
             }
           },
           {
@@ -183,6 +191,9 @@
   },
   "active": "a779f1a58e2a67d0",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/Maven/BOM.md",
+    "1. 영구노트/3. RESUORCE/Maven/Maven.md",
+    "1. 영구노트/3. RESUORCE/Maven",
     "1. 영구노트/3. RESUORCE/Web/JSP/JSTL.md",
     "1. 영구노트/3. RESUORCE/Web/JSP/JSP EL.md",
     "1. 영구노트/3. RESUORCE/Web/JSP/JSP Action Tag.md",
@@ -218,9 +229,7 @@
     "1. 영구노트/3. RESUORCE/Web/Servlet/CGI 란?.md",
     "1. 영구노트/3. RESUORCE/Web/Servlet/Web Application이란?.md",
     "1. 영구노트/3. RESUORCE/Web/Servlet/Web Server.md",
-    "1. 영구노트/3. RESUORCE/Web/Servlet/Servlet.md",
     "1. 영구노트/3. RESUORCE/Web/Servlet",
-    "1. 영구노트/3. RESUORCE/NHN academy/2024-04-22.md",
     "1. 영구노트/3. RESUORCE/Algorithm",
     "1. 영구노트/3. RESUORCE/Untitled.canvas",
     "1. 영구노트/3. RESUORCE/Web/CSS",
@@ -229,7 +238,6 @@
     "1. 영구노트/3. RESUORCE/Git & GitHub",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-04",
-    "gitignore.sb-29e8642b-kaxsvC",
     "무제 파일.canvas"
   ]
 }
