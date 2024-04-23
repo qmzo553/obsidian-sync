@@ -40,15 +40,22 @@ if (Objects.isNull(numberList)) {
 }
 ```
 > <jsp:setProperty>
-> 	- Java bean의 프로퍼티 값을 설정
-> 	- 밑의 두 코드는 같다.
+> 	- Java bean의 property 값을 설정
 ```jsp
 <jsp:useBean id="user1" scope="request" class="com.nhnacademy.domain.User" />
 <jsp:setProperty name="user1" property="age" value="35" />
 ```
 ```java
-
+@NoArgsConstructor
+@Getter
+@Setter
+public class User implements Serializable {
+    private String name;
+    private int age;
+}
 ```
+> <jsp:getProperty>
+> 	- Java bean의 property 값을 반환
 ### 출처(참고 문헌)
 -
 
