@@ -11,9 +11,11 @@
             "id": "7aefd33f3b73f89a",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "1. 영구노트/3. RESUORCE/Web/Servlet"
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Servlet 3.0 Annotation.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -92,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Servlet 3.0 Annotation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Servlet 3.0 Annotation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Servlet 3.0 Annotation.md"
+              }
             }
           },
           {
@@ -186,6 +192,7 @@
   "active": "7aefd33f3b73f89a",
   "lastOpenFiles": [
     "1. 영구노트/3. RESUORCE/Web/Servlet/Servlet Filter.md",
+    "1. 영구노트/3. RESUORCE/Web/Servlet/Servlet 3.0 Annotation.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-04-23.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-23.md",
     "1. 영구노트/3. RESUORCE/Web/Servlet/RequestDispatcher.md",
@@ -223,7 +230,6 @@
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-18.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-04/2024-04-18.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-17.md",
-    "1. 영구노트/3. RESUORCE/Web/CSS/Overflow.md",
     "1. 영구노트/3. RESUORCE/Web/CSS",
     "1. 영구노트/3. RESUORCE/Web/HTML",
     "WebFrontEnd",
