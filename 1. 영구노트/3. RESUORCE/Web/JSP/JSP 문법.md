@@ -9,14 +9,21 @@
 > 	- include : jsp 파일 안에 다른 jsp나 html 파일을 포함
 > 	- taglib : 태그 라이브러리 선언
 > 
-> JSP 기본 문법 (Expression)
+> JSP 기본 문법(Expression)
 > 	- <%= %>
 > 	- 변수, 메서드 호출 등 표현식(expression)의 실행 결과를 출력
 > 
-> JSP 기본 문법 (Declaration)
+> JSP 기본 문법(Declaration)
 > 	- <%! %> 
 > 	- 전격 범위에서 사용할 수 있는 변수나 메서드 등을 선언
-> JSP 기본 문법 (Scriptlet)
+> 
+> JSP 기본 문법(Scriptlet)
+> 	- <% %>
+> 	- <% 와 %> 사이에 있는 코드를 실행한다.
+> 	- jsp 제어/ 반복문 작성 가능
+> 
+> 주석(Comment)
+> 	- <%-- comment --%>
 
 ### 출처(참고 문헌)
 -
