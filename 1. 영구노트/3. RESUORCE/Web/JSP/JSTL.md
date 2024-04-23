@@ -17,6 +17,21 @@
 > 	- <c:if>
 > 	- <c:choose>
 > 	- <c:forEach>
+> 
+> 기타
+> 	- <c:url>
+> 	- <c:param>
+> 	- <c:redirect>
+> 
+> function tag library
+> 	- 함수 사용 가능
+> 
+> fmt
+> 	- 다국어 메세지 처리
+> 
+> 예외 처리
+> 	- 에러 처리용 페이지
+> 	- JSP 내장 객체 exception 사용
 
 ### 출처(참고 문헌)
 -
