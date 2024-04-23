@@ -34,6 +34,10 @@
 > 	- scope : application이 생성되고 소멸될 때까지
 > 	- 하나의 서버(tomcat)에는 여러 개의 application이 구동될 수 있음
 > 	- jsp에서는 application 내장 객체를 사용함
+> 
+> jsp -> 생성된 Servlet class 자체이다.
+> 	![[Pasted image 20240423132547.png]]
+
 
 ### 출처(참고 문헌)
 -
