@@ -23,6 +23,12 @@ my name is ${user1.name}.<br />
 > 	- sessionScope -> HttpSession 객체를 참조
 > 	- applicationScope -> ServletContext 객체를 참조
 > 
+> EL 기본 문법
+> 	- 문자열 : ${"나랏말"},  ${문자}
+> 	- 정수 : ${20}
+> 	- 실수 : ${3.14}
+> 	- boolean : ${true}
+> 	- null : ${null}
 ### 출처(참고 문헌)
 -
 
