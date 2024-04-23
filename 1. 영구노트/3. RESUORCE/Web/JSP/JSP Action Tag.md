@@ -56,6 +56,11 @@ public class User implements Serializable {
 ```
 > <jsp:getProperty>
 > 	- Java bean의 property 값을 반환
+
+> Java Beans
+> 	- 객체 지향 프로그래밍의 가장 큰 이점 중 하나는 다른 프로그램에서도 객체를 다시 사용할 수 있다는 것이다.
+> 	- JavaBeans은 규격이 존재하여 엄격한 지침을 따라서 다른 객체와 아주 쉽게 쓰일 수 있게 된다.
+> 	- 즉, JavaBeans는 java로 작성된 재사용 가능한 소프트웨어 컴포넌트이다.
 ### 출처(참고 문헌)
 -
 
