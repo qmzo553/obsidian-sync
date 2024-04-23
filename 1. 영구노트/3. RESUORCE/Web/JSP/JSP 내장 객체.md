@@ -37,10 +37,12 @@
 > 
 > jsp -> 생성된 Servlet class 자체이다.
 > 	![[Pasted image 20240423132547.png]]
+> 
+> include는 해당 URL로 제어권을 넘기지만 include 처리가 끝나면 다시 제어권은 원래의 페이지로 돌아옴 -> 해당 페이지에 삽입하는 것과 같음
 
 
 ### 출처(참고 문헌)
 -
 
 ### 연결 문서
--
+- [[JSP Action Tag]]
