@@ -63,11 +63,16 @@
 		<dependency> 
 			<groupId>org.springframework</groupId> 
 			<artifactId>spring-context</artifactId> 
-		</dependency> <dependency> <groupId>org.springframework</groupId> <artifactId>spring-web</artifactId> </dependency> <dependencies>
+		</dependency> 
+		<dependency> 
+			<groupId>org.springframework</groupId> 
+			<artifactId>spring-web</artifactId> 
+		</dependency> 
+	<dependencies>
 ```
 
 ### 출처(참고 문헌)
--
+- [[https://scshim.tistory.com/419]]
 
 ### 연결 문서
 -
