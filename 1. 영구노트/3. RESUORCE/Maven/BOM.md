@@ -70,6 +70,9 @@
 		</dependency> 
 	<dependencies>
 ```
+> Parent POM
+> 	- 공통의 프로젝트 설정을 공유하기 위해 사용
+> 	- 프로젝트의 구조, 플러그인, 프로파일, 기본적인 종속성 관리 등을 정의 할 수 있게 해준다.
 
 ### 출처(참고 문헌)
 - [[https://scshim.tistory.com/419]]
