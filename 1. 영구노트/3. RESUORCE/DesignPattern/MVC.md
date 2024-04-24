@@ -22,6 +22,19 @@
 > 	- 협업이 용이
 > 	- 유지보수 용이
 > 
+> Servlet의 공통 처리 부분
+> 	FrontServlet
+> 	 ![[Pasted image 20240424093218.png]]
+> 		 1. 모든 요청을 FrontServlet이 다 받아서 
+> 			 - FrontServlet이 받을 요청은 .do 확장자를 사용
+> 			 - 실제 요청은 .do 확장자가 없음
+> 			 - /foods.do : FrontServlet이 처리
+> 			 - /foo
+> 		 1. 요청 URL에 따라 실제 요청을 처리할 Servlet으로 요청을 전달
+> 		 2. 실제 요청을 처리한 Servlet은 처리 결과를 어떤 jsp에서 view 할 건지를 반환
+> 		 3. 실제 요청을 처리한 Servlet이 전달해 준 jsp로 view 처리를 위임
+> 		 4. JSP는 실제 요청을 처리한 Servlet에서 ServletRequest에 설정한 속성을 이용해 view 처리를 수행
+> 		 5. FrontServlet이 요청에 대해 응답
 
 ### 출처(참고 문헌)
 -
