@@ -19,7 +19,7 @@ public static void main(String[] args) {
 ```
 > Reflection Method
 > 	- Class.forName(className) : 물리적인 클래스 파일명을 인자로 넘겨주면 이에 해당하는 클래스를 반환한다.
-> 	- Clazz.getCons
+> 	- Clazz.getConstructor() : public 접근자를 가진 생성자를 반환한다.
 
 ### 출처(참고 문헌)
 -
