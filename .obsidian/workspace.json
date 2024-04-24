@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4e8005e22e02d0ad",
+        "id": "db0b4d7f0f47d03b",
         "type": "tabs",
         "children": [
           {
-            "id": "647b0281d9c1c95b",
+            "id": "842e42cac981a073",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Maven/LifeCycle.md",
+                "file": "1. 영구노트/3. RESUORCE/Maven/Scope.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Maven/LifeCycle.md",
+                "file": "1. 영구노트/3. RESUORCE/Maven/Scope.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Maven/LifeCycle.md",
+                "file": "1. 영구노트/3. RESUORCE/Maven/Scope.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Maven/LifeCycle.md"
+                "file": "1. 영구노트/3. RESUORCE/Maven/Scope.md"
               }
             }
           },
@@ -189,9 +189,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "647b0281d9c1c95b",
+  "active": "842e42cac981a073",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/Maven/Scope.md",
     "1. 영구노트/3. RESUORCE/Maven/LifeCycle.md",
+    "Attached file/img1.daumcdn.jpg",
     "1. 영구노트/3. RESUORCE/DesignPattern/MVC.md",
     "Attached file/Pasted image 20240424093218.png",
     "Attached file/Pasted image 20240424092614.png",
@@ -225,11 +227,9 @@
     "1. 영구노트/3. RESUORCE/Web/Servlet/web.xml.md",
     "Attached file/Pasted image 20240422164820.png",
     "Attached file/Pasted image 20240422164356.png",
-    "Attached file/Pasted image 20240422164350.png",
     "1. 영구노트/3. RESUORCE/Web/Servlet/ServletContext.md",
     "1. 영구노트/3. RESUORCE/Web/Servlet/HttpServletRequest,HttpServletResponse.md",
     "1. 영구노트/3. RESUORCE/Web/Servlet/load-on-startup.md",
-    "1. 영구노트/3. RESUORCE/Web/Servlet/WAS.md",
     "1. 영구노트/3. RESUORCE/Web/Servlet",
     "1. 영구노트/3. RESUORCE/Algorithm",
     "1. 영구노트/3. RESUORCE/Untitled.canvas",
