@@ -30,7 +30,20 @@
 > 	- 소프트웨어 개발툴이 빌드나 배치시 코드를 자동으로 생성할 수 있도록 정보 제공 (Lombok)
 > 	- 런타임시 특정 기능을 실행 하도록 정보 제공
 > 	- AOP 관점지향 프로그래밍
-> A
+> 
+> Annotation 형식
+> 	- @ 뒤에 Annotation 이름을 붙이는 형식
+> 	- Annotation에 설정할 별도의 요소가 없는 경우 Marker annotation이라 한다.
+> 
+> Java 내장 Annotation
+> 	- @Override : 재정의된 메소드, 상위(부모)에서 해당 메서드를 찾을 수 없다면 컴파일 에러 발생
+> 	- @SuppressWarnings : 알고 있는 내용으로 경고 필요 없음 -> 컴파일 경고를 무시하도록 한다.
+> 	- @SafeVarargs : Generics 타입의 가변인자에 사용된다.
+> 	- @FunctionalInterface : 함수형 프로그램을 하기 위해서 인터페이스를 일급함수로 만들기 위해서 사용
+> 	- @Native : native method에서 참조되는 상수 앞에 붙인다.
+> 
+> Meta Annotation
+> 	- Java5에 추가된 기능으로 어노테이션을 선언할 때 사용하는 Anootation이다.
 ### 출처(참고 문헌)
 -
 
