@@ -23,6 +23,10 @@ ResultSet resultSet = statement.executeUpdate("select * from jdbc_students where
 > 	- ResultSet 클래스는 주로 커서의 위치와 관련된 메소드와 레코드를 가져오는 메소드를 제공한다.
 > 	![[Pasted image 20240425160347.png]]
 
+> PreparedStatement
+> 	- Precompile(미리 컴파일된) SQL을 보내고 싶을 때 사용한다.
+> 	- DBMS에서 동일하거나 비슷한 데이터베이스 문을 높은 효울성으로 반복적으로 실행하기
+
 ### 출처(참고 문헌)
 -
 
