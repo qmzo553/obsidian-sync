@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/JAVA/Annotation.md",
+                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/JDBC란?.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/JAVA/Annotation.md",
+                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/JDBC란?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/JAVA/Annotation.md",
+                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/JDBC란?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/JAVA/Annotation.md"
+                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/JDBC란?.md"
               }
             }
           },
@@ -191,10 +191,14 @@
   },
   "active": "06290204a297a4da",
   "lastOpenFiles": [
+    "Attached file/Pasted image 20240425140644.png",
+    "1. 영구노트/3. RESUORCE/JAVA/JDBC/JDBC란?.md",
+    "1. 영구노트/3. RESUORCE/JAVA/JDBC/JDBC.md",
+    "1. 영구노트/3. RESUORCE/JAVA/JDBC",
+    "1. 영구노트/3. RESUORCE/JAVA/Annotation.md",
     "1. 영구노트/3. RESUORCE/JAVA/Stream_Lambda/The Java 8 Stream API Tutorial.md",
     "1. 영구노트/3. RESUORCE/JAVA/Stream_Lambda/Functional Interfaces in Java 8.md",
     "1. 영구노트/3. RESUORCE/JAVA/JAVA.md",
-    "1. 영구노트/3. RESUORCE/JAVA/Annotation.md",
     "1. 영구노트/3. RESUORCE/JAVA/Stream_Lambda/Stream_Lambda.md",
     "1. 영구노트/3. RESUORCE/JAVA/Stream_Lambda",
     "1. 영구노트/3. RESUORCE/JAVA/Reflection.md",
@@ -224,10 +228,7 @@
     "1. 영구노트/3. RESUORCE/Web/JSP/JavaBeans.md",
     "Attached file/Pasted image 20240423132547.png",
     "1. 영구노트/3. RESUORCE/Web/JSP/JSP 동작구조.md",
-    "1. 영구노트/3. RESUORCE/Web/JSP/JSP 문법.md",
     "Attached file/Pasted image 20240423130011.png",
-    "1. 영구노트/3. RESUORCE/Web/Servlet/Servlet 3.0 Annotation.md",
-    "1. 영구노트/3. RESUORCE/Web/JSP/JSP.md",
     "1. 영구노트/3. RESUORCE/Web/JSP",
     "Attached file/Pasted image 20240422165501.png",
     "Attached file/Pasted image 20240422164820.png",
@@ -237,7 +238,6 @@
     "1. 영구노트/3. RESUORCE/Web/CSS",
     "1. 영구노트/3. RESUORCE/Web/HTML",
     "WebFrontEnd",
-    "1. 영구노트/3. RESUORCE/Git & GitHub",
     "무제 파일.canvas"
   ]
 }
