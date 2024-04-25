@@ -25,7 +25,11 @@ ResultSet resultSet = statement.executeUpdate("select * from jdbc_students where
 
 > PreparedStatement
 > 	- Precompile(미리 컴파일된) SQL을 보내고 싶을 때 사용한다.
-> 	- DBMS에서 동일하거나 비슷한 데이터베이스 문을 높은 효울성으로 반복적으로 실행하기
+> 	- DBMS에서 동일하거나 비슷한 데이터베이스 문을 높은 효울성으로 반복적으로 실행하기 위해 사용되는 기능이다.
+> 	- 템플릿의 형태를 취하며, 그 템플릿 안으로 특정한 상숫값이 실행 때마다 대체된다.
+> 	- 데이터베이스에서 cache를 조회하여 이전에 Pre-compilation된 쿼리를 사용한다.
+> 	- SQL injection을 방어한다.
+> 	- 배치 실행을 지원한다.
 
 ### 출처(참고 문헌)
 -
