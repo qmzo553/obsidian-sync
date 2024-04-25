@@ -20,6 +20,43 @@
 > 단점
 > 	- 배열이 정렬되어 있어야만 사용할 . 수있다.
 > 	- 동적인 데이터 집합에서는 추가, 삭제 등의 작업이 빈번히 일어날 경우, 유지 관리가 비효울적일 수 있다.
+```java
+public class BinarySearch {  
+  
+    public static int binarySearch(int[] arr, int target) {  
+        int left = 0;  
+        int right = arr.length - 1;  
+  
+        while(left <= right) {  
+            int mid = left + (right - left) / 2;  
+  
+            if(arr[mid] == target) {  
+                return mid;  
+            }  
+  
+            if(arr[mid] < target) {  
+                left = mid + 1;  
+            } else {  
+                right = mid - 1;  
+            }  
+        }  
+  
+        return -1;  
+    }  
+  
+    public static void main(String[] args) {  
+        int[] sortedArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };  
+        int target = 7;  
+  
+        int result = binarySearch(sortedArray, target);  
+        if(result == -1) {  
+            System.out.println("Element not found");  
+        } else   {  
+            System.out.println("Element found at index " + result);  
+        }
+    }  
+}
+```
 
 ### 출처(참고 문헌)
 -
