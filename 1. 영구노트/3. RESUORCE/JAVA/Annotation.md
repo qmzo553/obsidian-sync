@@ -44,6 +44,12 @@
 > 
 > Meta Annotation
 > 	- Java5에 추가된 기능으로 어노테이션을 선언할 때 사용하는 Anootation이다.
+> 	- @Target : Annotation이 적용가능한 대상을 지정하는데 사용한다. -> 컴파일러가 Annotation을 어디에 적용할지 결정
+> 	- @Retention : Annotation이 유지되는 범위를 지정하는데 사용한다.
+> 	- @Inherited : Annotation이 자손 클래스에 상속되도록 한다.
+> 	- @Deprecated : 언제 지원이 중단될지 모르니 사용하지 말 것을 권장함
+> 	- @Repeatable : Annotation을 반복해서 적용할 수 있게 한다.
+> 	- @Documented : Annotation 정보가 Javadoc으로 작성된 문서에 포함되게 한다.
 ### 출처(참고 문헌)
 -
 
