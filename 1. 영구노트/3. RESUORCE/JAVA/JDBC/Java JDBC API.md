@@ -10,7 +10,10 @@
 > 
 > JDBC API Package
 > 	- java.sql
-> 	-javax.sql -> Java EE에 있던 jdbc 확장용 기능 -> JDBC 3부터는 Java SE의 일부로 포함됨.
+> 	- javax.sql -> Java EE에 있던 jdbc 확장용 기능 -> JDBC 3부터는 Java SE의 일부로 포함됨
+> 	- 프로그래밍 관점에서 JDBC API는 서버 애플리케이션에 데이터베이스 호출을 포함할 수 있는 Java 클래스 세트이다.
+> 	- JDBC Specification은 모든 JDBC 드라이버 공급업체가 구현해야 하는 인터페이스 집합이다.
+
 
 ### 출처(참고 문헌)
 -
