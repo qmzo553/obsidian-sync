@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/JNDI.md",
+                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/Transaction.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/JNDI.md",
+                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/Transaction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/JNDI.md",
+                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/Transaction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/JNDI.md"
+                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/Transaction.md"
               }
             }
           },
@@ -192,6 +192,7 @@
   "active": "6254c27f53385ed9",
   "lastOpenFiles": [
     "1. 영구노트/3. RESUORCE/JAVA/JDBC/Connection Pool.md",
+    "1. 영구노트/3. RESUORCE/JAVA/JDBC/Transaction.md",
     "1. 영구노트/3. RESUORCE/JAVA/JDBC/JNDI.md",
     "1. 영구노트/3. RESUORCE/JAVA/JDBC/JDBC Architecture.md",
     "1. 영구노트/3. RESUORCE/JAVA/JDBC/Statement.md",
@@ -229,7 +230,6 @@
     "1. 영구노트/3. RESUORCE/DesignPattern/DesignPattern.md",
     "1. 영구노트/3. RESUORCE/DesignPattern",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-04/2024-04-24.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-24.md",
     "1. 영구노트/3. RESUORCE/Maven",
     "1. 영구노트/3. RESUORCE/Web/JSP",
     "1. 영구노트/3. RESUORCE/Web/Servlet",
