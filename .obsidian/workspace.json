@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5c809de88766c862",
+        "id": "be7e8011acf2ca9f",
         "type": "tabs",
         "children": [
           {
-            "id": "6254c27f53385ed9",
+            "id": "aa40a5e289a68aeb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/Transaction.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/Transaction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/Transaction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/Transaction.md"
-              }
+              "state": {}
             }
           },
           {
@@ -189,10 +181,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6254c27f53385ed9",
+  "active": "aa40a5e289a68aeb",
   "lastOpenFiles": [
-    "1. 영구노트/3. RESUORCE/JAVA/JDBC/Connection Pool.md",
     "1. 영구노트/3. RESUORCE/JAVA/JDBC/Transaction.md",
+    "1. 영구노트/3. RESUORCE/JAVA/JDBC/Connection Pool.md",
     "1. 영구노트/3. RESUORCE/JAVA/JDBC/JNDI.md",
     "1. 영구노트/3. RESUORCE/JAVA/JDBC/JDBC Architecture.md",
     "1. 영구노트/3. RESUORCE/JAVA/JDBC/Statement.md",
