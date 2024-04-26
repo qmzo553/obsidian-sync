@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/Connection Pool.md",
+                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/JNDI.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/Connection Pool.md",
+                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/JNDI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/Connection Pool.md",
+                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/JNDI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/Connection Pool.md"
+                "file": "1. 영구노트/3. RESUORCE/JAVA/JDBC/JNDI.md"
               }
             }
           },
@@ -191,13 +191,14 @@
   },
   "active": "6254c27f53385ed9",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/JAVA/JDBC/Connection Pool.md",
+    "1. 영구노트/3. RESUORCE/JAVA/JDBC/JNDI.md",
+    "1. 영구노트/3. RESUORCE/JAVA/JDBC/JDBC Architecture.md",
+    "1. 영구노트/3. RESUORCE/JAVA/JDBC/Statement.md",
     "Attached file/Pasted image 20240426133929.png",
     "Attached file/Pasted image 20240426133448.png",
-    "1. 영구노트/3. RESUORCE/JAVA/JDBC/Connection Pool.md",
     "1. 영구노트/3. RESUORCE/Algorithm/Binary Search.md",
     "1. 영구노트/3. RESUORCE/Algorithm/구간합.md",
-    "1. 영구노트/3. RESUORCE/JAVA/JDBC/Statement.md",
-    "1. 영구노트/3. RESUORCE/JAVA/JDBC/JDBC Architecture.md",
     "Attached file/Pasted image 20240425160347.png",
     "Attached file/Pasted image 20240425153946.png",
     "Attached file/Pasted image 20240425153814.png",
@@ -221,7 +222,6 @@
     "1. 영구노트/3. RESUORCE/NHN academy/2024-04-25.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-25.md",
     "1. 영구노트/3. RESUORCE/DesignPattern/Command Pattern.md",
-    "Attached file/Pasted image 20240424231459.png",
     "1. 영구노트/3. RESUORCE/Maven/Scope.md",
     "1. 영구노트/3. RESUORCE/Maven/LifeCycle.md",
     "1. 영구노트/3. RESUORCE/DesignPattern/MVC.md",

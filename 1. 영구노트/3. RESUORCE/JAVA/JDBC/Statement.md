@@ -35,4 +35,4 @@ ResultSet resultSet = statement.executeUpdate("select * from jdbc_students where
 -
 
 ### 연결 문서
--
+- [[Connection Pool]]
