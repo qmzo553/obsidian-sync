@@ -11,9 +11,11 @@
             "id": "aa40a5e289a68aeb",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "1. 영구노트/3. RESUORCE/JAVA/JDBC"
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-04/2024-04-26.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -92,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-04/2024-04-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-04/2024-04-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-04/2024-04-26.md"
+              }
             }
           },
           {
@@ -185,6 +191,9 @@
   },
   "active": "aa40a5e289a68aeb",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-04-25.md",
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-04/2024-04-26.md",
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-26.md",
     "1. 영구노트/3. RESUORCE/JAVA/JDBC/Pagination.md",
     "1. 영구노트/3. RESUORCE/JAVA/JDBC/Transaction.md",
     "1. 영구노트/3. RESUORCE/JAVA/JDBC/Connection Pool.md",
@@ -215,14 +224,11 @@
     "1. 영구노트/3. RESUORCE/JAVA/Stream_Lambda/Stream_Lambda.md",
     "1. 영구노트/3. RESUORCE/JAVA/Stream_Lambda",
     "1. 영구노트/3. RESUORCE/JAVA/Reflection.md",
-    "1. 영구노트/3. RESUORCE/NHN academy/2024-04-25.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-25.md",
     "1. 영구노트/3. RESUORCE/DesignPattern/Command Pattern.md",
     "1. 영구노트/3. RESUORCE/Maven/Scope.md",
     "1. 영구노트/3. RESUORCE/Maven/LifeCycle.md",
     "1. 영구노트/3. RESUORCE/DesignPattern/MVC.md",
-    "1. 영구노트/3. RESUORCE/Maven/BOM.md",
-    "1. 영구노트/3. RESUORCE/DesignPattern/DesignPattern.md",
     "1. 영구노트/3. RESUORCE/DesignPattern",
     "1. 영구노트/3. RESUORCE/Maven",
     "1. 영구노트/3. RESUORCE/Web/JSP",
