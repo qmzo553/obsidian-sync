@@ -7,7 +7,7 @@
 > 	- Maven의 Project Object Model을 정의한다. 이는 프로젝트 관리 및 구성의 기반이 된다.
 > 	- `<project>` 태그로 시작하며, XML 스키마 위치를 포함한다.
 > 
-> project tag 정보
+> project 주요 tag 
 > 	- groupId : 프로젝트를 생성하는 조직의 그룹 ID, 일반적으로 도메인 이름을 역순으로 사용
 > 	- artifactId : 프로젝트의 아티팩트(빌드 결과물) ID
 > 	- version : 프로젝트의 현재 버전
@@ -15,13 +15,21 @@
 > 	- name : 프로젝트의 표시 이름을 제공
 > 	- scope : 의존성의 범위를 정의한다.
 > 
+> dependencies tag
+> 	- 의존성 라이브러리 정보
+> 	- project tag 바로 하위
+> 	- 최소 groupId, artifactId, version 정보가 필요함
+> 	- 색션 아래 세부 dependency가 기술됨
+> 
 > build tag
 > 	- apache maven plugin들을 사용할 수 있다.
 > 	- build 과정(compile + link + deploy을 컨트롤 한다.
+> 	- plugins : 빌드에서 사용할 plugin
 > 	- `<resource>` 와 `<diretory>` tag를 함꼐 작성하여 배포할 때 해당 디렉토리의 파일들이 포함(jar로 패키지 할때 함께 배포)
 
 ### 출처(참고 문헌)
 - [[https://wookim789.tistory.com/26]]
+- [[https://wikidocs.net/18340]]
 
 ### 연결 문서
 -
