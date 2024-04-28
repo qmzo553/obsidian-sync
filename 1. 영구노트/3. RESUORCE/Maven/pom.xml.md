@@ -32,4 +32,5 @@
 - [[https://wikidocs.net/18340]]
 
 ### 연결 문서
--
+- [[Scope]]
+- [[BOM]]
