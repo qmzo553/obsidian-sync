@@ -15,8 +15,10 @@
 > 	- name : 프로젝트의 표시 이름을 제공
 > 	- scope : 의존성의 범위를 정의한다.
 > 
-> build tag / plugins tag
-> 	- apache
+> build tag
+> 	- apache maven plugin들을 사용할 수 있다.
+> 	- build 과정(compile + link + deploy을 컨트롤 한다.
+> 	- `<resource>` 와 `<diretory>` tag를 함꼐 작성하여 배포할 때 해당 디렉토리의 파일들이 포함(jar로 패키지 할때 함께 배포)
 
 ### 출처(참고 문헌)
 - [[https://wookim789.tistory.com/26]]
