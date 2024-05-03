@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "fefdb05115717235",
+        "id": "ca2d940916bb4959",
         "type": "tabs",
         "children": [
           {
-            "id": "a12663b95d94b30a",
+            "id": "6b7b07ca57e1a266",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-05-03.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-05-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-05-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-05-03.md"
+              }
             }
           },
           {
@@ -181,8 +189,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a12663b95d94b30a",
+  "active": "6b7b07ca57e1a266",
   "lastOpenFiles": [
+    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-05-03.md",
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-05-03.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-05-02.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-05-02.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-04-30.md",
@@ -212,13 +222,11 @@
     "Attached file/Pasted image 20240425153814.png",
     "1. 영구노트/3. RESUORCE/JAVA/JDBC/Java JDBC API.md",
     "1. 영구노트/3. RESUORCE/JAVA/JDBC/JDBC Type.md",
-    "1. 영구노트/3. RESUORCE/JAVA/JDBC/JDBC란?.md",
     "Attached file/Pasted image 20240425152750.png",
     "Attached file/Pasted image 20240425152623.png",
     "Attached file/Pasted image 20240425152402.png",
     "Attached file/Pasted image 20240425145415.png",
     "Attached file/Pasted image 20240425140644.png",
-    "1. 영구노트/3. RESUORCE/JAVA/JDBC/JDBC.md",
     "1. 영구노트/3. RESUORCE/JAVA/JDBC",
     "1. 영구노트/3. RESUORCE/JAVA/Stream_Lambda",
     "1. 영구노트/3. RESUORCE/DesignPattern",
