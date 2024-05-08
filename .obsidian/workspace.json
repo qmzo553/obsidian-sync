@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/무제 파일.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/클라이언트의 오류응답.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/무제 파일.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/클라이언트의 오류응답.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/무제 파일.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/클라이언트의 오류응답.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/무제 파일.md"
+                "file": "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/클라이언트의 오류응답.md"
               }
             }
           },
@@ -192,7 +192,7 @@
   "active": "9863ffae6e13b686",
   "lastOpenFiles": [
     "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/성공응답.md",
-    "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/무제 파일.md",
+    "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/클라이언트의 오류응답.md",
     "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/리디렉션메세지.md",
     "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/정보응답.md",
     "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/HTTP 상태 코드란?.md",
