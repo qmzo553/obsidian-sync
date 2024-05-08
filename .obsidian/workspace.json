@@ -11,8 +11,10 @@
             "id": "9863ffae6e13b686",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "mk-space",
+              "state": {
+                "path": "1. 영구노트/3. RESUORCE/Web"
+              }
             }
           }
         ]
