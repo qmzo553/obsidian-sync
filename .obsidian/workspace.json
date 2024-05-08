@@ -11,9 +11,11 @@
             "id": "9863ffae6e13b686",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "1. 영구노트/3. RESUORCE/Web"
+                "file": "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/HTTP 상태 코드란?.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -92,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/HTTP 상태 코드란?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/HTTP 상태 코드란?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/HTTP 상태 코드란?.md"
+              }
             }
           },
           {
@@ -185,6 +191,9 @@
   },
   "active": "9863ffae6e13b686",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/HTTP 상태 코드란?.md",
+    "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/HTTP상태코드.md",
+    "1. 영구노트/3. RESUORCE/Web/HTTP상태코드",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-08.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-05-08.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-05-07.md",
@@ -210,8 +219,6 @@
     "1. 영구노트/3. RESUORCE/JAVA/JDBC/Pagination.md",
     "1. 영구노트/3. RESUORCE/JAVA/JDBC/Transaction.md",
     "1. 영구노트/3. RESUORCE/JAVA/JDBC/Connection Pool.md",
-    "1. 영구노트/3. RESUORCE/JAVA/JDBC/JNDI.md",
-    "1. 영구노트/3. RESUORCE/JAVA/JDBC/JDBC Architecture.md",
     "Attached file/Pasted image 20240426133929.png",
     "Attached file/Pasted image 20240426133448.png",
     "Attached file/Pasted image 20240425160347.png",
@@ -231,7 +238,6 @@
     "1. 영구노트/3. RESUORCE/Algorithm",
     "1. 영구노트/3. RESUORCE/Untitled.canvas",
     "1. 영구노트/3. RESUORCE/Web/CSS",
-    "1. 영구노트/3. RESUORCE/Web/HTML",
     "무제 파일.canvas"
   ]
 }
