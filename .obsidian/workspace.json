@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Session.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Cookie.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Session.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Cookie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Session.md",
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Cookie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Session.md"
+                "file": "1. 영구노트/3. RESUORCE/Web/Servlet/Cookie.md"
               }
             }
           },
@@ -191,6 +191,7 @@
   },
   "active": "2af4eee7939abb08",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/Web/Servlet/Cookie.md",
     "1. 영구노트/3. RESUORCE/Web/Servlet/Session.md",
     "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/리디렉션메세지.md",
     "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/성공응답.md",
@@ -218,7 +219,6 @@
     "1. 영구노트/3. RESUORCE/Maven/Scope.md",
     "1. 영구노트/3. RESUORCE/Maven/LifeCycle.md",
     "1. 영구노트/3. RESUORCE/Maven/BOM.md",
-    "1. 영구노트/3. RESUORCE/NHN academy/2024-04/2024-04-29.md",
     "Attached file/Pasted image 20240426133929.png",
     "Attached file/Pasted image 20240426133448.png",
     "Attached file/Pasted image 20240425160347.png",
