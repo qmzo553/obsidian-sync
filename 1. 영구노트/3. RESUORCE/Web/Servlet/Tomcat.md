@@ -26,6 +26,12 @@
 > apache 소프트웨어 재단
 > 	- 오픈 소스 소프트웨어 프로젝트를 운영하는 비영리 단체이다.
 > 	- 개발자들의 탈중앙화를 지원해준다.
+> 	- 주요 프로젝트
+> 		1. 아파치 HTTP 서버
+> 		2. Tomcat
+> 		3. jakarta
+> 		4. maven
+> 		5. groovy
 
 ### 출처(참고 문헌)
 - [[https://velog.io/@kdhyo/Apache-Tomcat-%EB%91%98%EC%9D%B4-%EB%AC%B4%EC%8A%A8-%EC%B0%A8%EC%9D%B4%EC%A7%80]]
