@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-14.md",
+                "file": "1. 영구노트/3. RESUORCE/DATABASE/Isolation Level.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-14.md",
+                "file": "1. 영구노트/3. RESUORCE/DATABASE/Isolation Level.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-14.md",
+                "file": "1. 영구노트/3. RESUORCE/DATABASE/Isolation Level.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-14.md"
+                "file": "1. 영구노트/3. RESUORCE/DATABASE/Isolation Level.md"
               }
             }
           },
@@ -191,9 +191,11 @@
   },
   "active": "562de6981ca7e60c",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/DATABASE/SQL.md",
+    "1. 영구노트/3. RESUORCE/DATABASE/Isolation Level.md",
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-14.md",
     "Attached file/Pasted image 20240514162226.png",
     "Attached file/Pasted image 20240514162216.png",
-    "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-14.md",
     "1. 영구노트/3. RESUORCE/Web/Servlet/Tomcat.md",
     "1. 영구노트/3. RESUORCE/Web/Servlet/WAS.md",
     "1. 영구노트/3. RESUORCE/Web/Servlet/Java EE란?.md",
@@ -221,14 +223,12 @@
     "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/HTTP상태코드.md",
     "1. 영구노트/3. RESUORCE/Web/HTTP상태코드",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-08.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-05-08.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-05",
     "Attached file/Pasted image 20240426133929.png",
     "Attached file/Pasted image 20240426133448.png",
     "Attached file/Pasted image 20240425160347.png",
     "Attached file/Pasted image 20240425153946.png",
     "Attached file/Pasted image 20240425153814.png",
-    "Attached file/Pasted image 20240425152750.png",
     "1. 영구노트/3. RESUORCE/JAVA/JDBC",
     "1. 영구노트/3. RESUORCE/JAVA/Stream_Lambda",
     "1. 영구노트/3. RESUORCE/DesignPattern",
