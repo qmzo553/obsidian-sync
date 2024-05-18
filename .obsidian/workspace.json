@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-05-18.md",
+                "file": "1. 영구노트/3. RESUORCE/DATABASE/ORM Framework.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-05-18.md",
+                "file": "1. 영구노트/3. RESUORCE/DATABASE/ORM Framework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-05-18.md",
+                "file": "1. 영구노트/3. RESUORCE/DATABASE/ORM Framework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-05-18.md"
+                "file": "1. 영구노트/3. RESUORCE/DATABASE/ORM Framework.md"
               }
             }
           },
@@ -191,13 +191,16 @@
   },
   "active": "562de6981ca7e60c",
   "lastOpenFiles": [
-    "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-16.md",
+    "1. 영구노트/3. RESUORCE/DATABASE/JPA.md",
+    "1. 영구노트/3. RESUORCE/DATABASE/MySQL.md",
+    "1. 영구노트/3. RESUORCE/DATABASE/ORM Framework.md",
+    "1. 영구노트/3. RESUORCE/DATABASE/Isolation Level.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-05-18.md",
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-16.md",
     "Attached file/Pasted image 20240516130412.png",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-14.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-13.md",
     "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-05-16.md",
-    "1. 영구노트/3. RESUORCE/DATABASE/Isolation Level.md",
     "1. 영구노트/3. RESUORCE/DATABASE/SQL.md",
     "Attached file/Pasted image 20240514162226.png",
     "Attached file/Pasted image 20240514162216.png",
@@ -220,9 +223,6 @@
     "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/성공응답.md",
     "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/정보응답.md",
     "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/HTTP 상태 코드란?.md",
-    "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/클라이언트의 오류응답.md",
-    "1. 영구노트/3. RESUORCE/Web/HTTP상태코드/서버의 오류 응답.md",
-    "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-10.md",
     "1. 영구노트/3. RESUORCE/Web/HTTP상태코드",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-05",
     "Attached file/Pasted image 20240426133929.png",
