@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-06-03.md",
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-06/2024-06-04.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-06-03.md",
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-06/2024-06-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-06-03.md",
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-06/2024-06-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-06-03.md"
+                "file": "1. 영구노트/3. RESUORCE/NHN academy/2024-06/2024-06-04.md"
               }
             }
           },
@@ -195,10 +195,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3daaa1d15afa9d15",
+  "active": "17cca6190ba78e43",
   "lastOpenFiles": [
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-06/2024-06-04.md",
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-06/2024-06-03.md",
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-06/2024-06.md",
+    "1. 영구노트/3. RESUORCE/NHN academy/2024-06",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-31.md",
-    "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-06-03.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-30.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-29.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-28.md",
@@ -229,10 +232,8 @@
     "Attached file/Pasted image 20240516130412.png",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-14.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-05/2024-05-13.md",
-    "1. 영구노트/2. AREA OF RESPONSIBILITY/Day Planner/2024-05-16.md",
     "Attached file/Pasted image 20240514162226.png",
     "Attached file/Pasted image 20240514162216.png",
-    "1. 영구노트/3. RESUORCE/Web/Servlet/Tomcat.md",
     "1. 영구노트/3. RESUORCE/Web/HTTP상태코드",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-05",
     "1. 영구노트/3. RESUORCE/JAVA/JDBC",
@@ -243,7 +244,6 @@
     "1. 영구노트/3. RESUORCE/Web/Servlet",
     "1. 영구노트/3. RESUORCE/Algorithm",
     "1. 영구노트/3. RESUORCE/Untitled.canvas",
-    "1. 영구노트/3. RESUORCE/Web/CSS",
     "무제 파일.canvas"
   ]
 }
