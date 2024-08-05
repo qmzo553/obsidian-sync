@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "10eb8982e8c49b86",
+        "id": "c5f6959ef0e98139",
         "type": "tabs",
         "children": [
           {
-            "id": "0de646cb72ccb38d",
+            "id": "ab9dc48e614f6317",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.7"
+                "file": "0. inbox/2024.08.05 취업특강.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -92,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "0. inbox/2024.08.05 취업특강.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "0. inbox/2024.08.05 취업특강.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "0. inbox/2024.08.05 취업특강.md"
+              }
             }
           },
           {
@@ -189,8 +195,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0de646cb72ccb38d",
+  "active": "ab9dc48e614f6317",
   "lastOpenFiles": [
+    "0. inbox/2024.08.05 취업특강.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-06/2024-06-14.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-06/2024-06-12.md",
     "1. 영구노트/3. RESUORCE/NHN academy/2024-06/2024-06-11.md",
@@ -224,7 +231,6 @@
     "Attached file/Pasted image 20240520090730.png",
     "1. 영구노트/3. RESUORCE/DATABASE/Isolation Level.md",
     "1. 영구노트/3. RESUORCE/DATABASE/ORM Framework.md",
-    "1. 영구노트/3. RESUORCE/DATABASE/JPA.md",
     "Attached file/Pasted image 20240516130412.png",
     "Attached file/Pasted image 20240514162226.png",
     "Attached file/Pasted image 20240514162216.png",
